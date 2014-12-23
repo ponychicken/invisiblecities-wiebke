@@ -73,11 +73,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("panorama");
          mySymbolObject.play();
 
@@ -304,18 +299,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 30000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE01");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -323,18 +308,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 28000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
@@ -342,11 +317,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 29500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -354,11 +324,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
 
@@ -366,11 +331,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("elch_head02");
          mySymbolObject.playReverse();
 
@@ -378,17 +338,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 60000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE02");
-         mySymbolObject.play(); // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
+         mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -396,11 +347,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 59500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -408,11 +354,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 71500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("fettarsch_head");
          mySymbolObject.playReverse();
 
@@ -420,11 +361,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 72000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.playReverse();
 
@@ -432,18 +368,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 88500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
@@ -451,11 +377,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 89500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -463,18 +384,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 90000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
@@ -482,11 +393,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 103500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
 
@@ -494,11 +400,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 104000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("sexy_head");
          mySymbolObject.playReverse();
 
@@ -506,18 +407,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 130000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE04");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
 
@@ -525,18 +416,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 128500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
@@ -544,11 +425,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 129500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -556,11 +432,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 141500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("figur_head");
          mySymbolObject.playReverse();
 
@@ -568,11 +439,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 142000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.playReverse();
 
@@ -580,18 +446,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 58500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
@@ -606,13 +462,11 @@
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -620,13 +474,11 @@
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -634,13 +486,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -648,13 +498,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -662,13 +510,11 @@
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -676,13 +522,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -690,13 +534,11 @@
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -704,13 +546,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -1528,11 +1368,6 @@
    (function(symbolName) {
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 17000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("zuruckanfang2");
          mySymbolObject.play();
 
@@ -1540,11 +1375,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("schlusswolke");
          mySymbolObject.play();
 
@@ -1581,18 +1411,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 28000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
@@ -1600,11 +1420,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 29500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -1612,18 +1427,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 30000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE01");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -1639,11 +1444,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
 
@@ -1651,11 +1451,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("elch_head02");
          mySymbolObject.playReverse();
 
@@ -1671,18 +1466,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 58500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
@@ -1690,11 +1475,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 59500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -1702,17 +1482,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 60000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE02");
-         mySymbolObject.play(); // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
+         mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -1728,11 +1499,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 71500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("fettarsch_head");
          mySymbolObject.playReverse();
 
@@ -1740,11 +1506,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 72000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.playReverse();
 
@@ -1760,18 +1521,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 88500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
@@ -1779,11 +1530,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 89500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -1791,18 +1537,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 90000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
@@ -1818,11 +1554,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 103500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
 
@@ -1830,11 +1561,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 104000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("sexy_head");
          mySymbolObject.playReverse();
 
@@ -1850,18 +1576,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 128500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
@@ -1869,11 +1585,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 129500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -1881,18 +1592,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 130000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE04");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
 
@@ -1900,11 +1601,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 141500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("figur_head");
          mySymbolObject.playReverse();
 
@@ -1912,11 +1608,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 142000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.playReverse();
 
@@ -1934,13 +1625,11 @@
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -1948,13 +1637,11 @@
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -1962,13 +1649,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -1976,13 +1661,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -1990,13 +1673,11 @@
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2004,13 +1685,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2018,13 +1697,11 @@
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2032,13 +1709,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2073,18 +1748,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 28000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
@@ -2092,11 +1757,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 29500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2104,18 +1764,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 30000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE01");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -2131,11 +1781,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
 
@@ -2143,11 +1788,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("elch_head02");
          mySymbolObject.playReverse();
 
@@ -2163,18 +1803,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 58500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
@@ -2182,11 +1812,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 59500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2194,17 +1819,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 60000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE02");
-         mySymbolObject.play(); // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
+         mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -2220,11 +1836,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 71500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("fettarsch_head");
          mySymbolObject.playReverse();
 
@@ -2232,11 +1843,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 72000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.playReverse();
 
@@ -2252,18 +1858,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 88500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
@@ -2271,11 +1867,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 89500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2283,18 +1874,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 90000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
@@ -2310,11 +1891,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 103500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
 
@@ -2322,11 +1898,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 104000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("sexy_head");
          mySymbolObject.playReverse();
 
@@ -2342,18 +1913,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 128500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
@@ -2361,11 +1922,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 129500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2373,18 +1929,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 130000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE04");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
 
@@ -2392,11 +1938,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 141500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("figur_head");
          mySymbolObject.playReverse();
 
@@ -2404,11 +1945,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 142000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.playReverse();
 
@@ -2426,13 +1962,11 @@
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2440,13 +1974,11 @@
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2454,13 +1986,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2468,13 +1998,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2482,13 +2010,11 @@
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2496,13 +2022,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2510,13 +2034,11 @@
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2524,13 +2046,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2565,18 +2085,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 28000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
@@ -2584,11 +2094,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 29500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2596,18 +2101,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 30000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE01");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -2623,11 +2118,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
 
@@ -2635,11 +2125,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 41500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("elch_head02");
          mySymbolObject.playReverse();
 
@@ -2655,18 +2140,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 58500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
@@ -2674,11 +2149,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 59500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2686,17 +2156,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 60000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE02");
-         mySymbolObject.play(); // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
+         mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
@@ -2712,11 +2173,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 71500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("fettarsch_head");
          mySymbolObject.playReverse();
 
@@ -2724,11 +2180,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 72000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("dino_head");
          mySymbolObject.playReverse();
 
@@ -2744,18 +2195,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 88500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
@@ -2763,11 +2204,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 89500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2775,18 +2211,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 90000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
@@ -2802,11 +2228,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 103500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
 
@@ -2814,11 +2235,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 104000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("sexy_head");
          mySymbolObject.playReverse();
 
@@ -2834,18 +2250,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 128500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
@@ -2853,11 +2259,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 129500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("blitzblick");
          mySymbolObject.play();
 
@@ -2865,18 +2266,8 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 130000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("FANTASIE04");
          mySymbolObject.play();
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
 
@@ -2884,11 +2275,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 141500, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("figur_head");
          mySymbolObject.playReverse();
 
@@ -2896,11 +2282,6 @@
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 142000, function(sym, e) {
-         // Use this to target events and elements inside a symbol.
-         // For example:
-         // var mySymbolObject = sym.getSymbol("Symbol2");
-         // mySymbolObject.play(); will play the timeline of Symbol2. Another example:
-         // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("squid_head");
          mySymbolObject.playReverse();
 
@@ -2918,13 +2299,11 @@
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2932,13 +2311,11 @@
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2946,13 +2323,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2960,13 +2335,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2974,13 +2347,11 @@
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -2988,13 +2359,11 @@
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -3002,13 +2371,11 @@
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
@@ -3016,13 +2383,11 @@
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
          finish(sym);
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
          finish(sym);
-
 
       });
       //Edge binding end
