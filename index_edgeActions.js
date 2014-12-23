@@ -387,8 +387,7 @@
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
-         mySymbolObject01.play()
-
+         mySymbolObject01.play();
       });
       //Edge binding end
 
@@ -1540,7 +1539,7 @@
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
-         mySymbolObject01.play()
+         mySymbolObject01.play();
 
       });
       //Edge binding end
@@ -1877,7 +1876,7 @@
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
-         mySymbolObject01.play()
+         mySymbolObject01.play();
 
       });
       //Edge binding end
@@ -2214,7 +2213,7 @@
          var mySymbolObject = sym.getSymbol("britzel");
          mySymbolObject.play();
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
-         mySymbolObject01.play()
+         mySymbolObject01.play();
 
       });
       //Edge binding end
