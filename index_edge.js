@@ -126,6 +126,16 @@
                             '-564px'
                         ],
                         [
+                            "eid67",
+                            "scaleY",
+                            6000,
+                            4500,
+                            "linear",
+                            "${topview}",
+                            '1',
+                            '2.67643'
+                        ],
+                        [
                             "eid158",
                             "opacity",
                             8000,
@@ -134,16 +144,6 @@
                             "${topview}",
                             '1',
                             '0'
-                        ],
-                        [
-                            "eid532",
-                            "display",
-                            14000,
-                            0,
-                            "linear",
-                            "${pfeiloben2}",
-                            'none',
-                            'block'
                         ],
                         [
                             "eid394",
@@ -176,14 +176,14 @@
                             '218px'
                         ],
                         [
-                            "eid521",
-                            "display",
-                            14000,
-                            0,
+                            "eid69",
+                            "top",
+                            6000,
+                            4500,
                             "linear",
-                            "${pfeilunten2}",
-                            'none',
-                            'block'
+                            "${topview}",
+                            '0px',
+                            '134px'
                         ],
                         [
                             "eid402",
@@ -206,24 +206,24 @@
                             '2.67643'
                         ],
                         [
-                            "eid69",
-                            "top",
-                            6000,
-                            4500,
+                            "eid521",
+                            "display",
+                            14000,
+                            0,
                             "linear",
-                            "${topview}",
-                            '0px',
-                            '134px'
+                            "${pfeilunten2}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid67",
-                            "scaleY",
-                            6000,
-                            4500,
+                            "eid532",
+                            "display",
+                            14000,
+                            0,
                             "linear",
-                            "${topview}",
-                            '1',
-                            '2.67643'
+                            "${pfeiloben2}",
+                            'none',
+                            'block'
                         ]
                     ]
                 }
@@ -238,10 +238,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [0, 0, '375px', '173px', 'auto', 'auto'],
                             id: 'titel',
                             opacity: '0',
-                            rect: [0, 0, '375px', '173px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/titel.png', '0px', '0px']
                         }
                     ],
@@ -298,10 +298,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [-2600, 0, '5160px', '568px', 'auto', 'auto'],
                             id: 'wolke_vordergrund',
                             opacity: '0.68292686222045',
-                            rect: [-2600, 0, '5160px', '568px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/wolke_vordergrund.png', '0px', '0px']
                         }
                     ],
@@ -339,9 +339,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'wolkendecke',
                             rect: [0, 0, 2560, 1555, 'auto', 'auto'],
+                            id: 'wolkendecke',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/wolkendecke02.png', '0px', '0px']
                         }
                     ],
@@ -389,9 +389,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'himmel',
                             rect: [0, 0, '2560px', '458px', 'auto', 'auto'],
+                            id: 'himmel',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/himmel.png', '0px', '0px']
                         },
                         {
@@ -402,9 +402,9 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
-                            id: 'gebaude',
                             rect: [0, 324, '2560px', '1563px', 'auto', 'auto'],
+                            id: 'gebaude',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gebaude.png', '0px', '0px']
                         },
                         {
@@ -456,9 +456,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 's2hintergrund2',
                             rect: [0, 0, '1024px', '768px', 'auto', 'auto'],
+                            id: 's2hintergrund2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/s2hintergrund2.png', '0px', '0px']
                         },
                         {
@@ -469,10 +469,10 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
+                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
                             id: 'gb012',
                             opacity: '1',
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
                         },
                         {
@@ -497,10 +497,10 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
+                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
                             id: 'gb022',
                             opacity: '1',
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
                         },
                         {
@@ -546,10 +546,10 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
+                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
                             id: 'gb032',
                             opacity: '1',
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
                         },
                         {
@@ -587,13 +587,13 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [-131, 199, 600, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'frau_walk',
                             symbolName: 'frau_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -616,31 +616,31 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [86, 149, 520, 800, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'dino_walk',
                             symbolName: 'dino_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [-231, 294, 866, 550, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'wolf_walk',
                             symbolName: 'woolf_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [461, 207, 450, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'fettarsch_walk',
                             symbolName: 'fettarsch_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -653,76 +653,76 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [4, 244, 300, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'sexy_head',
                             symbolName: 'sexy_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [137, 196, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'frau_head',
                             symbolName: 'frau_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [354, 342, 1000, 600, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'squid_head',
                             symbolName: 'squid_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [488, 207, 500, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'dino_head',
                             symbolName: 'dino_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [1, 237, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'fettarsch_head',
                             symbolName: 'fettarsch_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [11, 75, 500, 1000, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'figur_head',
                             symbolName: 'figur_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [359, 327, 1000, 560, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'wolf_head',
                             symbolName: 'wolf_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [637, 238, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'elch_head02',
                             symbolName: 'elch_head02',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -755,22 +755,22 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [226, 432, 700, 100, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'blitzblick',
                             symbolName: 'blitzblick',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [267, 200, 600, 600, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'britzel',
                             symbolName: 'britzel',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
@@ -781,10 +781,10 @@
                             tag: 'audio'
                         },
                         {
-                            type: 'rect',
+                            rect: ['0', '90', 1024, 376, 'auto', 'auto'],
                             id: 'schluss',
                             symbolName: 'schluss',
-                            rect: ['0', '90', 1024, 376, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -809,94 +809,144 @@
                             '1'
                         ],
                         [
-                            "eid2042",
-                            "left",
-                            1000,
-                            14000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '461px',
-                            '130px'
+                            "eid2528",
+                            "scaleX",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
                         ],
                         [
-                            "eid2219",
-                            "left",
-                            51000,
-                            7483,
+                            "eid2172",
+                            "scaleX",
+                            41500,
+                            4500,
                             "linear",
-                            "${fettarsch_walk}",
-                            '917px',
-                            '-27px'
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
                         ],
                         [
-                            "eid2229",
-                            "left",
-                            72000,
-                            1500,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '-27px',
-                            '-305px'
-                        ],
-                        [
-                            "eid2381",
-                            "left",
-                            106000,
-                            9000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '650px',
-                            '-32px'
-                        ],
-                        [
-                            "eid2126",
-                            "scaleY",
-                            24500,
-                            3500,
-                            "linear",
-                            "${elch_walk}",
-                            '0.72381',
-                            '0.43476'
-                        ],
-                        [
-                            "eid2134",
-                            "scaleY",
-                            42000,
+                            "eid2176",
+                            "scaleX",
+                            46000,
                             4000,
                             "linear",
-                            "${elch_walk}",
-                            '0.43476',
-                            '0.24307'
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
                         ],
                         [
-                            "eid2138",
-                            "scaleY",
-                            46000,
-                            7000,
+                            "eid2387",
+                            "scaleX",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
+                        ],
+                        [
+                            "eid2295",
+                            "left",
+                            73500,
+                            1500,
                             "linear",
-                            "${elch_walk}",
-                            '0.24307',
-                            '0.12143'
+                            "${figur_walk}",
+                            '183px',
+                            '250px'
                         ],
                         [
-                            "eid2140",
-                            "scaleY",
-                            53000,
-                            8000,
+                            "eid2298",
+                            "left",
+                            75000,
+                            4000,
                             "linear",
-                            "${elch_walk}",
-                            '0.12143',
-                            '0.05'
+                            "${figur_walk}",
+                            '250px',
+                            '303px'
                         ],
                         [
-                            "eid1750",
+                            "eid2303",
+                            "left",
+                            79000,
+                            6000,
+                            "linear",
+                            "${figur_walk}",
+                            '303px',
+                            '335px'
+                        ],
+                        [
+                            "eid2426",
+                            "left",
+                            123000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '-270px',
+                            '-14px'
+                        ],
+                        [
+                            "eid2427",
+                            "left",
+                            126000,
+                            2500,
+                            "linear",
+                            "${figur_walk}",
+                            '-14px',
+                            '86px'
+                        ],
+                        [
+                            "eid2442",
+                            "left",
+                            142000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '86px',
+                            '223px'
+                        ],
+                        [
+                            "eid2446",
+                            "left",
+                            146000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '223px',
+                            '292px'
+                        ],
+                        [
+                            "eid2450",
+                            "left",
+                            150000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '292px',
+                            '318px'
+                        ],
+                        [
+                            "eid2454",
+                            "left",
+                            153000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '318px',
+                            '330px'
+                        ],
+                        [
+                            "eid452",
                             "top",
-                            30000,
+                            0,
                             0,
                             "linear",
-                            "${britzel}",
-                            '200px',
-                            '206px'
+                            "${text08}",
+                            '101px',
+                            '101px'
                         ],
                         [
                             "eid1722",
@@ -909,44 +959,44 @@
                             '0.41215'
                         ],
                         [
-                            "eid2124",
-                            "top",
-                            24500,
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
                             3500,
                             "linear",
-                            "${elch_walk}",
-                            '254px',
-                            '225px'
-                        ],
-                        [
-                            "eid2132",
-                            "top",
-                            42000,
-                            4000,
-                            "linear",
-                            "${elch_walk}",
-                            '225px',
-                            '202px'
-                        ],
-                        [
-                            "eid2136",
-                            "top",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '202px',
-                            '188px'
-                        ],
-                        [
-                            "eid2142",
-                            "top",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '188px',
-                            '166px'
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
                         ],
                         [
                             "eid1785",
@@ -959,14 +1009,14 @@
                             '0.46429'
                         ],
                         [
-                            "eid1911",
-                            "scaleY",
+                            "eid1915",
+                            "scaleX",
                             128500,
                             0,
                             "easeInOutCubic",
-                            "${figur_head}",
-                            '0.189',
-                            '0.189'
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
                         ],
                         [
                             "eid2043",
@@ -1009,14 +1059,34 @@
                             '189px'
                         ],
                         [
-                            "eid1843",
-                            "scaleY",
-                            88500,
+                            "eid1758",
+                            "display",
+                            0,
                             0,
                             "linear",
-                            "${sexy_head}",
-                            '0.51428',
-                            '0.51428'
+                            "${FANTASIE02}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1775",
+                            "display",
+                            60000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1776",
+                            "display",
+                            71000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid2146",
@@ -1369,24 +1439,14 @@
                             '0.255'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid1931",
@@ -1689,54 +1749,44 @@
                             '0'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
-                        ],
-                        [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
-                        ],
-                        [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
-                        ],
-                        [
-                            "eid1719",
-                            "left",
-                            28000,
+                            "eid1708",
+                            "display",
+                            30000,
                             0,
                             "linear",
-                            "${elch_head02}",
-                            '637px',
-                            '637px'
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1832",
+                            "scaleX",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '0.28393',
+                            '0.28393'
                         ],
                         [
                             "eid1949",
@@ -2389,44 +2439,34 @@
                             '370px'
                         ],
                         [
-                            "eid2529",
-                            "scaleY",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2173",
-                            "scaleY",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
-                        ],
-                        [
-                            "eid2177",
-                            "scaleY",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
-                        ],
-                        [
-                            "eid2388",
-                            "scaleY",
-                            100000,
+                            "eid1761",
+                            "display",
                             0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1783",
+                            "display",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1804",
+                            "display",
+                            72000,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1800",
@@ -2449,14 +2489,84 @@
                             '0.688'
                         ],
                         [
-                            "eid448",
-                            "top",
-                            0,
-                            0,
+                            "eid2300",
+                            "scaleY",
+                            73500,
+                            5500,
                             "linear",
-                            "${text03}",
-                            '36px',
-                            '36px'
+                            "${figur_walk}",
+                            '0.13333',
+                            '0.09469'
+                        ],
+                        [
+                            "eid2302",
+                            "scaleY",
+                            79000,
+                            6000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.09469',
+                            '0.05383'
+                        ],
+                        [
+                            "eid2432",
+                            "scaleY",
+                            123000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.54493',
+                            '0.42776'
+                        ],
+                        [
+                            "eid2433",
+                            "scaleY",
+                            126000,
+                            2500,
+                            "linear",
+                            "${figur_walk}",
+                            '0.42776',
+                            '0.27391'
+                        ],
+                        [
+                            "eid2441",
+                            "scaleY",
+                            142000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.27391',
+                            '0.17971'
+                        ],
+                        [
+                            "eid2445",
+                            "scaleY",
+                            146000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.17971',
+                            '0.1051'
+                        ],
+                        [
+                            "eid2449",
+                            "scaleY",
+                            150000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.1051',
+                            '0.07128'
+                        ],
+                        [
+                            "eid2453",
+                            "scaleY",
+                            153000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.07128',
+                            '0.04271'
                         ],
                         [
                             "eid2197",
@@ -2769,14 +2879,24 @@
                             '0.76143'
                         ],
                         [
-                            "eid467",
-                            "top",
-                            0,
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
                             0,
                             "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
+                            "${sexy_walk}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1754",
@@ -3329,14 +3449,14 @@
                             'none'
                         ],
                         [
-                            "eid1790",
-                            "scaleY",
+                            "eid1787",
+                            "left",
                             58483,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
+                            "${fettarsch_head}",
+                            '1px',
+                            '1px'
                         ],
                         [
                             "eid2035",
@@ -3379,44 +3499,84 @@
                             '0.19286'
                         ],
                         [
-                            "eid1791",
-                            "left",
-                            58483,
+                            "eid1835",
+                            "top",
+                            88500,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '488px',
-                            '488px'
+                            "${wolf_head}",
+                            '327px',
+                            '327px'
                         ],
                         [
-                            "eid1762",
-                            "display",
-                            0,
-                            0,
+                            "eid2154",
+                            "top",
+                            14000,
+                            4000,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
+                            "${sexy_walk}",
+                            '174px',
+                            '186px'
                         ],
                         [
-                            "eid1784",
-                            "display",
-                            58483,
-                            0,
+                            "eid2161",
+                            "top",
+                            18000,
+                            4000,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
+                            "${sexy_walk}",
+                            '186px',
+                            '201px'
                         ],
                         [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
+                            "eid2165",
+                            "top",
+                            22000,
+                            4000,
                             "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
+                            "${sexy_walk}",
+                            '201px',
+                            '202px'
+                        ],
+                        [
+                            "eid2168",
+                            "top",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '196px'
+                        ],
+                        [
+                            "eid2352",
+                            "top",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '194px',
+                            '202px'
+                        ],
+                        [
+                            "eid2353",
+                            "top",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '236px'
+                        ],
+                        [
+                            "eid2367",
+                            "top",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '236px',
+                            '194px'
                         ],
                         [
                             "eid459",
@@ -3529,54 +3689,64 @@
                             '0.45894'
                         ],
                         [
-                            "eid1708",
-                            "display",
-                            30000,
-                            0,
+                            "eid1867",
+                            "scaleY",
+                            90152,
+                            348,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${FANTASIE03}",
+                            '0.144',
+                            '0.948'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
-                            "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "eid1897",
+                            "scaleY",
+                            101500,
+                            1500,
+                            "easeOutQuart",
+                            "${FANTASIE03}",
+                            '0.948',
+                            '0.056'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1832",
-                            "scaleX",
-                            88500,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${wolf_head}",
-                            '0.28393',
-                            '0.28393'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
                         ],
                         [
-                            "eid1950",
-                            "left",
-                            128500,
-                            0,
-                            "easeInOutQuart",
-                            "${squid_head}",
-                            '354px',
-                            '354px'
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1788",
@@ -3589,44 +3759,54 @@
                             '237px'
                         ],
                         [
-                            "eid2528",
-                            "scaleX",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2172",
-                            "scaleX",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
-                        ],
-                        [
-                            "eid2176",
-                            "scaleX",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
-                        ],
-                        [
-                            "eid2387",
-                            "scaleX",
-                            100000,
+                            "eid1786",
+                            "scaleY",
+                            58483,
                             0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            "linear",
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
+                        ],
+                        [
+                            "eid2042",
+                            "left",
+                            1000,
+                            14000,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '461px',
+                            '130px'
+                        ],
+                        [
+                            "eid2219",
+                            "left",
+                            51000,
+                            7483,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '917px',
+                            '-27px'
+                        ],
+                        [
+                            "eid2229",
+                            "left",
+                            72000,
+                            1500,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '-27px',
+                            '-305px'
+                        ],
+                        [
+                            "eid2381",
+                            "left",
+                            106000,
+                            9000,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '650px',
+                            '-32px'
                         ],
                         [
                             "eid2152",
@@ -3699,114 +3879,94 @@
                             '0.63881'
                         ],
                         [
-                            "eid2295",
-                            "left",
-                            73500,
-                            1500,
+                            "eid2126",
+                            "scaleY",
+                            24500,
+                            3500,
                             "linear",
-                            "${figur_walk}",
-                            '183px',
-                            '250px'
+                            "${elch_walk}",
+                            '0.72381',
+                            '0.43476'
                         ],
                         [
-                            "eid2298",
-                            "left",
-                            75000,
+                            "eid2134",
+                            "scaleY",
+                            42000,
                             4000,
                             "linear",
-                            "${figur_walk}",
-                            '250px',
-                            '303px'
+                            "${elch_walk}",
+                            '0.43476',
+                            '0.24307'
                         ],
                         [
-                            "eid2303",
-                            "left",
-                            79000,
-                            6000,
+                            "eid2138",
+                            "scaleY",
+                            46000,
+                            7000,
                             "linear",
-                            "${figur_walk}",
-                            '303px',
-                            '335px'
+                            "${elch_walk}",
+                            '0.24307',
+                            '0.12143'
                         ],
                         [
-                            "eid2426",
-                            "left",
-                            123000,
-                            3000,
+                            "eid2140",
+                            "scaleY",
+                            53000,
+                            8000,
                             "linear",
-                            "${figur_walk}",
-                            '-270px',
-                            '-14px'
+                            "${elch_walk}",
+                            '0.12143',
+                            '0.05'
                         ],
                         [
-                            "eid2427",
-                            "left",
-                            126000,
-                            2500,
-                            "linear",
-                            "${figur_walk}",
-                            '-14px',
-                            '86px'
-                        ],
-                        [
-                            "eid2442",
-                            "left",
-                            142000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '86px',
-                            '223px'
-                        ],
-                        [
-                            "eid2446",
-                            "left",
-                            146000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '223px',
-                            '292px'
-                        ],
-                        [
-                            "eid2450",
-                            "left",
-                            150000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '292px',
-                            '318px'
-                        ],
-                        [
-                            "eid2454",
-                            "left",
-                            153000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '318px',
-                            '330px'
-                        ],
-                        [
-                            "eid1787",
-                            "left",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            '1px',
-                            '1px'
-                        ],
-                        [
-                            "eid452",
+                            "eid2243",
                             "top",
+                            51000,
+                            3000,
+                            "linear",
+                            "${dino_walk}",
+                            '149px',
+                            '164px'
+                        ],
+                        [
+                            "eid2244",
+                            "top",
+                            54000,
+                            4483,
+                            "linear",
+                            "${dino_walk}",
+                            '164px',
+                            '160px'
+                        ],
+                        [
+                            "eid2255",
+                            "top",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '160px',
+                            '198px'
+                        ],
+                        [
+                            "eid2471",
+                            "top",
+                            148000,
                             0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '198px',
+                            '152px'
+                        ],
+                        [
+                            "eid1750",
+                            "top",
+                            30000,
                             0,
                             "linear",
-                            "${text08}",
-                            '101px',
-                            '101px'
+                            "${britzel}",
+                            '200px',
+                            '206px'
                         ],
                         [
                             "eid1913",
@@ -3819,44 +3979,64 @@
                             '75px'
                         ],
                         [
-                            "eid1748",
-                            "scaleY",
+                            "eid1749",
+                            "left",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '0.76667',
-                            '0.79'
+                            '267px',
+                            '254px'
                         ],
                         [
-                            "eid1761",
-                            "display",
-                            0,
+                            "eid1796",
+                            "left",
+                            60000,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'none'
+                            "${britzel}",
+                            '254px',
+                            '231px'
                         ],
                         [
-                            "eid1783",
-                            "display",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'block'
+                            "eid2529",
+                            "scaleY",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
                         ],
                         [
-                            "eid1804",
-                            "display",
-                            72000,
-                            0,
+                            "eid2173",
+                            "scaleY",
+                            41500,
+                            4500,
                             "linear",
-                            "${fettarsch_head}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
+                        ],
+                        [
+                            "eid2177",
+                            "scaleY",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
+                        ],
+                        [
+                            "eid2388",
+                            "scaleY",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
                         ],
                         [
                             "eid1847",
@@ -3869,124 +4049,84 @@
                             '244px'
                         ],
                         [
-                            "eid2207",
-                            "left",
-                            45000,
-                            11975,
-                            "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
-                        ],
-                        [
-                            "eid2318",
-                            "left",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
+                            "eid2124",
+                            "top",
+                            24500,
                             3500,
                             "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
+                            "${elch_walk}",
+                            '254px',
+                            '225px'
                         ],
                         [
-                            "eid2154",
+                            "eid2132",
                             "top",
-                            14000,
+                            42000,
                             4000,
                             "linear",
-                            "${sexy_walk}",
-                            '174px',
-                            '186px'
-                        ],
-                        [
-                            "eid2161",
-                            "top",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '186px',
-                            '201px'
-                        ],
-                        [
-                            "eid2165",
-                            "top",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '201px',
+                            "${elch_walk}",
+                            '225px',
                             '202px'
                         ],
                         [
-                            "eid2168",
+                            "eid2136",
                             "top",
-                            26000,
-                            2000,
+                            46000,
+                            7000,
                             "linear",
-                            "${sexy_walk}",
+                            "${elch_walk}",
                             '202px',
-                            '196px'
+                            '188px'
                         ],
                         [
-                            "eid2352",
+                            "eid2142",
                             "top",
-                            75000,
-                            4000,
+                            53000,
+                            8000,
                             "linear",
-                            "${sexy_walk}",
-                            '194px',
-                            '202px'
+                            "${elch_walk}",
+                            '188px',
+                            '166px'
                         ],
                         [
-                            "eid2353",
-                            "top",
-                            79000,
-                            9500,
+                            "eid1762",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '236px'
+                            "${dino_head}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid2367",
-                            "top",
-                            105000,
-                            2500,
+                            "eid1784",
+                            "display",
+                            58483,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '236px',
-                            '194px'
+                            "${dino_head}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid1915",
-                            "scaleX",
+                            "eid1805",
+                            "display",
+                            72500,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1911",
+                            "scaleY",
                             128500,
                             0,
                             "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
+                            "${figur_head}",
+                            '0.189',
+                            '0.189'
                         ],
                         [
                             "eid1742",
@@ -3999,84 +4139,64 @@
                             '0.69918699186992'
                         ],
                         [
-                            "eid1835",
-                            "top",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '327px',
-                            '327px'
-                        ],
-                        [
-                            "eid2153",
+                            "eid2105",
                             "left",
-                            14000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
+                            25500,
                             2500,
                             "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
+                        ],
+                        [
+                            "eid2171",
+                            "left",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
+                        ],
+                        [
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
+                        ],
+                        [
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
+                        ],
+                        [
+                            "eid1801",
+                            "scaleY",
+                            60100,
+                            400,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0.12',
+                            '1.18'
+                        ],
+                        [
+                            "eid2485",
+                            "scaleY",
+                            70000,
+                            787,
+                            "linear",
+                            "${FANTASIE02}",
+                            '1.18',
+                            '0.688'
                         ],
                         [
                             "eid1764",
@@ -4159,164 +4279,114 @@
                             '288px'
                         ],
                         [
-                            "eid2300",
-                            "scaleY",
-                            73500,
-                            5500,
+                            "eid448",
+                            "top",
+                            0,
+                            0,
                             "linear",
-                            "${figur_walk}",
-                            '0.13333',
-                            '0.09469'
+                            "${text03}",
+                            '36px',
+                            '36px'
                         ],
                         [
-                            "eid2302",
-                            "scaleY",
-                            79000,
-                            6000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.09469',
-                            '0.05383'
-                        ],
-                        [
-                            "eid2432",
-                            "scaleY",
-                            123000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.54493',
-                            '0.42776'
-                        ],
-                        [
-                            "eid2433",
-                            "scaleY",
-                            126000,
-                            2500,
-                            "linear",
-                            "${figur_walk}",
-                            '0.42776',
-                            '0.27391'
-                        ],
-                        [
-                            "eid2441",
-                            "scaleY",
-                            142000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.27391',
-                            '0.17971'
-                        ],
-                        [
-                            "eid2445",
-                            "scaleY",
-                            146000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.17971',
-                            '0.1051'
-                        ],
-                        [
-                            "eid2449",
-                            "scaleY",
-                            150000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.1051',
-                            '0.07128'
-                        ],
-                        [
-                            "eid2453",
-                            "scaleY",
-                            153000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.07128',
-                            '0.04271'
-                        ],
-                        [
-                            "eid1724",
+                            "eid2153",
                             "left",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
-                        ],
-                        [
-                            "eid1916",
-                            "scaleY",
-                            128500,
-                            0,
-                            "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
-                        ],
-                        [
-                            "eid2157",
-                            "opacity",
                             14000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
+                        ],
+                        [
+                            "eid2160",
+                            "left",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
+                        ],
+                        [
+                            "eid2164",
+                            "left",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
                             2000,
                             "linear",
                             "${sexy_walk}",
-                            '0',
-                            '1'
+                            '34px',
+                            '-252px'
                         ],
                         [
-                            "eid2363",
-                            "opacity",
-                            105000,
-                            0,
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
                             "linear",
                             "${sexy_walk}",
-                            '1',
-                            '1'
+                            '533px',
+                            '400px'
                         ],
                         [
-                            "eid1758",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1775",
-                            "display",
-                            60000,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1776",
-                            "display",
-                            71000,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1846",
+                            "eid2351",
                             "left",
-                            88500,
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
+                        ],
+                        [
+                            "eid1728",
+                            "top",
+                            29500,
                             0,
                             "linear",
-                            "${sexy_head}",
-                            '4px',
-                            '4px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
+                        ],
+                        [
+                            "eid1852",
+                            "top",
+                            89500,
+                            0,
+                            "linear",
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
+                        ],
+                        [
+                            "eid1923",
+                            "top",
+                            129500,
+                            0,
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid2307",
@@ -4359,94 +4429,64 @@
                             '0'
                         ],
                         [
-                            "eid1728",
-                            "top",
-                            29500,
+                            "eid1843",
+                            "scaleY",
+                            88500,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${sexy_head}",
+                            '0.51428',
+                            '0.51428'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
+                            "eid1846",
+                            "left",
+                            88500,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${sexy_head}",
+                            '4px',
+                            '4px'
                         ],
                         [
-                            "eid1923",
+                            "eid467",
                             "top",
-                            129500,
+                            0,
+                            0,
+                            "linear",
+                            "${text07}",
+                            '300px',
+                            '300px'
+                        ],
+                        [
+                            "eid1916",
+                            "scaleY",
+                            128500,
                             0,
                             "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
                         ],
                         [
-                            "eid1801",
-                            "scaleY",
-                            60100,
-                            400,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.12',
-                            '1.18'
-                        ],
-                        [
-                            "eid2485",
-                            "scaleY",
-                            70000,
-                            787,
-                            "linear",
-                            "${FANTASIE02}",
-                            '1.18',
-                            '0.688'
-                        ],
-                        [
-                            "eid2105",
+                            "eid1724",
                             "left",
-                            25500,
-                            2500,
+                            28000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "${frau_head}",
+                            '137px',
+                            '137px'
                         ],
                         [
-                            "eid2171",
+                            "eid1791",
                             "left",
-                            41500,
-                            4500,
+                            58483,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
-                        ],
-                        [
-                            "eid2175",
-                            "left",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
-                        ],
-                        [
-                            "eid2389",
-                            "left",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${dino_head}",
+                            '488px',
+                            '488px'
                         ],
                         [
                             "eid1842",
@@ -4479,44 +4519,14 @@
                             '0px'
                         ],
                         [
-                            "eid2243",
-                            "top",
-                            51000,
-                            3000,
-                            "linear",
-                            "${dino_walk}",
-                            '149px',
-                            '164px'
-                        ],
-                        [
-                            "eid2244",
-                            "top",
-                            54000,
-                            4483,
-                            "linear",
-                            "${dino_walk}",
-                            '164px',
-                            '160px'
-                        ],
-                        [
-                            "eid2255",
-                            "top",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '160px',
-                            '198px'
-                        ],
-                        [
-                            "eid2471",
-                            "top",
-                            148000,
+                            "eid1790",
+                            "scaleY",
+                            58483,
                             0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '198px',
-                            '152px'
+                            "linear",
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
                         ],
                         [
                             "eid1834",
@@ -4529,14 +4539,14 @@
                             '359px'
                         ],
                         [
-                            "eid1786",
-                            "scaleY",
-                            58483,
+                            "eid1950",
+                            "left",
+                            128500,
                             0,
-                            "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "easeInOutQuart",
+                            "${squid_head}",
+                            '354px',
+                            '354px'
                         ],
                         [
                             "eid1723",
@@ -4549,24 +4559,14 @@
                             '196px'
                         ],
                         [
-                            "eid1867",
-                            "scaleY",
-                            90152,
-                            348,
+                            "eid1719",
+                            "left",
+                            28000,
+                            0,
                             "linear",
-                            "${FANTASIE03}",
-                            '0.144',
-                            '0.948'
-                        ],
-                        [
-                            "eid1897",
-                            "scaleY",
-                            101500,
-                            1500,
-                            "easeOutQuart",
-                            "${FANTASIE03}",
-                            '0.948',
-                            '0.056'
+                            "${elch_head02}",
+                            '637px',
+                            '637px'
                         ],
                             [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
                             [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
@@ -4585,10 +4585,10 @@
                 content: {
                     dom: [
                         {
-                            rect: [-1024, -58, '2048px', '221px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'wolke0012',
                             opacity: '0.6504065060034',
-                            type: 'image',
+                            rect: [-1024, -58, '2048px', '221px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/wolke0012.png', '0px', '0px']
                         }
                     ],
@@ -4626,10 +4626,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [-1024, 0, '2048px', '238px', 'auto', 'auto'],
                             id: 'wolke0022',
                             opacity: '0.65243902439024',
-                            rect: [-1024, 0, '2048px', '238px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/wolke0022.png', '0px', '0px']
                         }
                     ],
@@ -4667,10 +4667,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [-1024, 0, '2048px', '225px', 'auto', 'auto'],
                             id: 'wolke0032',
                             opacity: '0.65040649291946',
-                            rect: [-1024, 0, '2048px', '225px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/wolke0032.png', '0px', '0px']
                         }
                     ],
@@ -4708,10 +4708,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [-1024, 0, '2048px', '147px', 'auto', 'auto'],
                             id: 'wolke0042',
                             opacity: '0.65040650406504',
-                            rect: [-1024, 0, '2048px', '147px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/wolke0042.png', '0px', '0px']
                         }
                     ],
@@ -4762,10 +4762,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb012',
                             opacity: '1',
-                            type: 'image',
+                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
                         },
                         {
@@ -4776,10 +4776,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb022',
                             opacity: '1',
-                            type: 'image',
+                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
                         },
                         {
@@ -4790,10 +4790,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb032',
                             opacity: '1',
-                            type: 'image',
+                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
                         },
                         {
@@ -4816,16 +4816,6 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid332",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${wolke03}",
-                            '176px',
-                            '176px'
-                        ],
-                        [
                             "eid335",
                             "top",
                             0,
@@ -4834,6 +4824,16 @@
                             "${wolke04}",
                             '277px',
                             '277px'
+                        ],
+                        [
+                            "eid332",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${wolke03}",
+                            '176px',
+                            '176px'
                         ]
                     ]
                 }
@@ -4861,10 +4861,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb012',
                             opacity: '1',
-                            type: 'image',
+                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
                         },
                         {
@@ -4875,10 +4875,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb022',
                             opacity: '1',
-                            type: 'image',
+                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
                         },
                         {
@@ -4889,10 +4889,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb032',
                             opacity: '1',
-                            type: 'image',
+                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
                         },
                         {
@@ -4915,16 +4915,6 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid332",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${wolke03}",
-                            '176px',
-                            '176px'
-                        ],
-                        [
                             "eid335",
                             "top",
                             0,
@@ -4933,6 +4923,16 @@
                             "${wolke04}",
                             '277px',
                             '277px'
+                        ],
+                        [
+                            "eid332",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${wolke03}",
+                            '176px',
+                            '176px'
                         ]
                     ]
                 }
@@ -4960,10 +4960,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb012',
                             opacity: '1',
-                            type: 'image',
+                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
                         },
                         {
@@ -4974,10 +4974,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb022',
                             opacity: '1',
-                            type: 'image',
+                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
                         },
                         {
@@ -4988,10 +4988,10 @@
                             type: 'rect'
                         },
                         {
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
+                            type: 'image',
                             id: 'gb032',
                             opacity: '1',
-                            type: 'image',
+                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
                         },
                         {
@@ -5014,16 +5014,6 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid332",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${wolke03}",
-                            '176px',
-                            '176px'
-                        ],
-                        [
                             "eid335",
                             "top",
                             0,
@@ -5032,6 +5022,16 @@
                             "${wolke04}",
                             '277px',
                             '277px'
+                        ],
+                        [
+                            "eid332",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${wolke03}",
+                            '176px',
+                            '176px'
                         ]
                     ]
                 }
@@ -5046,52 +5046,52 @@
                 content: {
                     dom: [
                         {
-                            rect: [4096, 0, 1024, 768, 'auto', 'auto'],
                             type: 'rect',
-                            overflow: 'hidden',
-                            id: 'streetview01Copy3',
                             opacity: '0',
+                            overflow: 'hidden',
                             display: 'none',
-                            symbolName: 'streetview01'
+                            symbolName: 'streetview01',
+                            rect: ['4096', '0', '1024', '768', 'auto', 'auto'],
+                            id: 'streetview01Copy3'
                         },
                         {
-                            rect: [3072, 0, 1024, 768, 'auto', 'auto'],
+                            type: 'rect',
                             overflow: 'hidden',
-                            id: 'streetview01_3',
+                            display: 'none',
                             symbolName: 'streetview01_3',
-                            type: 'rect',
-                            display: 'none'
+                            rect: ['3072', '0', '1024', '768', 'auto', 'auto'],
+                            id: 'streetview01_3'
                         },
                         {
-                            rect: [2048, 0, 1024, 768, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'streetview01_2',
-                            symbolName: 'streetview01_2',
-                            type: 'rect',
-                            display: 'none'
-                        },
-                        {
-                            rect: [1024, 0, 1024, 768, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'streetview01_1',
-                            symbolName: 'streetview01_1',
-                            type: 'rect',
-                            display: 'none'
-                        },
-                        {
-                            rect: [0, 0, 1024, 768, 'auto', 'auto'],
                             type: 'rect',
                             overflow: 'hidden',
-                            id: 'streetview01',
-                            opacity: '0',
                             display: 'none',
-                            symbolName: 'streetview01'
+                            symbolName: 'streetview01_2',
+                            rect: ['2048', '0', '1024', '768', 'auto', 'auto'],
+                            id: 'streetview01_2'
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'streetview01_1',
+                            rect: ['1024', '0', '1024', '768', 'auto', 'auto'],
+                            id: 'streetview01_1'
+                        },
+                        {
+                            type: 'rect',
+                            opacity: '0',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'streetview01',
+                            rect: ['0', '0', '1024', '768', 'auto', 'auto'],
+                            id: 'streetview01'
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, 5120, 768]
+                            isStage: 'true',
+                            rect: [undefined, undefined, '5120', '768']
                         }
                     }
                 },
@@ -5104,64 +5104,24 @@
                     },
                     data: [
                         [
-                            "eid2541",
+                            "eid2533",
                             "top",
                             14000,
                             0,
                             "linear",
-                            "${streetview01_2}",
+                            "${streetview01_1}",
                             '0px',
                             '0px'
                         ],
                         [
-                            "eid2574",
-                            "left",
+                            "eid323",
+                            "display",
                             11500,
                             0,
                             "linear",
-                            "${streetview01Copy3}",
-                            '4096px',
-                            '4096px'
-                        ],
-                        [
-                            "eid2564",
-                            "left",
-                            14000,
-                            2000,
-                            "linear",
-                            "${streetview01Copy3}",
-                            '4096px',
-                            '3072px'
-                        ],
-                        [
-                            "eid2565",
-                            "left",
-                            16000,
-                            2000,
-                            "linear",
-                            "${streetview01Copy3}",
-                            '3072px',
-                            '2048px'
-                        ],
-                        [
-                            "eid2566",
-                            "left",
-                            18000,
-                            2000,
-                            "linear",
-                            "${streetview01Copy3}",
-                            '2048px',
-                            '1024px'
-                        ],
-                        [
-                            "eid2567",
-                            "left",
-                            20000,
-                            2000,
-                            "linear",
-                            "${streetview01Copy3}",
-                            '1024px',
-                            '0px'
+                            "${streetview01}",
+                            'none',
+                            'block'
                         ],
                         [
                             "eid2568",
@@ -5254,46 +5214,6 @@
                             'block'
                         ],
                         [
-                            "eid2546",
-                            "top",
-                            14000,
-                            0,
-                            "linear",
-                            "${streetview01_3}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid2562",
-                            "top",
-                            11500,
-                            0,
-                            "linear",
-                            "${streetview01Copy3}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid325",
-                            "opacity",
-                            11500,
-                            2500,
-                            "linear",
-                            "${streetview01}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid323",
-                            "display",
-                            11500,
-                            0,
-                            "linear",
-                            "${streetview01}",
-                            'none',
-                            'block'
-                        ],
-                        [
                             "eid2548",
                             "left",
                             14000,
@@ -5334,74 +5254,24 @@
                             '-1024px'
                         ],
                         [
-                            "eid2534",
-                            "left",
-                            14000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '1024px',
-                            '0px'
-                        ],
-                        [
-                            "eid2535",
-                            "left",
-                            16000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '0px',
-                            '-1024px'
-                        ],
-                        [
-                            "eid2536",
-                            "left",
-                            18000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '-1024px',
-                            '-2048px'
-                        ],
-                        [
-                            "eid2537",
-                            "left",
-                            20000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '-2048px',
-                            '-3072px'
-                        ],
-                        [
-                            "eid2533",
+                            "eid2562",
                             "top",
-                            14000,
+                            11500,
                             0,
                             "linear",
-                            "${streetview01_1}",
+                            "${streetview01Copy3}",
                             '0px',
                             '0px'
                         ],
                         [
-                            "eid2552",
-                            "display",
+                            "eid325",
+                            "opacity",
                             11500,
-                            0,
+                            2500,
                             "linear",
-                            "${streetview01_1}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2554",
-                            "display",
-                            11500,
-                            0,
-                            "linear",
-                            "${streetview01_2}",
-                            'none',
-                            'block'
+                            "${streetview01}",
+                            '0',
+                            '1'
                         ],
                         [
                             "eid363",
@@ -5443,10 +5313,140 @@
                             '-3072px',
                             '-4096px'
                         ],
+                        [
+                            "eid2546",
+                            "top",
+                            14000,
+                            0,
+                            "linear",
+                            "${streetview01_3}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid2574",
+                            "left",
+                            11500,
+                            0,
+                            "linear",
+                            "${streetview01Copy3}",
+                            '4096px',
+                            '4096px'
+                        ],
+                        [
+                            "eid2564",
+                            "left",
+                            14000,
+                            2000,
+                            "linear",
+                            "${streetview01Copy3}",
+                            '4096px',
+                            '3072px'
+                        ],
+                        [
+                            "eid2565",
+                            "left",
+                            16000,
+                            2000,
+                            "linear",
+                            "${streetview01Copy3}",
+                            '3072px',
+                            '2048px'
+                        ],
+                        [
+                            "eid2566",
+                            "left",
+                            18000,
+                            2000,
+                            "linear",
+                            "${streetview01Copy3}",
+                            '2048px',
+                            '1024px'
+                        ],
+                        [
+                            "eid2567",
+                            "left",
+                            20000,
+                            2000,
+                            "linear",
+                            "${streetview01Copy3}",
+                            '1024px',
+                            '0px'
+                        ],
+                        [
+                            "eid2541",
+                            "top",
+                            14000,
+                            0,
+                            "linear",
+                            "${streetview01_2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid2552",
+                            "display",
+                            11500,
+                            0,
+                            "linear",
+                            "${streetview01_1}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2554",
+                            "display",
+                            11500,
+                            0,
+                            "linear",
+                            "${streetview01_2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2534",
+                            "left",
+                            14000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '1024px',
+                            '0px'
+                        ],
+                        [
+                            "eid2535",
+                            "left",
+                            16000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '0px',
+                            '-1024px'
+                        ],
+                        [
+                            "eid2536",
+                            "left",
+                            18000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '-1024px',
+                            '-2048px'
+                        ],
+                        [
+                            "eid2537",
+                            "left",
+                            20000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '-2048px',
+                            '-3072px'
+                        ],
                             [ "eid2569", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01}', [] ] ],
-                            [ "eid2572", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01_1}', [43000] ] ],
-                            [ "eid2571", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01_2}', [74000] ] ],
                             [ "eid2570", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01_3}', [112000] ] ],
+                            [ "eid2571", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01_2}', [74000] ] ],
+                            [ "eid2572", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01_1}', [43000] ] ],
                             [ "eid2573", "trigger", 11500, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${streetview01Copy3}', [] ] ]
                     ]
                 }
@@ -5461,15 +5461,15 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'fsse',
                             rect: [0, 0, '1024px', '768px', 'auto', 'auto'],
+                            id: 'fsse',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/fsse.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'newfeet',
                             rect: [358, 457, 328, 98, 'auto', 'auto'],
+                            id: 'newfeet',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/newfeet.png', '0px', '0px']
                         },
                         {
@@ -5477,8 +5477,8 @@
                             overflow: 'hidden',
                             id: 'umhang01',
                             symbolName: 'umhang01',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.96187', '0.96187', 1], ['50%', '50%']],
-                            type: 'rect'
+                            type: 'rect',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.96187', '0.96187', 1], ['50%', '50%']]
                         }
                     ],
                     style: {
@@ -5494,6 +5494,16 @@
                         [
                             "eid512",
                             "scaleY",
+                            0,
+                            0,
+                            "linear",
+                            "${umhang01}",
+                            '0.96187',
+                            '0.96187'
+                        ],
+                        [
+                            "eid511",
+                            "scaleX",
                             0,
                             0,
                             "linear",
@@ -5520,16 +5530,6 @@
                             "${newfeet}",
                             '358px',
                             '358px'
-                        ],
-                        [
-                            "eid511",
-                            "scaleX",
-                            0,
-                            0,
-                            "linear",
-                            "${umhang01}",
-                            '0.96187',
-                            '0.96187'
                         ],
                         [
                             "eid513",
@@ -5574,10 +5574,10 @@
                 content: {
                     dom: [
                         {
-                            rect: [1024, 0, 664, 143, 'auto', 'auto'],
+                            type: 'image',
                             id: 'textwolke09',
                             opacity: '0.79674796747967',
-                            type: 'image',
+                            rect: [1024, 0, 664, 143, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/textwolke09.png', '0px', '0px']
                         }
                     ],
@@ -5615,10 +5615,10 @@
                 content: {
                     dom: [
                         {
-                            rect: [1024, 0, 568, 124, 'auto', 'auto'],
+                            type: 'image',
                             id: 'textwolke02',
                             opacity: '0.80487804878049',
-                            type: 'image',
+                            rect: [1024, 0, 568, 124, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/textwolke02.png', '0px', '0px']
                         }
                     ],
@@ -5656,10 +5656,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 0, 458, 105, 'auto', 'auto'],
                             id: 'textwolke08',
                             opacity: '0.85365853658537',
-                            rect: [1024, 0, 458, 105, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke08.png', '0px', '0px']
                         }
                     ],
@@ -5707,10 +5707,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 0, 826, 124, 'auto', 'auto'],
                             id: 'textwolke04',
                             opacity: '0.80487804878049',
-                            rect: [1024, 0, 826, 124, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke04.png', '0px', '0px']
                         }
                     ],
@@ -5758,10 +5758,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 0, 681, 110, 'auto', 'auto'],
                             id: 'textwolke032',
                             opacity: '0.80487804878049',
-                            rect: [1024, 0, 681, 110, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke032.png', '0px', '0px']
                         }
                     ],
@@ -5799,10 +5799,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 0, 644, 135, 'auto', 'auto'],
                             id: 'textwolke05',
                             opacity: '0.79674796747967',
-                            rect: [1024, 0, 644, 135, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke05.png', '0px', '0px']
                         }
                     ],
@@ -5850,10 +5850,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 0, 613, 109, 'auto', 'auto'],
                             id: 'textwolke062',
                             opacity: '0.85365853658537',
-                            rect: [1024, 0, 613, 109, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke062.png', '0px', '0px']
                         }
                     ],
@@ -5901,10 +5901,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 0, 834, 189, 'auto', 'auto'],
                             id: 'textwolke072',
                             opacity: '0.80487804878049',
-                            rect: [1024, 0, 834, 189, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke072.png', '0px', '0px']
                         }
                     ],
@@ -5952,10 +5952,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [2560, 0, '1000px', '128px', 'auto', 'auto'],
                             id: 'textwolke01',
                             opacity: '0.79674796747967',
-                            rect: [2560, 0, '1000px', '128px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke01.png', '0px', '0px']
                         }
                     ],
@@ -5993,10 +5993,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [0, 14, 408, 485, 'auto', 'auto'],
                             overflow: 'visible',
                             id: 'umhang2',
-                            rect: [0, 14, 408, 485, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/umhang2.png', '0px', '0px']
                         }
                     ],
@@ -6064,10 +6064,10 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, 11, 58, 29, 'auto', 'auto'],
+                            type: 'image',
                             id: 'pfeilunten',
                             opacity: '0.34959348139724',
-                            type: 'image',
+                            rect: [0, 11, 58, 29, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/pfeilunten.png', '0px', '0px']
                         }
                     ],
@@ -6095,10 +6095,10 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, 10, 60, 30, 'auto', 'auto'],
+                            type: 'image',
                             id: 'pfeiloben',
                             opacity: '0.34959349811562',
-                            type: 'image',
+                            rect: [0, 10, 60, 30, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/pfeiloben.png', '0px', '0px']
                         }
                     ],
@@ -6126,10 +6126,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [0, 0, '4000px', '2685px', 'auto', 'auto'],
                             overflow: 'visible',
                             id: 'elchfrau_sprite',
-                            rect: [0, 0, '4000px', '2685px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/elchfrau_sprite.png', '0px', '0px']
                         }
                     ],
@@ -7663,9 +7663,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'dinofettarsche_sprite',
                             rect: [0, 0, '3500px', '2000px', 'auto', 'auto'],
+                            id: 'dinofettarsche_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/dinofettarsche_sprite.png', '0px', '0px']
                         }
                     ],
@@ -9033,9 +9033,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'squidfigur_sprite',
                             rect: [0, 0, '3000px', '2000px', 'auto', 'auto'],
+                            id: 'squidfigur_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/squidfigur_sprite.png', '0px', '0px']
                         }
                     ],
@@ -10443,9 +10443,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'sexywolf_sprite',
                             rect: [0, 0, '3000px', '2500px', 'auto', 'auto'],
+                            id: 'sexywolf_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/sexywolf_sprite.png', '0px', '0px']
                         }
                     ],
@@ -12473,9 +12473,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'dino_sprite',
                             rect: [76, 12, '2600px', '800px', 'auto', 'auto'],
+                            id: 'dino_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/dino_sprite.png', '0px', '0px']
                         }
                     ],
@@ -12573,9 +12573,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'squid_sprite',
                             rect: [0, 0, '3700px', '600px', 'auto', 'auto'],
+                            id: 'squid_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/squid_sprite.png', '0px', '0px']
                         }
                     ],
@@ -12663,9 +12663,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'Frau_sprite',
                             rect: [64, 0, '3500px', '700px', 'auto', 'auto'],
+                            id: 'Frau_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/Frau_sprite.png', '0px', '0px']
                         }
                     ],
@@ -12743,9 +12743,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'elch_sprite',
                             rect: [0, 0, '3500px', '700px', 'auto', 'auto'],
+                            id: 'elch_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/elch_sprite.png', '0px', '0px']
                         }
                     ],
@@ -12873,9 +12873,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'figur01_sprite',
                             rect: [-3, -22, '1400px', '2100px', 'auto', 'auto'],
+                            id: 'figur01_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/figur01_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13143,9 +13143,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'woolk_walk_sprite',
                             rect: [45, 0, '5000px', '550px', 'auto', 'auto'],
+                            id: 'woolk_walk_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/woolk_walk_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13253,9 +13253,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'sexy_sprite',
                             rect: [14, 0, '2500px', '700px', 'auto', 'auto'],
+                            id: 'sexy_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/sexy_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13383,9 +13383,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'fettarsch_sprite2',
                             rect: [-1356, 0, '2250px', '700px', 'auto', 'auto'],
+                            id: 'fettarsch_sprite2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/fettarsch_sprite2.png', '0px', '0px']
                         }
                     ],
@@ -13463,9 +13463,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'elche_head_sprite2',
                             rect: [0, 0, '2000px', '700px', 'auto', 'auto'],
+                            id: 'elche_head_sprite2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/elche_head_sprite2.png', '0px', '0px']
                         }
                     ],
@@ -13543,9 +13543,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'woolf_head_sprite',
                             rect: [100, 9, '5000px', '560px', 'auto', 'auto'],
+                            id: 'woolf_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/woolf_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13673,9 +13673,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'figur01_head_sprite',
                             rect: [-26, 0, '3000px', '1000px', 'auto', 'auto'],
+                            id: 'figur01_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/figur01_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13763,9 +13763,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'fettarsch_head_sprite',
                             rect: [0, 0, '2000px', '700px', 'auto', 'auto'],
+                            id: 'fettarsch_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/fettarsch_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13843,9 +13843,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'dino_head_sprite',
                             rect: [0, -2, '2500px', '700px', 'auto', 'auto'],
+                            id: 'dino_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/dino_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -13943,9 +13943,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'squid_head_sprite',
                             rect: [0, 0, '5000px', '600px', 'auto', 'auto'],
+                            id: 'squid_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/squid_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -14023,9 +14023,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'freu_head_sprite',
                             rect: [0, 14, '2000px', '700px', 'auto', 'auto'],
+                            id: 'freu_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/freu_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -14143,9 +14143,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'sexy_head_sprite',
                             rect: [0, -1, '1500px', '700px', 'auto', 'auto'],
+                            id: 'sexy_head_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/sexy_head_sprite.png', '0px', '0px']
                         }
                     ],
@@ -14243,9 +14243,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'blitzblick_sprite',
                             rect: [0, -900, '700px', '900px', 'auto', 'auto'],
+                            id: 'blitzblick_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/blitzblick_sprite.png', '0px', '0px']
                         }
                     ],
@@ -14373,9 +14373,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'britzel_sprite',
                             rect: [600, 0, '3000px', '1200px', 'auto', 'auto'],
+                            id: 'britzel_sprite',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/britzel_sprite.png', '0px', '0px']
                         }
                     ],
@@ -14390,26 +14390,6 @@
                     duration: 458,
                     autoPlay: false,
                     data: [
-                        [
-                            "eid1680",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${britzel_sprite}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid1675",
-                            "top",
-                            250,
-                            0,
-                            "linear",
-                            "${britzel_sprite}",
-                            '0px',
-                            '-600px'
-                        ],
                         [
                             "eid1668",
                             "left",
@@ -14519,6 +14499,26 @@
                             "${britzel_sprite}",
                             '-1800px',
                             '-2400px'
+                        ],
+                        [
+                            "eid1680",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${britzel_sprite}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1675",
+                            "top",
+                            250,
+                            0,
+                            "linear",
+                            "${britzel_sprite}",
+                            '0px',
+                            '-600px'
                         ]
                     ]
                 }
@@ -14533,10 +14533,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [1024, 17, 1699, 166, 'auto', 'auto'],
                             id: 'textwolke_schluss',
                             opacity: '0.78048780487805',
-                            rect: [1024, 17, 1699, 166, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/textwolke_schluss.png', '0px', '0px']
                         }
                     ],
@@ -14562,16 +14562,6 @@
                             '17px'
                         ],
                         [
-                            "eid2521",
-                            "height",
-                            0,
-                            0,
-                            "linear",
-                            "${textwolke_schluss}",
-                            '166px',
-                            '166px'
-                        ],
-                        [
                             "eid2523",
                             "width",
                             0,
@@ -14580,6 +14570,16 @@
                             "${textwolke_schluss}",
                             '1699px',
                             '1699px'
+                        ],
+                        [
+                            "eid2521",
+                            "height",
+                            0,
+                            0,
+                            "linear",
+                            "${textwolke_schluss}",
+                            '166px',
+                            '166px'
                         ],
                         [
                             "eid2494",
@@ -14604,10 +14604,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
+                            rect: [12, 4, 471, 123, 'auto', 'auto'],
                             id: 'zuruckanfang',
                             opacity: '1',
-                            rect: [12, 4, 471, 123, 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/zuruckanfang.png', '0px', '0px']
                         }
                     ],
@@ -14742,9 +14742,9 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 's2hintergrund2',
                             rect: [0, 0, '1024px', '768px', 'auto', 'auto'],
+                            id: 's2hintergrund2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/s2hintergrund2.png', '0px', '0px']
                         },
                         {
@@ -14755,10 +14755,10 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
+                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
                             id: 'gb012',
                             opacity: '1',
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
                         },
                         {
@@ -14783,10 +14783,10 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
+                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
                             id: 'gb022',
                             opacity: '1',
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
                         },
                         {
@@ -14832,10 +14832,10 @@
                             type: 'rect'
                         },
                         {
-                            type: 'image',
+                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
                             id: 'gb032',
                             opacity: '1',
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
                         },
                         {
@@ -14873,13 +14873,13 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [-131, 199, 600, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'frau_walk',
                             symbolName: 'frau_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -14902,31 +14902,31 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [86, 149, 520, 800, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'dino_walk',
                             symbolName: 'dino_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [-231, 294, 866, 550, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'wolf_walk',
                             symbolName: 'woolf_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [461, 207, 450, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'fettarsch_walk',
                             symbolName: 'fettarsch_walk',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -14939,76 +14939,76 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [4, 244, 300, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'sexy_head',
                             symbolName: 'sexy_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [137, 196, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'frau_head',
                             symbolName: 'frau_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [354, 342, 1000, 600, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'squid_head',
                             symbolName: 'squid_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [488, 207, 500, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'dino_head',
                             symbolName: 'dino_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [1, 237, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'fettarsch_head',
                             symbolName: 'fettarsch_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [11, 75, 500, 1000, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'figur_head',
                             symbolName: 'figur_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [359, 327, 1000, 560, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'wolf_head',
                             symbolName: 'wolf_head',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [637, 238, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'elch_head02',
                             symbolName: 'elch_head02',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -15041,22 +15041,22 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
                         },
                         {
-                            type: 'rect',
                             rect: [226, 432, 700, 100, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'blitzblick',
                             symbolName: 'blitzblick',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
                             rect: [267, 200, 600, 600, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']],
                             overflow: 'hidden',
                             id: 'britzel',
                             symbolName: 'britzel',
                             display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']]
+                            type: 'rect'
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
@@ -15067,10 +15067,10 @@
                             tag: 'audio'
                         },
                         {
-                            type: 'rect',
+                            rect: ['0', '90', 1024, 376, 'auto', 'auto'],
                             id: 'schluss',
                             symbolName: 'schluss',
-                            rect: ['0', '90', 1024, 376, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -15095,144 +15095,94 @@
                             '1'
                         ],
                         [
-                            "eid2042",
-                            "left",
-                            1000,
-                            14000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '461px',
-                            '130px'
-                        ],
-                        [
-                            "eid2219",
-                            "left",
-                            51000,
-                            7483,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '917px',
-                            '-27px'
-                        ],
-                        [
-                            "eid2229",
-                            "left",
-                            72000,
-                            1500,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '-27px',
-                            '-305px'
-                        ],
-                        [
-                            "eid2381",
-                            "left",
-                            106000,
-                            9000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '650px',
-                            '-32px'
-                        ],
-                        [
-                            "eid2295",
-                            "left",
-                            73500,
-                            1500,
-                            "linear",
-                            "${figur_walk}",
-                            '183px',
-                            '250px'
-                        ],
-                        [
-                            "eid2298",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '250px',
-                            '303px'
-                        ],
-                        [
-                            "eid2303",
-                            "left",
-                            79000,
-                            6000,
-                            "linear",
-                            "${figur_walk}",
-                            '303px',
-                            '335px'
-                        ],
-                        [
-                            "eid2426",
-                            "left",
-                            123000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '-270px',
-                            '-14px'
-                        ],
-                        [
-                            "eid2427",
-                            "left",
-                            126000,
+                            "eid2528",
+                            "scaleX",
+                            25500,
                             2500,
-                            "linear",
-                            "${figur_walk}",
-                            '-14px',
-                            '86px'
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
                         ],
                         [
-                            "eid2442",
-                            "left",
-                            142000,
+                            "eid2172",
+                            "scaleX",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
+                        ],
+                        [
+                            "eid2176",
+                            "scaleX",
+                            46000,
                             4000,
                             "linear",
-                            "${figur_walk}",
-                            '86px',
-                            '223px'
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
                         ],
                         [
-                            "eid2446",
-                            "left",
-                            146000,
+                            "eid2387",
+                            "scaleX",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
+                        ],
+                        [
+                            "eid2126",
+                            "scaleY",
+                            24500,
+                            3500,
+                            "linear",
+                            "${elch_walk}",
+                            '0.72381',
+                            '0.43476'
+                        ],
+                        [
+                            "eid2134",
+                            "scaleY",
+                            42000,
                             4000,
                             "linear",
-                            "${figur_walk}",
-                            '223px',
-                            '292px'
+                            "${elch_walk}",
+                            '0.43476',
+                            '0.24307'
                         ],
                         [
-                            "eid2450",
-                            "left",
-                            150000,
-                            3000,
+                            "eid2138",
+                            "scaleY",
+                            46000,
+                            7000,
                             "linear",
-                            "${figur_walk}",
-                            '292px',
-                            '318px'
+                            "${elch_walk}",
+                            '0.24307',
+                            '0.12143'
                         ],
                         [
-                            "eid2454",
-                            "left",
-                            153000,
-                            3000,
+                            "eid2140",
+                            "scaleY",
+                            53000,
+                            8000,
                             "linear",
-                            "${figur_walk}",
-                            '318px',
-                            '330px'
+                            "${elch_walk}",
+                            '0.12143',
+                            '0.05'
                         ],
                         [
-                            "eid1750",
+                            "eid452",
                             "top",
-                            30000,
+                            0,
                             0,
                             "linear",
-                            "${britzel}",
-                            '200px',
-                            '206px'
+                            "${text08}",
+                            '101px',
+                            '101px'
                         ],
                         [
                             "eid1722",
@@ -15245,44 +15195,44 @@
                             '0.41215'
                         ],
                         [
-                            "eid2124",
+                            "eid2243",
                             "top",
-                            24500,
-                            3500,
+                            51000,
+                            3000,
                             "linear",
-                            "${elch_walk}",
-                            '254px',
-                            '225px'
+                            "${dino_walk}",
+                            '149px',
+                            '164px'
                         ],
                         [
-                            "eid2132",
+                            "eid2244",
                             "top",
-                            42000,
-                            4000,
+                            54000,
+                            4483,
                             "linear",
-                            "${elch_walk}",
-                            '225px',
-                            '202px'
+                            "${dino_walk}",
+                            '164px',
+                            '160px'
                         ],
                         [
-                            "eid2136",
+                            "eid2255",
                             "top",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '202px',
-                            '188px'
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '160px',
+                            '198px'
                         ],
                         [
-                            "eid2142",
+                            "eid2471",
                             "top",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '188px',
-                            '166px'
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '198px',
+                            '152px'
                         ],
                         [
                             "eid1785",
@@ -15295,14 +15245,14 @@
                             '0.46429'
                         ],
                         [
-                            "eid1911",
-                            "scaleY",
+                            "eid1915",
+                            "scaleX",
                             128500,
                             0,
                             "easeInOutCubic",
-                            "${figur_head}",
-                            '0.189',
-                            '0.189'
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
                         ],
                         [
                             "eid2043",
@@ -15345,34 +15295,14 @@
                             '189px'
                         ],
                         [
-                            "eid1758",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1775",
-                            "display",
-                            60000,
+                            "eid1843",
+                            "scaleY",
+                            88500,
                             0,
                             "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1776",
-                            "display",
-                            71000,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'block',
-                            'none'
+                            "${sexy_head}",
+                            '0.51428',
+                            '0.51428'
                         ],
                         [
                             "eid2146",
@@ -15695,34 +15625,24 @@
                             '0.688'
                         ],
                         [
-                            "eid1916",
-                            "scaleY",
-                            128500,
+                            "eid1725",
+                            "scaleX",
+                            28000,
                             0,
-                            "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
+                            "linear",
+                            "${frau_head}",
+                            '0.255',
+                            '0.255'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid1931",
@@ -15995,64 +15915,54 @@
                             'none'
                         ],
                         [
-                            "eid884",
-                            "opacity",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.69918699186992',
-                            '0.69918699186992'
-                        ],
-                        [
-                            "eid1799",
-                            "opacity",
-                            60000,
-                            500,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0',
-                            '0.7'
-                        ],
-                        [
-                            "eid1811",
-                            "opacity",
-                            69749,
-                            1038,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.699999988079071',
-                            '0'
-                        ],
-                        [
-                            "eid1708",
-                            "display",
-                            30000,
+                            "eid1786",
+                            "scaleY",
+                            58483,
                             0,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
+                        ],
+                        [
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1719",
@@ -16715,44 +16625,34 @@
                             '370px'
                         ],
                         [
-                            "eid2529",
-                            "scaleY",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2173",
-                            "scaleY",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
-                        ],
-                        [
-                            "eid2177",
-                            "scaleY",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
-                        ],
-                        [
-                            "eid2388",
-                            "scaleY",
-                            100000,
+                            "eid1761",
+                            "display",
                             0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1783",
+                            "display",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1804",
+                            "display",
+                            72000,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1800",
@@ -16775,84 +16675,14 @@
                             '0.688'
                         ],
                         [
-                            "eid2300",
-                            "scaleY",
-                            73500,
-                            5500,
+                            "eid448",
+                            "top",
+                            0,
+                            0,
                             "linear",
-                            "${figur_walk}",
-                            '0.13333',
-                            '0.09469'
-                        ],
-                        [
-                            "eid2302",
-                            "scaleY",
-                            79000,
-                            6000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.09469',
-                            '0.05383'
-                        ],
-                        [
-                            "eid2432",
-                            "scaleY",
-                            123000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.54493',
-                            '0.42776'
-                        ],
-                        [
-                            "eid2433",
-                            "scaleY",
-                            126000,
-                            2500,
-                            "linear",
-                            "${figur_walk}",
-                            '0.42776',
-                            '0.27391'
-                        ],
-                        [
-                            "eid2441",
-                            "scaleY",
-                            142000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.27391',
-                            '0.17971'
-                        ],
-                        [
-                            "eid2445",
-                            "scaleY",
-                            146000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.17971',
-                            '0.1051'
-                        ],
-                        [
-                            "eid2449",
-                            "scaleY",
-                            150000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.1051',
-                            '0.07128'
-                        ],
-                        [
-                            "eid2453",
-                            "scaleY",
-                            153000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.07128',
-                            '0.04271'
+                            "${text03}",
+                            '36px',
+                            '36px'
                         ],
                         [
                             "eid2197",
@@ -17165,24 +16995,14 @@
                             '0.76143'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1754",
@@ -17765,74 +17585,34 @@
                             '488px'
                         ],
                         [
-                            "eid2154",
+                            "eid1728",
                             "top",
-                            14000,
-                            4000,
+                            29500,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '174px',
-                            '186px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
                         ],
                         [
-                            "eid2161",
+                            "eid1852",
                             "top",
-                            18000,
-                            4000,
+                            89500,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '186px',
-                            '201px'
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
                         ],
                         [
-                            "eid2165",
+                            "eid1923",
                             "top",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '201px',
-                            '202px'
-                        ],
-                        [
-                            "eid2168",
-                            "top",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '196px'
-                        ],
-                        [
-                            "eid2352",
-                            "top",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '194px',
-                            '202px'
-                        ],
-                        [
-                            "eid2353",
-                            "top",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '236px'
-                        ],
-                        [
-                            "eid2367",
-                            "top",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '236px',
-                            '194px'
+                            129500,
+                            0,
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid459",
@@ -17865,44 +17645,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
-                            "left",
-                            46000,
-                            4000,
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
                         ],
                         [
-                            "eid2389",
-                            "left",
-                            100000,
-                            12000,
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
                         ],
                         [
                             "eid2245",
@@ -17945,54 +17725,54 @@
                             '0.45894'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
-                        ],
-                        [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
-                        ],
-                        [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
-                        ],
-                        [
-                            "eid1786",
+                            "eid1867",
                             "scaleY",
-                            58483,
+                            90152,
+                            348,
+                            "linear",
+                            "${FANTASIE03}",
+                            '0.144',
+                            '0.948'
+                        ],
+                        [
+                            "eid1897",
+                            "scaleY",
+                            101500,
+                            1500,
+                            "easeOutQuart",
+                            "${FANTASIE03}",
+                            '0.948',
+                            '0.056'
+                        ],
+                        [
+                            "eid884",
+                            "opacity",
+                            0,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "${FANTASIE02}",
+                            '0.69918699186992',
+                            '0.69918699186992'
+                        ],
+                        [
+                            "eid1799",
+                            "opacity",
+                            60000,
+                            500,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0',
+                            '0.7'
+                        ],
+                        [
+                            "eid1811",
+                            "opacity",
+                            69749,
+                            1038,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0.699999988079071',
+                            '0'
                         ],
                         [
                             "eid1950",
@@ -18005,74 +17785,54 @@
                             '354px'
                         ],
                         [
-                            "eid1728",
+                            "eid1788",
                             "top",
-                            29500,
+                            58483,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
-                            0,
+                            "eid2042",
+                            "left",
+                            1000,
+                            14000,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${fettarsch_walk}",
+                            '461px',
+                            '130px'
                         ],
                         [
-                            "eid1923",
-                            "top",
-                            129500,
-                            0,
-                            "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
-                        ],
-                        [
-                            "eid2528",
-                            "scaleX",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2172",
-                            "scaleX",
-                            41500,
-                            4500,
+                            "eid2219",
+                            "left",
+                            51000,
+                            7483,
                             "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
+                            "${fettarsch_walk}",
+                            '917px',
+                            '-27px'
                         ],
                         [
-                            "eid2176",
-                            "scaleX",
-                            46000,
-                            4000,
+                            "eid2229",
+                            "left",
+                            72000,
+                            1500,
                             "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
+                            "${fettarsch_walk}",
+                            '-27px',
+                            '-305px'
                         ],
                         [
-                            "eid2387",
-                            "scaleX",
-                            100000,
-                            0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            "eid2381",
+                            "left",
+                            106000,
+                            9000,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '650px',
+                            '-32px'
                         ],
                         [
                             "eid2152",
@@ -18143,1125 +17903,6 @@
                             "${sexy_walk}",
                             '0.49769',
                             '0.63881'
-                        ],
-                        [
-                            "eid2126",
-                            "scaleY",
-                            24500,
-                            3500,
-                            "linear",
-                            "${elch_walk}",
-                            '0.72381',
-                            '0.43476'
-                        ],
-                        [
-                            "eid2134",
-                            "scaleY",
-                            42000,
-                            4000,
-                            "linear",
-                            "${elch_walk}",
-                            '0.43476',
-                            '0.24307'
-                        ],
-                        [
-                            "eid2138",
-                            "scaleY",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '0.24307',
-                            '0.12143'
-                        ],
-                        [
-                            "eid2140",
-                            "scaleY",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '0.12143',
-                            '0.05'
-                        ],
-                        [
-                            "eid1748",
-                            "scaleY",
-                            30000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '0.76667',
-                            '0.79'
-                        ],
-                        [
-                            "eid452",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text08}",
-                            '101px',
-                            '101px'
-                        ],
-                        [
-                            "eid1913",
-                            "top",
-                            128500,
-                            0,
-                            "easeInOutCubic",
-                            "${figur_head}",
-                            '75px',
-                            '75px'
-                        ],
-                        [
-                            "eid1725",
-                            "scaleX",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '0.255',
-                            '0.255'
-                        ],
-                        [
-                            "eid1761",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1783",
-                            "display",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1804",
-                            "display",
-                            72000,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1847",
-                            "top",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '244px',
-                            '244px'
-                        ],
-                        [
-                            "eid2243",
-                            "top",
-                            51000,
-                            3000,
-                            "linear",
-                            "${dino_walk}",
-                            '149px',
-                            '164px'
-                        ],
-                        [
-                            "eid2244",
-                            "top",
-                            54000,
-                            4483,
-                            "linear",
-                            "${dino_walk}",
-                            '164px',
-                            '160px'
-                        ],
-                        [
-                            "eid2255",
-                            "top",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '160px',
-                            '198px'
-                        ],
-                        [
-                            "eid2471",
-                            "top",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '198px',
-                            '152px'
-                        ],
-                        [
-                            "eid1762",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1784",
-                            "display",
-                            58483,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1915",
-                            "scaleX",
-                            128500,
-                            0,
-                            "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
-                        ],
-                        [
-                            "eid1742",
-                            "opacity",
-                            30000,
-                            500,
-                            "linear",
-                            "${FANTASIE01}",
-                            '0',
-                            '0.69918699186992'
-                        ],
-                        [
-                            "eid2205",
-                            "top",
-                            45000,
-                            0,
-                            "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
-                        ],
-                        [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
-                        ],
-                        [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
-                        ],
-                        [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
-                            "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
-                        ],
-                        [
-                            "eid2153",
-                            "left",
-                            14000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
-                        ],
-                        [
-                            "eid1764",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1813",
-                            "display",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1904",
-                            "display",
-                            104500,
-                            0,
-                            "easeInOutCubic",
-                            "${sexy_head}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid885",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            '272px',
-                            '272px'
-                        ],
-                        [
-                            "eid1803",
-                            "top",
-                            60100,
-                            400,
-                            "linear",
-                            "${FANTASIE02}",
-                            '402px',
-                            '256px'
-                        ],
-                        [
-                            "eid2487",
-                            "top",
-                            70000,
-                            787,
-                            "linear",
-                            "${FANTASIE02}",
-                            '256px',
-                            '331px'
-                        ],
-                        [
-                            "eid1933",
-                            "left",
-                            130164,
-                            336,
-                            "easeInOutCubic",
-                            "${FANTASIE04}",
-                            '273px',
-                            '225px'
-                        ],
-                        [
-                            "eid1944",
-                            "left",
-                            137200,
-                            3800,
-                            "easeInOutQuart",
-                            "${FANTASIE04}",
-                            '225px',
-                            '288px'
-                        ],
-                        [
-                            "eid448",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text03}",
-                            '36px',
-                            '36px'
-                        ],
-                        [
-                            "eid1724",
-                            "left",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
-                        ],
-                        [
-                            "eid1835",
-                            "top",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '327px',
-                            '327px'
-                        ],
-                        [
-                            "eid467",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
-                        ],
-                        [
-                            "eid1843",
-                            "scaleY",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '0.51428',
-                            '0.51428'
-                        ],
-                        [
-                            "eid1846",
-                            "left",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '4px',
-                            '4px'
-                        ],
-                        [
-                            "eid1768",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid2288",
-                            "display",
-                            73500,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2413",
-                            "display",
-                            85000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2420",
-                            "display",
-                            123000,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2414",
-                            "display",
-                            128500,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2434",
-                            "display",
-                            142000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2468",
-                            "display",
-                            156000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1832",
-                            "scaleX",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '0.28393',
-                            '0.28393'
-                        ],
-                        [
-                            "eid1790",
-                            "scaleY",
-                            58483,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
-                        ],
-                        [
-                            "eid2247",
-                            "scaleY",
-                            51000,
-                            3000,
-                            "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
-                        ],
-                        [
-                            "eid2248",
-                            "scaleY",
-                            54000,
-                            4483,
-                            "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
-                        ],
-                        [
-                            "eid2257",
-                            "scaleY",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
-                        ],
-                        [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
-                        ],
-                        [
-                            "eid1842",
-                            "scaleX",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '0.51428',
-                            '0.51428'
-                        ],
-                        [
-                            "eid471",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text02}",
-                            '260px',
-                            '260px'
-                        ],
-                        [
-                            "eid444",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${text004}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid2207",
-                            "left",
-                            45000,
-                            11975,
-                            "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
-                        ],
-                        [
-                            "eid2318",
-                            "left",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
-                            3500,
-                            "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
-                        ],
-                        [
-                            "eid1834",
-                            "left",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '359px',
-                            '359px'
-                        ],
-                        [
-                            "eid1788",
-                            "top",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
-                        ],
-                        [
-                            "eid1723",
-                            "top",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '196px',
-                            '196px'
-                        ],
-                        [
-                            "eid1867",
-                            "scaleY",
-                            90152,
-                            348,
-                            "linear",
-                            "${FANTASIE03}",
-                            '0.144',
-                            '0.948'
-                        ],
-                        [
-                            "eid1897",
-                            "scaleY",
-                            101500,
-                            1500,
-                            "easeOutQuart",
-                            "${FANTASIE03}",
-                            '0.948',
-                            '0.056'
-                        ],
-                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
-                    ]
-                }
-            },
-            "streetview01_2": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            type: 'image',
-                            id: 's2hintergrund2',
-                            rect: [0, 0, '1024px', '768px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/s2hintergrund2.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['0', 277, 1024, 147, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke04',
-                            symbolName: 'wolke04',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'image',
-                            id: 'gb012',
-                            opacity: '1',
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['0', 176, 1024, 225, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke03',
-                            symbolName: 'wolke03',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 260, 1024, 105, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text02',
-                            symbolName: 'text02',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 300, 1024, 109, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text07',
-                            symbolName: 'text07',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'image',
-                            id: 'gb022',
-                            opacity: '1',
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['0', 95, 1024, 238, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke02',
-                            symbolName: 'wolke02',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 101, 1024, 135, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text06',
-                            symbolName: 'text06',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 176, 1024, 124, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text005',
-                            symbolName: 'text04',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', '145', 1024, 124, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text01',
-                            symbolName: 'text01',
-                            type: 'rect'
-                        },
-                        {
-                            rect: [0, 101, 1024, 189, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text08',
-                            symbolName: 'text08',
-                            type: 'rect'
-                        },
-                        {
-                            rect: [0, 226, 1024, 110, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text004',
-                            symbolName: 'text05',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'image',
-                            id: 'gb032',
-                            opacity: '1',
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE04',
-                            opacity: '0.69918699186992',
-                            rect: [273, 408, 500, 500, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE04',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.15229', '0.15229', 1], ['50%', '50%']]
-                        },
-                        {
-                            rect: ['0', '2', 1024, 221, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke01',
-                            symbolName: 'wolke01',
-                            type: 'rect'
-                        },
-                        {
-                            rect: [0, 36, 1024, 143, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text03',
-                            symbolName: 'Symbol_1',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'rect',
-                            id: 'elch_walk',
-                            opacity: '1',
-                            rect: [956, 254, 350, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'elch_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [-131, 199, 600, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'frau_walk',
-                            symbolName: 'frau_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'figur_walk',
-                            opacity: '1',
-                            rect: [183, 198, 350, 690, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'figur_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.13333', '0.13333', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'sexy_walk',
-                            opacity: '0',
-                            rect: [360, 174, 310, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'sexy_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [86, 149, 520, 800, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'dino_walk',
-                            symbolName: 'dino_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [-231, 294, 866, 550, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolf_walk',
-                            symbolName: 'woolf_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [461, 207, 450, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'fettarsch_walk',
-                            symbolName: 'fettarsch_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'squid_walk',
-                            opacity: '0',
-                            rect: [-287, 285, 925, 600, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'squid_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [4, 244, 300, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'sexy_head',
-                            symbolName: 'sexy_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [137, 196, 400, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'frau_head',
-                            symbolName: 'frau_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [354, 342, 1000, 600, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'squid_head',
-                            symbolName: 'squid_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [488, 207, 500, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'dino_head',
-                            symbolName: 'dino_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [1, 237, 400, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'fettarsch_head',
-                            symbolName: 'fettarsch_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [11, 75, 500, 1000, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'figur_head',
-                            symbolName: 'figur_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [359, 327, 1000, 560, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolf_head',
-                            symbolName: 'wolf_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [637, 238, 400, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'elch_head02',
-                            symbolName: 'elch_head02',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE01',
-                            opacity: '0',
-                            rect: [296, 331, 500, 537, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE01',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06313', '0.06313', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE02',
-                            opacity: '0.69918699186992',
-                            rect: [246, 272, 500, 500, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE02',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12', '0.12', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE03',
-                            opacity: '0',
-                            rect: [281, 393, 500, 500, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE03',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [226, 432, 700, 100, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'blitzblick',
-                            symbolName: 'blitzblick',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [267, 200, 600, 600, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'britzel',
-                            symbolName: 'britzel',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']]
-                        },
-                        {
-                            rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
-                            source: ['media/86064__harpoyume__short-electricity.wav'],
-                            volume: '0.6',
-                            id: '_86064__harpoyume__short-electricity',
-                            type: 'audio',
-                            tag: 'audio'
-                        },
-                        {
-                            type: 'rect',
-                            id: 'schluss',
-                            symbolName: 'schluss',
-                            rect: ['0', '90', 1024, 376, 'auto', 'auto']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, 1024, 768]
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 157000,
-                    autoPlay: false,
-                    data: [
-                        [
-                            "eid2407",
-                            "opacity",
-                            113000,
-                            3000,
-                            "linear",
-                            "${squid_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2042",
-                            "left",
-                            1000,
-                            14000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '461px',
-                            '130px'
-                        ],
-                        [
-                            "eid2219",
-                            "left",
-                            51000,
-                            7483,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '917px',
-                            '-27px'
-                        ],
-                        [
-                            "eid2229",
-                            "left",
-                            72000,
-                            1500,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '-27px',
-                            '-305px'
-                        ],
-                        [
-                            "eid2381",
-                            "left",
-                            106000,
-                            9000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '650px',
-                            '-32px'
                         ],
                         [
                             "eid2295",
@@ -19354,6 +17995,46 @@
                             '330px'
                         ],
                         [
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
+                            3500,
+                            "linear",
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
+                        ],
+                        [
                             "eid1750",
                             "top",
                             30000,
@@ -19364,14 +18045,74 @@
                             '206px'
                         ],
                         [
-                            "eid1722",
+                            "eid1913",
+                            "top",
+                            128500,
+                            0,
+                            "easeInOutCubic",
+                            "${figur_head}",
+                            '75px',
+                            '75px'
+                        ],
+                        [
+                            "eid1916",
                             "scaleY",
-                            28000,
+                            128500,
+                            0,
+                            "easeInOutCubic",
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
+                        ],
+                        [
+                            "eid2529",
+                            "scaleY",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
+                        ],
+                        [
+                            "eid2173",
+                            "scaleY",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
+                        ],
+                        [
+                            "eid2177",
+                            "scaleY",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
+                        ],
+                        [
+                            "eid2388",
+                            "scaleY",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
+                        ],
+                        [
+                            "eid1847",
+                            "top",
+                            88500,
                             0,
                             "linear",
-                            "${elch_head02}",
-                            '0.41215',
-                            '0.41215'
+                            "${sexy_head}",
+                            '244px',
+                            '244px'
                         ],
                         [
                             "eid2124",
@@ -19414,14 +18155,74 @@
                             '166px'
                         ],
                         [
-                            "eid1785",
-                            "scaleX",
-                            58483,
-                            0,
+                            "eid2154",
+                            "top",
+                            14000,
+                            4000,
                             "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "${sexy_walk}",
+                            '174px',
+                            '186px'
+                        ],
+                        [
+                            "eid2161",
+                            "top",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '186px',
+                            '201px'
+                        ],
+                        [
+                            "eid2165",
+                            "top",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '201px',
+                            '202px'
+                        ],
+                        [
+                            "eid2168",
+                            "top",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '196px'
+                        ],
+                        [
+                            "eid2352",
+                            "top",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '194px',
+                            '202px'
+                        ],
+                        [
+                            "eid2353",
+                            "top",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '236px'
+                        ],
+                        [
+                            "eid2367",
+                            "top",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '236px',
+                            '194px'
                         ],
                         [
                             "eid1911",
@@ -19432,6 +18233,1155 @@
                             "${figur_head}",
                             '0.189',
                             '0.189'
+                        ],
+                        [
+                            "eid1742",
+                            "opacity",
+                            30000,
+                            500,
+                            "linear",
+                            "${FANTASIE01}",
+                            '0',
+                            '0.69918699186992'
+                        ],
+                        [
+                            "eid2247",
+                            "scaleY",
+                            51000,
+                            3000,
+                            "linear",
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
+                        ],
+                        [
+                            "eid2248",
+                            "scaleY",
+                            54000,
+                            4483,
+                            "linear",
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
+                        ],
+                        [
+                            "eid1790",
+                            "scaleY",
+                            58483,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
+                        ],
+                        [
+                            "eid1764",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1813",
+                            "display",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1904",
+                            "display",
+                            104500,
+                            0,
+                            "easeInOutCubic",
+                            "${sexy_head}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid885",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            '272px',
+                            '272px'
+                        ],
+                        [
+                            "eid1803",
+                            "top",
+                            60100,
+                            400,
+                            "linear",
+                            "${FANTASIE02}",
+                            '402px',
+                            '256px'
+                        ],
+                        [
+                            "eid2487",
+                            "top",
+                            70000,
+                            787,
+                            "linear",
+                            "${FANTASIE02}",
+                            '256px',
+                            '331px'
+                        ],
+                        [
+                            "eid1933",
+                            "left",
+                            130164,
+                            336,
+                            "easeInOutCubic",
+                            "${FANTASIE04}",
+                            '273px',
+                            '225px'
+                        ],
+                        [
+                            "eid1944",
+                            "left",
+                            137200,
+                            3800,
+                            "easeInOutQuart",
+                            "${FANTASIE04}",
+                            '225px',
+                            '288px'
+                        ],
+                        [
+                            "eid2300",
+                            "scaleY",
+                            73500,
+                            5500,
+                            "linear",
+                            "${figur_walk}",
+                            '0.13333',
+                            '0.09469'
+                        ],
+                        [
+                            "eid2302",
+                            "scaleY",
+                            79000,
+                            6000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.09469',
+                            '0.05383'
+                        ],
+                        [
+                            "eid2432",
+                            "scaleY",
+                            123000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.54493',
+                            '0.42776'
+                        ],
+                        [
+                            "eid2433",
+                            "scaleY",
+                            126000,
+                            2500,
+                            "linear",
+                            "${figur_walk}",
+                            '0.42776',
+                            '0.27391'
+                        ],
+                        [
+                            "eid2441",
+                            "scaleY",
+                            142000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.27391',
+                            '0.17971'
+                        ],
+                        [
+                            "eid2445",
+                            "scaleY",
+                            146000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.17971',
+                            '0.1051'
+                        ],
+                        [
+                            "eid2449",
+                            "scaleY",
+                            150000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.1051',
+                            '0.07128'
+                        ],
+                        [
+                            "eid2453",
+                            "scaleY",
+                            153000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.07128',
+                            '0.04271'
+                        ],
+                        [
+                            "eid2153",
+                            "left",
+                            14000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
+                        ],
+                        [
+                            "eid2160",
+                            "left",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
+                        ],
+                        [
+                            "eid2164",
+                            "left",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
+                        ],
+                        [
+                            "eid1832",
+                            "scaleX",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '0.28393',
+                            '0.28393'
+                        ],
+                        [
+                            "eid1768",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid2288",
+                            "display",
+                            73500,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2413",
+                            "display",
+                            85000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2420",
+                            "display",
+                            123000,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2414",
+                            "display",
+                            128500,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2434",
+                            "display",
+                            142000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2468",
+                            "display",
+                            156000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1758",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1775",
+                            "display",
+                            60000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1776",
+                            "display",
+                            71000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1846",
+                            "left",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            '4px',
+                            '4px'
+                        ],
+                        [
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
+                            0,
+                            "linear",
+                            "${sexy_walk}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid1835",
+                            "top",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '327px',
+                            '327px'
+                        ],
+                        [
+                            "eid1724",
+                            "left",
+                            28000,
+                            0,
+                            "linear",
+                            "${frau_head}",
+                            '137px',
+                            '137px'
+                        ],
+                        [
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
+                            "linear",
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
+                        ],
+                        [
+                            "eid2171",
+                            "left",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
+                        ],
+                        [
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
+                        ],
+                        [
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
+                        ],
+                        [
+                            "eid1842",
+                            "scaleX",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            '0.51428',
+                            '0.51428'
+                        ],
+                        [
+                            "eid471",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${text02}",
+                            '260px',
+                            '260px'
+                        ],
+                        [
+                            "eid444",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${text004}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1749",
+                            "left",
+                            30000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '267px',
+                            '254px'
+                        ],
+                        [
+                            "eid1796",
+                            "left",
+                            60000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '254px',
+                            '231px'
+                        ],
+                        [
+                            "eid1834",
+                            "left",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '359px',
+                            '359px'
+                        ],
+                        [
+                            "eid1762",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1784",
+                            "display",
+                            58483,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1805",
+                            "display",
+                            72500,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1723",
+                            "top",
+                            28000,
+                            0,
+                            "linear",
+                            "${frau_head}",
+                            '196px',
+                            '196px'
+                        ],
+                        [
+                            "eid1708",
+                            "display",
+                            30000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
+                        ],
+                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
+                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
+                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
+                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
+                    ]
+                }
+            },
+            "streetview01_2": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: [0, 0, '1024px', '768px', 'auto', 'auto'],
+                            id: 's2hintergrund2',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/s2hintergrund2.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['0', 277, 1024, 147, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'wolke04',
+                            symbolName: 'wolke04',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
+                            id: 'gb012',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['0', 176, 1024, 225, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'wolke03',
+                            symbolName: 'wolke03',
+                            type: 'rect'
+                        },
+                        {
+                            rect: ['0', 260, 1024, 105, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text02',
+                            symbolName: 'text02',
+                            type: 'rect'
+                        },
+                        {
+                            rect: ['0', 300, 1024, 109, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text07',
+                            symbolName: 'text07',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
+                            id: 'gb022',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['0', 95, 1024, 238, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'wolke02',
+                            symbolName: 'wolke02',
+                            type: 'rect'
+                        },
+                        {
+                            rect: ['0', 101, 1024, 135, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text06',
+                            symbolName: 'text06',
+                            type: 'rect'
+                        },
+                        {
+                            rect: ['0', 176, 1024, 124, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text005',
+                            symbolName: 'text04',
+                            type: 'rect'
+                        },
+                        {
+                            rect: ['0', '145', 1024, 124, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text01',
+                            symbolName: 'text01',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [0, 101, 1024, 189, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text08',
+                            symbolName: 'text08',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [0, 226, 1024, 110, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text004',
+                            symbolName: 'text05',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
+                            id: 'gb032',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
+                        },
+                        {
+                            type: 'rect',
+                            id: 'FANTASIE04',
+                            opacity: '0.69918699186992',
+                            rect: [273, 408, 500, 500, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE04',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.15229', '0.15229', 1], ['50%', '50%']]
+                        },
+                        {
+                            rect: ['0', '2', 1024, 221, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'wolke01',
+                            symbolName: 'wolke01',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [0, 36, 1024, 143, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            id: 'text03',
+                            symbolName: 'Symbol_1',
+                            type: 'rect'
+                        },
+                        {
+                            type: 'rect',
+                            id: 'elch_walk',
+                            opacity: '1',
+                            rect: [956, 254, 350, 700, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'elch_walk',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
+                        },
+                        {
+                            rect: [-131, 199, 600, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'frau_walk',
+                            symbolName: 'frau_walk',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            type: 'rect',
+                            id: 'figur_walk',
+                            opacity: '1',
+                            rect: [183, 198, 350, 690, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'figur_walk',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.13333', '0.13333', 1], ['50%', '50%']]
+                        },
+                        {
+                            type: 'rect',
+                            id: 'sexy_walk',
+                            opacity: '0',
+                            rect: [360, 174, 310, 700, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'sexy_walk',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
+                        },
+                        {
+                            rect: [86, 149, 520, 800, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'dino_walk',
+                            symbolName: 'dino_walk',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [-231, 294, 866, 550, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'wolf_walk',
+                            symbolName: 'woolf_walk',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [461, 207, 450, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'fettarsch_walk',
+                            symbolName: 'fettarsch_walk',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            type: 'rect',
+                            id: 'squid_walk',
+                            opacity: '0',
+                            rect: [-287, 285, 925, 600, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'squid_walk',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
+                        },
+                        {
+                            rect: [4, 244, 300, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'sexy_head',
+                            symbolName: 'sexy_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [137, 196, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'frau_head',
+                            symbolName: 'frau_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [354, 342, 1000, 600, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'squid_head',
+                            symbolName: 'squid_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [488, 207, 500, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'dino_head',
+                            symbolName: 'dino_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [1, 237, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'fettarsch_head',
+                            symbolName: 'fettarsch_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [11, 75, 500, 1000, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'figur_head',
+                            symbolName: 'figur_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [359, 327, 1000, 560, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'wolf_head',
+                            symbolName: 'wolf_head',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [637, 238, 400, 700, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'elch_head02',
+                            symbolName: 'elch_head02',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            type: 'rect',
+                            id: 'FANTASIE01',
+                            opacity: '0',
+                            rect: [296, 331, 500, 537, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE01',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06313', '0.06313', 1], ['50%', '50%']]
+                        },
+                        {
+                            type: 'rect',
+                            id: 'FANTASIE02',
+                            opacity: '0.69918699186992',
+                            rect: [246, 272, 500, 500, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE02',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12', '0.12', 1], ['50%', '50%']]
+                        },
+                        {
+                            type: 'rect',
+                            id: 'FANTASIE03',
+                            opacity: '0',
+                            rect: [281, 393, 500, 500, 'auto', 'auto'],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE03',
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
+                        },
+                        {
+                            rect: [226, 432, 700, 100, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'blitzblick',
+                            symbolName: 'blitzblick',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: [267, 200, 600, 600, 'auto', 'auto'],
+                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']],
+                            overflow: 'hidden',
+                            id: 'britzel',
+                            symbolName: 'britzel',
+                            display: 'none',
+                            type: 'rect'
+                        },
+                        {
+                            rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
+                            source: ['media/86064__harpoyume__short-electricity.wav'],
+                            volume: '0.6',
+                            id: '_86064__harpoyume__short-electricity',
+                            type: 'audio',
+                            tag: 'audio'
+                        },
+                        {
+                            rect: ['0', '90', 1024, 376, 'auto', 'auto'],
+                            id: 'schluss',
+                            symbolName: 'schluss',
+                            type: 'rect'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            overflow: 'hidden',
+                            rect: [null, null, 1024, 768]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 157000,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid2407",
+                            "opacity",
+                            113000,
+                            3000,
+                            "linear",
+                            "${squid_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2528",
+                            "scaleX",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
+                        ],
+                        [
+                            "eid2172",
+                            "scaleX",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
+                        ],
+                        [
+                            "eid2176",
+                            "scaleX",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
+                        ],
+                        [
+                            "eid2387",
+                            "scaleX",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
+                        ],
+                        [
+                            "eid2126",
+                            "scaleY",
+                            24500,
+                            3500,
+                            "linear",
+                            "${elch_walk}",
+                            '0.72381',
+                            '0.43476'
+                        ],
+                        [
+                            "eid2134",
+                            "scaleY",
+                            42000,
+                            4000,
+                            "linear",
+                            "${elch_walk}",
+                            '0.43476',
+                            '0.24307'
+                        ],
+                        [
+                            "eid2138",
+                            "scaleY",
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '0.24307',
+                            '0.12143'
+                        ],
+                        [
+                            "eid2140",
+                            "scaleY",
+                            53000,
+                            8000,
+                            "linear",
+                            "${elch_walk}",
+                            '0.12143',
+                            '0.05'
+                        ],
+                        [
+                            "eid452",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${text08}",
+                            '101px',
+                            '101px'
+                        ],
+                        [
+                            "eid1722",
+                            "scaleY",
+                            28000,
+                            0,
+                            "linear",
+                            "${elch_head02}",
+                            '0.41215',
+                            '0.41215'
+                        ],
+                        [
+                            "eid2243",
+                            "top",
+                            51000,
+                            3000,
+                            "linear",
+                            "${dino_walk}",
+                            '149px',
+                            '164px'
+                        ],
+                        [
+                            "eid2244",
+                            "top",
+                            54000,
+                            4483,
+                            "linear",
+                            "${dino_walk}",
+                            '164px',
+                            '160px'
+                        ],
+                        [
+                            "eid2255",
+                            "top",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '160px',
+                            '198px'
+                        ],
+                        [
+                            "eid2471",
+                            "top",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '198px',
+                            '152px'
+                        ],
+                        [
+                            "eid1785",
+                            "scaleX",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
+                        ],
+                        [
+                            "eid1915",
+                            "scaleX",
+                            128500,
+                            0,
+                            "easeInOutCubic",
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
                         ],
                         [
                             "eid2043",
@@ -19474,34 +19424,14 @@
                             '189px'
                         ],
                         [
-                            "eid1758",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1775",
-                            "display",
-                            60000,
+                            "eid1843",
+                            "scaleY",
+                            88500,
                             0,
                             "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1776",
-                            "display",
-                            71000,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'block',
-                            'none'
+                            "${sexy_head}",
+                            '0.51428',
+                            '0.51428'
                         ],
                         [
                             "eid2146",
@@ -19824,34 +19754,24 @@
                             '0.688'
                         ],
                         [
-                            "eid1916",
-                            "scaleY",
-                            128500,
+                            "eid1725",
+                            "scaleX",
+                            28000,
                             0,
-                            "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
+                            "linear",
+                            "${frau_head}",
+                            '0.255',
+                            '0.255'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid1931",
@@ -20124,64 +20044,54 @@
                             'none'
                         ],
                         [
-                            "eid884",
-                            "opacity",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.69918699186992',
-                            '0.69918699186992'
-                        ],
-                        [
-                            "eid1799",
-                            "opacity",
-                            60000,
-                            500,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0',
-                            '0.7'
-                        ],
-                        [
-                            "eid1811",
-                            "opacity",
-                            69749,
-                            1038,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.699999988079071',
-                            '0'
-                        ],
-                        [
-                            "eid1708",
-                            "display",
-                            30000,
+                            "eid1786",
+                            "scaleY",
+                            58483,
                             0,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
+                        ],
+                        [
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1719",
@@ -20844,44 +20754,34 @@
                             '370px'
                         ],
                         [
-                            "eid2529",
-                            "scaleY",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2173",
-                            "scaleY",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
-                        ],
-                        [
-                            "eid2177",
-                            "scaleY",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
-                        ],
-                        [
-                            "eid2388",
-                            "scaleY",
-                            100000,
+                            "eid1761",
+                            "display",
                             0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1783",
+                            "display",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1804",
+                            "display",
+                            72000,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1800",
@@ -20904,84 +20804,14 @@
                             '0.688'
                         ],
                         [
-                            "eid2300",
-                            "scaleY",
-                            73500,
-                            5500,
+                            "eid448",
+                            "top",
+                            0,
+                            0,
                             "linear",
-                            "${figur_walk}",
-                            '0.13333',
-                            '0.09469'
-                        ],
-                        [
-                            "eid2302",
-                            "scaleY",
-                            79000,
-                            6000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.09469',
-                            '0.05383'
-                        ],
-                        [
-                            "eid2432",
-                            "scaleY",
-                            123000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.54493',
-                            '0.42776'
-                        ],
-                        [
-                            "eid2433",
-                            "scaleY",
-                            126000,
-                            2500,
-                            "linear",
-                            "${figur_walk}",
-                            '0.42776',
-                            '0.27391'
-                        ],
-                        [
-                            "eid2441",
-                            "scaleY",
-                            142000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.27391',
-                            '0.17971'
-                        ],
-                        [
-                            "eid2445",
-                            "scaleY",
-                            146000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.17971',
-                            '0.1051'
-                        ],
-                        [
-                            "eid2449",
-                            "scaleY",
-                            150000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.1051',
-                            '0.07128'
-                        ],
-                        [
-                            "eid2453",
-                            "scaleY",
-                            153000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.07128',
-                            '0.04271'
+                            "${text03}",
+                            '36px',
+                            '36px'
                         ],
                         [
                             "eid2197",
@@ -21294,24 +21124,14 @@
                             '0.76143'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1754",
@@ -21894,74 +21714,34 @@
                             '488px'
                         ],
                         [
-                            "eid2154",
+                            "eid1728",
                             "top",
-                            14000,
-                            4000,
+                            29500,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '174px',
-                            '186px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
                         ],
                         [
-                            "eid2161",
+                            "eid1852",
                             "top",
-                            18000,
-                            4000,
+                            89500,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '186px',
-                            '201px'
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
                         ],
                         [
-                            "eid2165",
+                            "eid1923",
                             "top",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '201px',
-                            '202px'
-                        ],
-                        [
-                            "eid2168",
-                            "top",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '196px'
-                        ],
-                        [
-                            "eid2352",
-                            "top",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '194px',
-                            '202px'
-                        ],
-                        [
-                            "eid2353",
-                            "top",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '236px'
-                        ],
-                        [
-                            "eid2367",
-                            "top",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '236px',
-                            '194px'
+                            129500,
+                            0,
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid459",
@@ -21994,44 +21774,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
-                            "left",
-                            46000,
-                            4000,
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
                         ],
                         [
-                            "eid2389",
-                            "left",
-                            100000,
-                            12000,
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
                         ],
                         [
                             "eid2245",
@@ -22074,54 +21854,54 @@
                             '0.45894'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
-                        ],
-                        [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
-                        ],
-                        [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
-                        ],
-                        [
-                            "eid1786",
+                            "eid1867",
                             "scaleY",
-                            58483,
+                            90152,
+                            348,
+                            "linear",
+                            "${FANTASIE03}",
+                            '0.144',
+                            '0.948'
+                        ],
+                        [
+                            "eid1897",
+                            "scaleY",
+                            101500,
+                            1500,
+                            "easeOutQuart",
+                            "${FANTASIE03}",
+                            '0.948',
+                            '0.056'
+                        ],
+                        [
+                            "eid884",
+                            "opacity",
+                            0,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "${FANTASIE02}",
+                            '0.69918699186992',
+                            '0.69918699186992'
+                        ],
+                        [
+                            "eid1799",
+                            "opacity",
+                            60000,
+                            500,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0',
+                            '0.7'
+                        ],
+                        [
+                            "eid1811",
+                            "opacity",
+                            69749,
+                            1038,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0.699999988079071',
+                            '0'
                         ],
                         [
                             "eid1950",
@@ -22134,74 +21914,54 @@
                             '354px'
                         ],
                         [
-                            "eid1728",
+                            "eid1788",
                             "top",
-                            29500,
+                            58483,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
-                            0,
+                            "eid2042",
+                            "left",
+                            1000,
+                            14000,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${fettarsch_walk}",
+                            '461px',
+                            '130px'
                         ],
                         [
-                            "eid1923",
-                            "top",
-                            129500,
-                            0,
-                            "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
-                        ],
-                        [
-                            "eid2528",
-                            "scaleX",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2172",
-                            "scaleX",
-                            41500,
-                            4500,
+                            "eid2219",
+                            "left",
+                            51000,
+                            7483,
                             "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
+                            "${fettarsch_walk}",
+                            '917px',
+                            '-27px'
                         ],
                         [
-                            "eid2176",
-                            "scaleX",
-                            46000,
-                            4000,
+                            "eid2229",
+                            "left",
+                            72000,
+                            1500,
                             "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
+                            "${fettarsch_walk}",
+                            '-27px',
+                            '-305px'
                         ],
                         [
-                            "eid2387",
-                            "scaleX",
-                            100000,
-                            0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            "eid2381",
+                            "left",
+                            106000,
+                            9000,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '650px',
+                            '-32px'
                         ],
                         [
                             "eid2152",
@@ -22272,1125 +22032,6 @@
                             "${sexy_walk}",
                             '0.49769',
                             '0.63881'
-                        ],
-                        [
-                            "eid2126",
-                            "scaleY",
-                            24500,
-                            3500,
-                            "linear",
-                            "${elch_walk}",
-                            '0.72381',
-                            '0.43476'
-                        ],
-                        [
-                            "eid2134",
-                            "scaleY",
-                            42000,
-                            4000,
-                            "linear",
-                            "${elch_walk}",
-                            '0.43476',
-                            '0.24307'
-                        ],
-                        [
-                            "eid2138",
-                            "scaleY",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '0.24307',
-                            '0.12143'
-                        ],
-                        [
-                            "eid2140",
-                            "scaleY",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '0.12143',
-                            '0.05'
-                        ],
-                        [
-                            "eid1748",
-                            "scaleY",
-                            30000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '0.76667',
-                            '0.79'
-                        ],
-                        [
-                            "eid452",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text08}",
-                            '101px',
-                            '101px'
-                        ],
-                        [
-                            "eid1913",
-                            "top",
-                            128500,
-                            0,
-                            "easeInOutCubic",
-                            "${figur_head}",
-                            '75px',
-                            '75px'
-                        ],
-                        [
-                            "eid1725",
-                            "scaleX",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '0.255',
-                            '0.255'
-                        ],
-                        [
-                            "eid1761",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1783",
-                            "display",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1804",
-                            "display",
-                            72000,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1847",
-                            "top",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '244px',
-                            '244px'
-                        ],
-                        [
-                            "eid2243",
-                            "top",
-                            51000,
-                            3000,
-                            "linear",
-                            "${dino_walk}",
-                            '149px',
-                            '164px'
-                        ],
-                        [
-                            "eid2244",
-                            "top",
-                            54000,
-                            4483,
-                            "linear",
-                            "${dino_walk}",
-                            '164px',
-                            '160px'
-                        ],
-                        [
-                            "eid2255",
-                            "top",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '160px',
-                            '198px'
-                        ],
-                        [
-                            "eid2471",
-                            "top",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '198px',
-                            '152px'
-                        ],
-                        [
-                            "eid1762",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1784",
-                            "display",
-                            58483,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1915",
-                            "scaleX",
-                            128500,
-                            0,
-                            "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
-                        ],
-                        [
-                            "eid1742",
-                            "opacity",
-                            30000,
-                            500,
-                            "linear",
-                            "${FANTASIE01}",
-                            '0',
-                            '0.69918699186992'
-                        ],
-                        [
-                            "eid2205",
-                            "top",
-                            45000,
-                            0,
-                            "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
-                        ],
-                        [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
-                        ],
-                        [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
-                        ],
-                        [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
-                            "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
-                        ],
-                        [
-                            "eid2153",
-                            "left",
-                            14000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
-                        ],
-                        [
-                            "eid1764",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1813",
-                            "display",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1904",
-                            "display",
-                            104500,
-                            0,
-                            "easeInOutCubic",
-                            "${sexy_head}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid885",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            '272px',
-                            '272px'
-                        ],
-                        [
-                            "eid1803",
-                            "top",
-                            60100,
-                            400,
-                            "linear",
-                            "${FANTASIE02}",
-                            '402px',
-                            '256px'
-                        ],
-                        [
-                            "eid2487",
-                            "top",
-                            70000,
-                            787,
-                            "linear",
-                            "${FANTASIE02}",
-                            '256px',
-                            '331px'
-                        ],
-                        [
-                            "eid1933",
-                            "left",
-                            130164,
-                            336,
-                            "easeInOutCubic",
-                            "${FANTASIE04}",
-                            '273px',
-                            '225px'
-                        ],
-                        [
-                            "eid1944",
-                            "left",
-                            137200,
-                            3800,
-                            "easeInOutQuart",
-                            "${FANTASIE04}",
-                            '225px',
-                            '288px'
-                        ],
-                        [
-                            "eid448",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text03}",
-                            '36px',
-                            '36px'
-                        ],
-                        [
-                            "eid1724",
-                            "left",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
-                        ],
-                        [
-                            "eid1835",
-                            "top",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '327px',
-                            '327px'
-                        ],
-                        [
-                            "eid467",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
-                        ],
-                        [
-                            "eid1843",
-                            "scaleY",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '0.51428',
-                            '0.51428'
-                        ],
-                        [
-                            "eid1846",
-                            "left",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '4px',
-                            '4px'
-                        ],
-                        [
-                            "eid1768",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid2288",
-                            "display",
-                            73500,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2413",
-                            "display",
-                            85000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2420",
-                            "display",
-                            123000,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2414",
-                            "display",
-                            128500,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2434",
-                            "display",
-                            142000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2468",
-                            "display",
-                            156000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1832",
-                            "scaleX",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '0.28393',
-                            '0.28393'
-                        ],
-                        [
-                            "eid1790",
-                            "scaleY",
-                            58483,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
-                        ],
-                        [
-                            "eid2247",
-                            "scaleY",
-                            51000,
-                            3000,
-                            "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
-                        ],
-                        [
-                            "eid2248",
-                            "scaleY",
-                            54000,
-                            4483,
-                            "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
-                        ],
-                        [
-                            "eid2257",
-                            "scaleY",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
-                        ],
-                        [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
-                        ],
-                        [
-                            "eid1842",
-                            "scaleX",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '0.51428',
-                            '0.51428'
-                        ],
-                        [
-                            "eid471",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text02}",
-                            '260px',
-                            '260px'
-                        ],
-                        [
-                            "eid444",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${text004}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid2207",
-                            "left",
-                            45000,
-                            11975,
-                            "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
-                        ],
-                        [
-                            "eid2318",
-                            "left",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
-                            3500,
-                            "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
-                        ],
-                        [
-                            "eid1834",
-                            "left",
-                            88500,
-                            0,
-                            "linear",
-                            "${wolf_head}",
-                            '359px',
-                            '359px'
-                        ],
-                        [
-                            "eid1788",
-                            "top",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
-                        ],
-                        [
-                            "eid1723",
-                            "top",
-                            28000,
-                            0,
-                            "linear",
-                            "${frau_head}",
-                            '196px',
-                            '196px'
-                        ],
-                        [
-                            "eid1867",
-                            "scaleY",
-                            90152,
-                            348,
-                            "linear",
-                            "${FANTASIE03}",
-                            '0.144',
-                            '0.948'
-                        ],
-                        [
-                            "eid1897",
-                            "scaleY",
-                            101500,
-                            1500,
-                            "easeOutQuart",
-                            "${FANTASIE03}",
-                            '0.948',
-                            '0.056'
-                        ],
-                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
-                    ]
-                }
-            },
-            "streetview01_3": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            type: 'image',
-                            id: 's2hintergrund2',
-                            rect: [0, 0, '1024px', '768px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/s2hintergrund2.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['0', 277, 1024, 147, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke04',
-                            symbolName: 'wolke04',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'image',
-                            id: 'gb012',
-                            opacity: '1',
-                            rect: [286, 203, '452px', '344px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['0', 176, 1024, 225, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke03',
-                            symbolName: 'wolke03',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 260, 1024, 105, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text02',
-                            symbolName: 'text02',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 300, 1024, 109, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text07',
-                            symbolName: 'text07',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'image',
-                            id: 'gb022',
-                            opacity: '1',
-                            rect: [91, 38, '827px', '514px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
-                        },
-                        {
-                            rect: ['0', 95, 1024, 238, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke02',
-                            symbolName: 'wolke02',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 101, 1024, 135, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text06',
-                            symbolName: 'text06',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', 176, 1024, 124, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text005',
-                            symbolName: 'text04',
-                            type: 'rect'
-                        },
-                        {
-                            rect: ['0', '145', 1024, 124, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text01',
-                            symbolName: 'text01',
-                            type: 'rect'
-                        },
-                        {
-                            rect: [0, 101, 1024, 189, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text08',
-                            symbolName: 'text08',
-                            type: 'rect'
-                        },
-                        {
-                            rect: [0, 226, 1024, 110, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text004',
-                            symbolName: 'text05',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'image',
-                            id: 'gb032',
-                            opacity: '1',
-                            rect: [0, 0, '1024px', '562px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE04',
-                            opacity: '0.69918699186992',
-                            rect: [273, 408, 500, 500, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE04',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.15229', '0.15229', 1], ['50%', '50%']]
-                        },
-                        {
-                            rect: ['0', '2', 1024, 221, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolke01',
-                            symbolName: 'wolke01',
-                            type: 'rect'
-                        },
-                        {
-                            rect: [0, 36, 1024, 143, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'text03',
-                            symbolName: 'Symbol_1',
-                            type: 'rect'
-                        },
-                        {
-                            type: 'rect',
-                            id: 'elch_walk',
-                            opacity: '1',
-                            rect: [956, 254, 350, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'elch_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [-131, 199, 600, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'frau_walk',
-                            symbolName: 'frau_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'figur_walk',
-                            opacity: '1',
-                            rect: [183, 198, 350, 690, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'figur_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.13333', '0.13333', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'sexy_walk',
-                            opacity: '0',
-                            rect: [360, 174, 310, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'sexy_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [86, 149, 520, 800, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'dino_walk',
-                            symbolName: 'dino_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [-231, 294, 866, 550, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolf_walk',
-                            symbolName: 'woolf_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [461, 207, 450, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'fettarsch_walk',
-                            symbolName: 'fettarsch_walk',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'squid_walk',
-                            opacity: '0',
-                            rect: [-287, 285, 925, 600, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'squid_walk',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [4, 244, 300, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'sexy_head',
-                            symbolName: 'sexy_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [137, 196, 400, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'frau_head',
-                            symbolName: 'frau_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [354, 342, 1000, 600, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'squid_head',
-                            symbolName: 'squid_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [488, 207, 500, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'dino_head',
-                            symbolName: 'dino_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [1, 237, 400, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'fettarsch_head',
-                            symbolName: 'fettarsch_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [11, 75, 500, 1000, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'figur_head',
-                            symbolName: 'figur_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [359, 327, 1000, 560, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'wolf_head',
-                            symbolName: 'wolf_head',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [637, 238, 400, 700, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'elch_head02',
-                            symbolName: 'elch_head02',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE01',
-                            opacity: '0',
-                            rect: [296, 331, 500, 537, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE01',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06313', '0.06313', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE02',
-                            opacity: '0.69918699186992',
-                            rect: [246, 272, 500, 500, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE02',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12', '0.12', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            id: 'FANTASIE03',
-                            opacity: '0',
-                            rect: [281, 393, 500, 500, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            display: 'none',
-                            symbolName: 'FANTASIE03',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [226, 432, 700, 100, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'blitzblick',
-                            symbolName: 'blitzblick',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']]
-                        },
-                        {
-                            type: 'rect',
-                            rect: [267, 200, 600, 600, 'auto', 'auto'],
-                            overflow: 'hidden',
-                            id: 'britzel',
-                            symbolName: 'britzel',
-                            display: 'none',
-                            transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']]
-                        },
-                        {
-                            rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
-                            source: ['media/86064__harpoyume__short-electricity.wav'],
-                            volume: '0.6',
-                            id: '_86064__harpoyume__short-electricity',
-                            type: 'audio',
-                            tag: 'audio'
-                        },
-                        {
-                            type: 'rect',
-                            id: 'schluss',
-                            symbolName: 'schluss',
-                            rect: ['0', '90', 1024, 376, 'auto', 'auto']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            overflow: 'hidden',
-                            rect: [null, null, 1024, 768]
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 157000,
-                    autoPlay: false,
-                    data: [
-                        [
-                            "eid2407",
-                            "opacity",
-                            113000,
-                            3000,
-                            "linear",
-                            "${squid_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2042",
-                            "left",
-                            1000,
-                            14000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '461px',
-                            '130px'
-                        ],
-                        [
-                            "eid2219",
-                            "left",
-                            51000,
-                            7483,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '917px',
-                            '-27px'
-                        ],
-                        [
-                            "eid2229",
-                            "left",
-                            72000,
-                            1500,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '-27px',
-                            '-305px'
-                        ],
-                        [
-                            "eid2381",
-                            "left",
-                            106000,
-                            9000,
-                            "linear",
-                            "${fettarsch_walk}",
-                            '650px',
-                            '-32px'
                         ],
                         [
                             "eid2295",
@@ -23483,6 +22124,46 @@
                             '330px'
                         ],
                         [
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
+                            3500,
+                            "linear",
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
+                        ],
+                        [
                             "eid1750",
                             "top",
                             30000,
@@ -23493,14 +22174,74 @@
                             '206px'
                         ],
                         [
-                            "eid1722",
+                            "eid1913",
+                            "top",
+                            128500,
+                            0,
+                            "easeInOutCubic",
+                            "${figur_head}",
+                            '75px',
+                            '75px'
+                        ],
+                        [
+                            "eid1916",
                             "scaleY",
-                            28000,
+                            128500,
+                            0,
+                            "easeInOutCubic",
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
+                        ],
+                        [
+                            "eid2529",
+                            "scaleY",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
+                        ],
+                        [
+                            "eid2173",
+                            "scaleY",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
+                        ],
+                        [
+                            "eid2177",
+                            "scaleY",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
+                        ],
+                        [
+                            "eid2388",
+                            "scaleY",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
+                        ],
+                        [
+                            "eid1847",
+                            "top",
+                            88500,
                             0,
                             "linear",
-                            "${elch_head02}",
-                            '0.41215',
-                            '0.41215'
+                            "${sexy_head}",
+                            '244px',
+                            '244px'
                         ],
                         [
                             "eid2124",
@@ -23543,14 +22284,74 @@
                             '166px'
                         ],
                         [
-                            "eid1785",
-                            "scaleX",
-                            58483,
-                            0,
+                            "eid2154",
+                            "top",
+                            14000,
+                            4000,
                             "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "${sexy_walk}",
+                            '174px',
+                            '186px'
+                        ],
+                        [
+                            "eid2161",
+                            "top",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '186px',
+                            '201px'
+                        ],
+                        [
+                            "eid2165",
+                            "top",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '201px',
+                            '202px'
+                        ],
+                        [
+                            "eid2168",
+                            "top",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '196px'
+                        ],
+                        [
+                            "eid2352",
+                            "top",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '194px',
+                            '202px'
+                        ],
+                        [
+                            "eid2353",
+                            "top",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '236px'
+                        ],
+                        [
+                            "eid2367",
+                            "top",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '236px',
+                            '194px'
                         ],
                         [
                             "eid1911",
@@ -23561,6 +22362,1156 @@
                             "${figur_head}",
                             '0.189',
                             '0.189'
+                        ],
+                        [
+                            "eid1742",
+                            "opacity",
+                            30000,
+                            500,
+                            "linear",
+                            "${FANTASIE01}",
+                            '0',
+                            '0.69918699186992'
+                        ],
+                        [
+                            "eid2247",
+                            "scaleY",
+                            51000,
+                            3000,
+                            "linear",
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
+                        ],
+                        [
+                            "eid2248",
+                            "scaleY",
+                            54000,
+                            4483,
+                            "linear",
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
+                        ],
+                        [
+                            "eid1790",
+                            "scaleY",
+                            58483,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
+                        ],
+                        [
+                            "eid1764",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1813",
+                            "display",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1904",
+                            "display",
+                            104500,
+                            0,
+                            "easeInOutCubic",
+                            "${sexy_head}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid885",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            '272px',
+                            '272px'
+                        ],
+                        [
+                            "eid1803",
+                            "top",
+                            60100,
+                            400,
+                            "linear",
+                            "${FANTASIE02}",
+                            '402px',
+                            '256px'
+                        ],
+                        [
+                            "eid2487",
+                            "top",
+                            70000,
+                            787,
+                            "linear",
+                            "${FANTASIE02}",
+                            '256px',
+                            '331px'
+                        ],
+                        [
+                            "eid1933",
+                            "left",
+                            130164,
+                            336,
+                            "easeInOutCubic",
+                            "${FANTASIE04}",
+                            '273px',
+                            '225px'
+                        ],
+                        [
+                            "eid1944",
+                            "left",
+                            137200,
+                            3800,
+                            "easeInOutQuart",
+                            "${FANTASIE04}",
+                            '225px',
+                            '288px'
+                        ],
+                        [
+                            "eid2300",
+                            "scaleY",
+                            73500,
+                            5500,
+                            "linear",
+                            "${figur_walk}",
+                            '0.13333',
+                            '0.09469'
+                        ],
+                        [
+                            "eid2302",
+                            "scaleY",
+                            79000,
+                            6000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.09469',
+                            '0.05383'
+                        ],
+                        [
+                            "eid2432",
+                            "scaleY",
+                            123000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.54493',
+                            '0.42776'
+                        ],
+                        [
+                            "eid2433",
+                            "scaleY",
+                            126000,
+                            2500,
+                            "linear",
+                            "${figur_walk}",
+                            '0.42776',
+                            '0.27391'
+                        ],
+                        [
+                            "eid2441",
+                            "scaleY",
+                            142000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.27391',
+                            '0.17971'
+                        ],
+                        [
+                            "eid2445",
+                            "scaleY",
+                            146000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.17971',
+                            '0.1051'
+                        ],
+                        [
+                            "eid2449",
+                            "scaleY",
+                            150000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.1051',
+                            '0.07128'
+                        ],
+                        [
+                            "eid2453",
+                            "scaleY",
+                            153000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.07128',
+                            '0.04271'
+                        ],
+                        [
+                            "eid2153",
+                            "left",
+                            14000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
+                        ],
+                        [
+                            "eid2160",
+                            "left",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
+                        ],
+                        [
+                            "eid2164",
+                            "left",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
+                        ],
+                        [
+                            "eid1832",
+                            "scaleX",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '0.28393',
+                            '0.28393'
+                        ],
+                        [
+                            "eid1768",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid2288",
+                            "display",
+                            73500,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2413",
+                            "display",
+                            85000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2420",
+                            "display",
+                            123000,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2414",
+                            "display",
+                            128500,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2434",
+                            "display",
+                            142000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2468",
+                            "display",
+                            156000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1758",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1775",
+                            "display",
+                            60000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1776",
+                            "display",
+                            71000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1846",
+                            "left",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            '4px',
+                            '4px'
+                        ],
+                        [
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
+                            0,
+                            "linear",
+                            "${sexy_walk}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid1835",
+                            "top",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '327px',
+                            '327px'
+                        ],
+                        [
+                            "eid1724",
+                            "left",
+                            28000,
+                            0,
+                            "linear",
+                            "${frau_head}",
+                            '137px',
+                            '137px'
+                        ],
+                        [
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
+                            "linear",
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
+                        ],
+                        [
+                            "eid2171",
+                            "left",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
+                        ],
+                        [
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
+                        ],
+                        [
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
+                        ],
+                        [
+                            "eid1842",
+                            "scaleX",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            '0.51428',
+                            '0.51428'
+                        ],
+                        [
+                            "eid471",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${text02}",
+                            '260px',
+                            '260px'
+                        ],
+                        [
+                            "eid444",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${text004}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1749",
+                            "left",
+                            30000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '267px',
+                            '254px'
+                        ],
+                        [
+                            "eid1796",
+                            "left",
+                            60000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '254px',
+                            '231px'
+                        ],
+                        [
+                            "eid1834",
+                            "left",
+                            88500,
+                            0,
+                            "linear",
+                            "${wolf_head}",
+                            '359px',
+                            '359px'
+                        ],
+                        [
+                            "eid1762",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1784",
+                            "display",
+                            58483,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1805",
+                            "display",
+                            72500,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1723",
+                            "top",
+                            28000,
+                            0,
+                            "linear",
+                            "${frau_head}",
+                            '196px',
+                            '196px'
+                        ],
+                        [
+                            "eid1708",
+                            "display",
+                            30000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
+                        ],
+                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
+                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
+                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
+                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
+                    ]
+                }
+            },
+            "streetview01_3": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 's2hintergrund2',
+                            type: 'image',
+                            rect: ['0', '0', '1024px', '768px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/s2hintergrund2.png', '0px', '0px']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'wolke04',
+                            symbolName: 'wolke04',
+                            rect: ['0', '277', '1024', '147', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['286', '203', '452px', '344px', 'auto', 'auto'],
+                            id: 'gb012',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/gb012.png', '0px', '0px']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'wolke03',
+                            symbolName: 'wolke03',
+                            rect: ['0', '176', '1024', '225', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text02',
+                            symbolName: 'text02',
+                            rect: ['0', '260', '1024', '105', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text07',
+                            symbolName: 'text07',
+                            rect: ['0', '300', '1024', '109', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['91', '38', '827px', '514px', 'auto', 'auto'],
+                            id: 'gb022',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/gb022.png', '0px', '0px']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'wolke02',
+                            symbolName: 'wolke02',
+                            rect: ['0', '95', '1024', '238', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text06',
+                            symbolName: 'text06',
+                            rect: ['0', '101', '1024', '135', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text005',
+                            symbolName: 'text04',
+                            rect: ['0', '176', '1024', '124', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text01',
+                            symbolName: 'text01',
+                            rect: ['0', '145', '1024', '124', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text08',
+                            symbolName: 'text08',
+                            rect: ['0', '101', '1024', '189', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text004',
+                            symbolName: 'text05',
+                            rect: ['0', '226', '1024', '110', 'auto', 'auto']
+                        },
+                        {
+                            rect: ['0', '0', '1024px', '562px', 'auto', 'auto'],
+                            id: 'gb032',
+                            opacity: '1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/gb032.png', '0px', '0px']
+                        },
+                        {
+                            transform: [[], [], [], ['0.15229', '0.15229']],
+                            type: 'rect',
+                            opacity: '0.69918699186992',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE04',
+                            rect: ['273', '408', '500', '500', 'auto', 'auto'],
+                            id: 'FANTASIE04'
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'wolke01',
+                            symbolName: 'wolke01',
+                            rect: ['0', '2', '1024', '221', 'auto', 'auto']
+                        },
+                        {
+                            type: 'rect',
+                            overflow: 'hidden',
+                            id: 'text03',
+                            symbolName: 'Symbol_1',
+                            rect: ['0', '36', '1024', '143', 'auto', 'auto']
+                        },
+                        {
+                            transform: [[], [], [], ['0.72381', '0.72381']],
+                            type: 'rect',
+                            opacity: '1',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'elch_walk',
+                            rect: ['956', '254', '350', '700', 'auto', 'auto'],
+                            id: 'elch_walk'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.17714', '0.17714']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'frau_walk',
+                            rect: ['-131', '199', '600', '700', 'auto', 'auto'],
+                            id: 'frau_walk'
+                        },
+                        {
+                            transform: [[], [], [], ['0.13333', '0.13333']],
+                            type: 'rect',
+                            opacity: '1',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'figur_walk',
+                            rect: ['183', '198', '350', '690', 'auto', 'auto'],
+                            id: 'figur_walk'
+                        },
+                        {
+                            transform: [[], [], [], ['0.06852', '0.06852']],
+                            type: 'rect',
+                            opacity: '0',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'sexy_walk',
+                            rect: ['360', '174', '310', '700', 'auto', 'auto'],
+                            id: 'sexy_walk'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.12484', '0.12484']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'dino_walk',
+                            rect: ['86', '149', '520', '800', 'auto', 'auto'],
+                            id: 'dino_walk'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.12723', '0.12723']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'woolf_walk',
+                            rect: ['-231', '294', '866', '550', 'auto', 'auto'],
+                            id: 'wolf_walk'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.08519', '0.08519']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'fettarsch_walk',
+                            rect: ['461', '207', '450', '700', 'auto', 'auto'],
+                            id: 'fettarsch_walk'
+                        },
+                        {
+                            transform: [[], [], [], ['0.12612', '0.12612']],
+                            type: 'rect',
+                            opacity: '0',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'squid_walk',
+                            rect: ['-287', '285', '925', '600', 'auto', 'auto'],
+                            id: 'squid_walk'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.51428', '0.51428']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'sexy_head',
+                            rect: ['4', '244', '300', '700', 'auto', 'auto'],
+                            id: 'sexy_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.255', '0.255']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'frau_head',
+                            rect: ['137', '196', '400', '700', 'auto', 'auto'],
+                            id: 'frau_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.245', '0.245']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'squid_head',
+                            rect: ['354', '342', '1000', '600', 'auto', 'auto'],
+                            id: 'squid_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.27', '0.27']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'dino_head',
+                            rect: ['488', '207', '500', '700', 'auto', 'auto'],
+                            id: 'dino_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.46429', '0.46429']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'fettarsch_head',
+                            rect: ['1', '237', '400', '700', 'auto', 'auto'],
+                            id: 'fettarsch_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.189', '0.189']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'figur_head',
+                            rect: ['11', '75', '500', '1000', 'auto', 'auto'],
+                            id: 'figur_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.28393', '0.28393']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'wolf_head',
+                            rect: ['359', '327', '1000', '560', 'auto', 'auto'],
+                            id: 'wolf_head'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.41215', '0.41215']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'elch_head02',
+                            rect: ['637', '238', '400', '700', 'auto', 'auto'],
+                            id: 'elch_head02'
+                        },
+                        {
+                            transform: [[], [], [], ['0.06313', '0.06313']],
+                            type: 'rect',
+                            opacity: '0',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE01',
+                            rect: ['296', '331', '500', '537', 'auto', 'auto'],
+                            id: 'FANTASIE01'
+                        },
+                        {
+                            transform: [[], [], [], ['0.12', '0.12']],
+                            type: 'rect',
+                            opacity: '0.69918699186992',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE02',
+                            rect: ['246', '272', '500', '500', 'auto', 'auto'],
+                            id: 'FANTASIE02'
+                        },
+                        {
+                            transform: [[], [], [], ['0.144', '0.144']],
+                            type: 'rect',
+                            opacity: '0',
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'FANTASIE03',
+                            rect: ['281', '393', '500', '500', 'auto', 'auto'],
+                            id: 'FANTASIE03'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.64571', '0.64571']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'blitzblick',
+                            rect: ['226', '432', '700', '100', 'auto', 'auto'],
+                            id: 'blitzblick'
+                        },
+                        {
+                            type: 'rect',
+                            transform: [[], [], [], ['0.76667', '0.76667']],
+                            overflow: 'hidden',
+                            display: 'none',
+                            symbolName: 'britzel',
+                            rect: ['267', '200', '600', '600', 'auto', 'auto'],
+                            id: 'britzel'
+                        },
+                        {
+                            preload: 'auto',
+                            type: 'audio',
+                            source: ['media/86064__harpoyume__short-electricity.wav'],
+                            volume: '0.6',
+                            id: '_86064__harpoyume__short-electricity',
+                            rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
+                            tag: 'audio'
+                        },
+                        {
+                            id: 'schluss',
+                            symbolName: 'schluss',
+                            rect: ['0', '90', '1024', '376', 'auto', 'auto'],
+                            type: 'rect'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1024', '768']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 157000,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid2407",
+                            "opacity",
+                            113000,
+                            3000,
+                            "linear",
+                            "${squid_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2528",
+                            "scaleX",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
+                        ],
+                        [
+                            "eid2172",
+                            "scaleX",
+                            41500,
+                            4500,
+                            "linear",
+                            "${frau_walk}",
+                            '0.255',
+                            '0.34'
+                        ],
+                        [
+                            "eid2176",
+                            "scaleX",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
+                        ],
+                        [
+                            "eid2387",
+                            "scaleX",
+                            100000,
+                            0,
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
+                        ],
+                        [
+                            "eid2126",
+                            "scaleY",
+                            24500,
+                            3500,
+                            "linear",
+                            "${elch_walk}",
+                            '0.72381',
+                            '0.43476'
+                        ],
+                        [
+                            "eid2134",
+                            "scaleY",
+                            42000,
+                            4000,
+                            "linear",
+                            "${elch_walk}",
+                            '0.43476',
+                            '0.24307'
+                        ],
+                        [
+                            "eid2138",
+                            "scaleY",
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '0.24307',
+                            '0.12143'
+                        ],
+                        [
+                            "eid2140",
+                            "scaleY",
+                            53000,
+                            8000,
+                            "linear",
+                            "${elch_walk}",
+                            '0.12143',
+                            '0.05'
+                        ],
+                        [
+                            "eid452",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${text08}",
+                            '101px',
+                            '101px'
+                        ],
+                        [
+                            "eid1722",
+                            "scaleY",
+                            28000,
+                            0,
+                            "linear",
+                            "${elch_head02}",
+                            '0.41215',
+                            '0.41215'
+                        ],
+                        [
+                            "eid2243",
+                            "top",
+                            51000,
+                            3000,
+                            "linear",
+                            "${dino_walk}",
+                            '149px',
+                            '164px'
+                        ],
+                        [
+                            "eid2244",
+                            "top",
+                            54000,
+                            4483,
+                            "linear",
+                            "${dino_walk}",
+                            '164px',
+                            '160px'
+                        ],
+                        [
+                            "eid2255",
+                            "top",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '160px',
+                            '198px'
+                        ],
+                        [
+                            "eid2471",
+                            "top",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '198px',
+                            '152px'
+                        ],
+                        [
+                            "eid1785",
+                            "scaleX",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
+                        ],
+                        [
+                            "eid1915",
+                            "scaleX",
+                            128500,
+                            0,
+                            "easeInOutCubic",
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
                         ],
                         [
                             "eid2043",
@@ -23603,34 +23554,14 @@
                             '189px'
                         ],
                         [
-                            "eid1758",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1775",
-                            "display",
-                            60000,
+                            "eid1843",
+                            "scaleY",
+                            88500,
                             0,
                             "linear",
-                            "${FANTASIE02}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1776",
-                            "display",
-                            71000,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            'block',
-                            'none'
+                            "${sexy_head}",
+                            '0.51428',
+                            '0.51428'
                         ],
                         [
                             "eid2146",
@@ -23953,34 +23884,24 @@
                             '0.688'
                         ],
                         [
-                            "eid1916",
-                            "scaleY",
-                            128500,
+                            "eid1725",
+                            "scaleX",
+                            28000,
                             0,
-                            "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
+                            "linear",
+                            "${frau_head}",
+                            '0.255',
+                            '0.255'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid1931",
@@ -24253,64 +24174,54 @@
                             'none'
                         ],
                         [
-                            "eid884",
-                            "opacity",
-                            0,
-                            0,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.69918699186992',
-                            '0.69918699186992'
-                        ],
-                        [
-                            "eid1799",
-                            "opacity",
-                            60000,
-                            500,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0',
-                            '0.7'
-                        ],
-                        [
-                            "eid1811",
-                            "opacity",
-                            69749,
-                            1038,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.699999988079071',
-                            '0'
-                        ],
-                        [
-                            "eid1708",
-                            "display",
-                            30000,
+                            "eid1786",
+                            "scaleY",
+                            58483,
                             0,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
+                        ],
+                        [
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1719",
@@ -24973,44 +24884,34 @@
                             '370px'
                         ],
                         [
-                            "eid2529",
-                            "scaleY",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2173",
-                            "scaleY",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
-                        ],
-                        [
-                            "eid2177",
-                            "scaleY",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
-                        ],
-                        [
-                            "eid2388",
-                            "scaleY",
-                            100000,
+                            "eid1761",
+                            "display",
                             0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1783",
+                            "display",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1804",
+                            "display",
+                            72000,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1800",
@@ -25033,84 +24934,14 @@
                             '0.688'
                         ],
                         [
-                            "eid2300",
-                            "scaleY",
-                            73500,
-                            5500,
+                            "eid448",
+                            "top",
+                            0,
+                            0,
                             "linear",
-                            "${figur_walk}",
-                            '0.13333',
-                            '0.09469'
-                        ],
-                        [
-                            "eid2302",
-                            "scaleY",
-                            79000,
-                            6000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.09469',
-                            '0.05383'
-                        ],
-                        [
-                            "eid2432",
-                            "scaleY",
-                            123000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.54493',
-                            '0.42776'
-                        ],
-                        [
-                            "eid2433",
-                            "scaleY",
-                            126000,
-                            2500,
-                            "linear",
-                            "${figur_walk}",
-                            '0.42776',
-                            '0.27391'
-                        ],
-                        [
-                            "eid2441",
-                            "scaleY",
-                            142000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.27391',
-                            '0.17971'
-                        ],
-                        [
-                            "eid2445",
-                            "scaleY",
-                            146000,
-                            4000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.17971',
-                            '0.1051'
-                        ],
-                        [
-                            "eid2449",
-                            "scaleY",
-                            150000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.1051',
-                            '0.07128'
-                        ],
-                        [
-                            "eid2453",
-                            "scaleY",
-                            153000,
-                            3000,
-                            "linear",
-                            "${figur_walk}",
-                            '0.07128',
-                            '0.04271'
+                            "${text03}",
+                            '36px',
+                            '36px'
                         ],
                         [
                             "eid2197",
@@ -25423,24 +25254,14 @@
                             '0.76143'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1754",
@@ -26023,74 +25844,34 @@
                             '488px'
                         ],
                         [
-                            "eid2154",
+                            "eid1728",
                             "top",
-                            14000,
-                            4000,
+                            29500,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '174px',
-                            '186px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
                         ],
                         [
-                            "eid2161",
+                            "eid1852",
                             "top",
-                            18000,
-                            4000,
+                            89500,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '186px',
-                            '201px'
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
                         ],
                         [
-                            "eid2165",
+                            "eid1923",
                             "top",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '201px',
-                            '202px'
-                        ],
-                        [
-                            "eid2168",
-                            "top",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '196px'
-                        ],
-                        [
-                            "eid2352",
-                            "top",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '194px',
-                            '202px'
-                        ],
-                        [
-                            "eid2353",
-                            "top",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '202px',
-                            '236px'
-                        ],
-                        [
-                            "eid2367",
-                            "top",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '236px',
-                            '194px'
+                            129500,
+                            0,
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid459",
@@ -26123,44 +25904,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
-                            "left",
-                            46000,
-                            4000,
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
                         ],
                         [
-                            "eid2389",
-                            "left",
-                            100000,
-                            12000,
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
                         ],
                         [
                             "eid2245",
@@ -26203,54 +25984,54 @@
                             '0.45894'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
-                        ],
-                        [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
-                            "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
-                        ],
-                        [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
-                            "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
-                        ],
-                        [
-                            "eid1786",
+                            "eid1867",
                             "scaleY",
-                            58483,
+                            90152,
+                            348,
+                            "linear",
+                            "${FANTASIE03}",
+                            '0.144',
+                            '0.948'
+                        ],
+                        [
+                            "eid1897",
+                            "scaleY",
+                            101500,
+                            1500,
+                            "easeOutQuart",
+                            "${FANTASIE03}",
+                            '0.948',
+                            '0.056'
+                        ],
+                        [
+                            "eid884",
+                            "opacity",
+                            0,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "${FANTASIE02}",
+                            '0.69918699186992',
+                            '0.69918699186992'
+                        ],
+                        [
+                            "eid1799",
+                            "opacity",
+                            60000,
+                            500,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0',
+                            '0.7'
+                        ],
+                        [
+                            "eid1811",
+                            "opacity",
+                            69749,
+                            1038,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0.699999988079071',
+                            '0'
                         ],
                         [
                             "eid1950",
@@ -26263,74 +26044,54 @@
                             '354px'
                         ],
                         [
-                            "eid1728",
+                            "eid1788",
                             "top",
-                            29500,
+                            58483,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
-                            0,
+                            "eid2042",
+                            "left",
+                            1000,
+                            14000,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${fettarsch_walk}",
+                            '461px',
+                            '130px'
                         ],
                         [
-                            "eid1923",
-                            "top",
-                            129500,
-                            0,
-                            "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
-                        ],
-                        [
-                            "eid2528",
-                            "scaleX",
-                            25500,
-                            2500,
-                            "swing",
-                            "${frau_walk}",
-                            '0.17714',
-                            '0.24389'
-                        ],
-                        [
-                            "eid2172",
-                            "scaleX",
-                            41500,
-                            4500,
+                            "eid2219",
+                            "left",
+                            51000,
+                            7483,
                             "linear",
-                            "${frau_walk}",
-                            '0.255',
-                            '0.34'
+                            "${fettarsch_walk}",
+                            '917px',
+                            '-27px'
                         ],
                         [
-                            "eid2176",
-                            "scaleX",
-                            46000,
-                            4000,
+                            "eid2229",
+                            "left",
+                            72000,
+                            1500,
                             "linear",
-                            "${frau_walk}",
-                            '0.34',
-                            '0.50389'
+                            "${fettarsch_walk}",
+                            '-27px',
+                            '-305px'
                         ],
                         [
-                            "eid2387",
-                            "scaleX",
-                            100000,
-                            0,
-                            "easeInOutQuart",
-                            "${frau_walk}",
-                            '0.50389',
-                            '0.12611'
+                            "eid2381",
+                            "left",
+                            106000,
+                            9000,
+                            "linear",
+                            "${fettarsch_walk}",
+                            '650px',
+                            '-32px'
                         ],
                         [
                             "eid2152",
@@ -26403,64 +26164,144 @@
                             '0.63881'
                         ],
                         [
-                            "eid2126",
-                            "scaleY",
-                            24500,
-                            3500,
+                            "eid2295",
+                            "left",
+                            73500,
+                            1500,
                             "linear",
-                            "${elch_walk}",
-                            '0.72381',
-                            '0.43476'
+                            "${figur_walk}",
+                            '183px',
+                            '250px'
                         ],
                         [
-                            "eid2134",
-                            "scaleY",
-                            42000,
+                            "eid2298",
+                            "left",
+                            75000,
                             4000,
                             "linear",
-                            "${elch_walk}",
-                            '0.43476',
-                            '0.24307'
+                            "${figur_walk}",
+                            '250px',
+                            '303px'
                         ],
                         [
-                            "eid2138",
-                            "scaleY",
-                            46000,
-                            7000,
+                            "eid2303",
+                            "left",
+                            79000,
+                            6000,
                             "linear",
-                            "${elch_walk}",
-                            '0.24307',
-                            '0.12143'
+                            "${figur_walk}",
+                            '303px',
+                            '335px'
                         ],
                         [
-                            "eid2140",
-                            "scaleY",
-                            53000,
-                            8000,
+                            "eid2426",
+                            "left",
+                            123000,
+                            3000,
                             "linear",
-                            "${elch_walk}",
-                            '0.12143',
-                            '0.05'
+                            "${figur_walk}",
+                            '-270px',
+                            '-14px'
                         ],
                         [
-                            "eid1748",
-                            "scaleY",
+                            "eid2427",
+                            "left",
+                            126000,
+                            2500,
+                            "linear",
+                            "${figur_walk}",
+                            '-14px',
+                            '86px'
+                        ],
+                        [
+                            "eid2442",
+                            "left",
+                            142000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '86px',
+                            '223px'
+                        ],
+                        [
+                            "eid2446",
+                            "left",
+                            146000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '223px',
+                            '292px'
+                        ],
+                        [
+                            "eid2450",
+                            "left",
+                            150000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '292px',
+                            '318px'
+                        ],
+                        [
+                            "eid2454",
+                            "left",
+                            153000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '318px',
+                            '330px'
+                        ],
+                        [
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
+                            3500,
+                            "linear",
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
+                        ],
+                        [
+                            "eid1750",
+                            "top",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '0.76667',
-                            '0.79'
-                        ],
-                        [
-                            "eid452",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text08}",
-                            '101px',
-                            '101px'
+                            '200px',
+                            '206px'
                         ],
                         [
                             "eid1913",
@@ -26473,44 +26314,54 @@
                             '75px'
                         ],
                         [
-                            "eid1725",
-                            "scaleX",
-                            28000,
+                            "eid1916",
+                            "scaleY",
+                            128500,
                             0,
+                            "easeInOutCubic",
+                            "${squid_head}",
+                            '0.245',
+                            '0.245'
+                        ],
+                        [
+                            "eid2529",
+                            "scaleY",
+                            25500,
+                            2500,
+                            "swing",
+                            "${frau_walk}",
+                            '0.17714',
+                            '0.24389'
+                        ],
+                        [
+                            "eid2173",
+                            "scaleY",
+                            41500,
+                            4500,
                             "linear",
-                            "${frau_head}",
+                            "${frau_walk}",
                             '0.255',
-                            '0.255'
+                            '0.34'
                         ],
                         [
-                            "eid1761",
-                            "display",
-                            0,
-                            0,
+                            "eid2177",
+                            "scaleY",
+                            46000,
+                            4000,
                             "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '0.34',
+                            '0.50389'
                         ],
                         [
-                            "eid1783",
-                            "display",
-                            58483,
+                            "eid2388",
+                            "scaleY",
+                            100000,
                             0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1804",
-                            "display",
-                            72000,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            'block',
-                            'none'
+                            "easeInOutQuart",
+                            "${frau_walk}",
+                            '0.50389',
+                            '0.12611'
                         ],
                         [
                             "eid1847",
@@ -26523,84 +26374,124 @@
                             '244px'
                         ],
                         [
-                            "eid2243",
+                            "eid2124",
                             "top",
-                            51000,
-                            3000,
+                            24500,
+                            3500,
                             "linear",
-                            "${dino_walk}",
-                            '149px',
-                            '164px'
+                            "${elch_walk}",
+                            '254px',
+                            '225px'
                         ],
                         [
-                            "eid2244",
+                            "eid2132",
                             "top",
-                            54000,
-                            4483,
+                            42000,
+                            4000,
                             "linear",
-                            "${dino_walk}",
-                            '164px',
-                            '160px'
+                            "${elch_walk}",
+                            '225px',
+                            '202px'
                         ],
                         [
-                            "eid2255",
+                            "eid2136",
                             "top",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '160px',
-                            '198px'
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '202px',
+                            '188px'
                         ],
                         [
-                            "eid2471",
+                            "eid2142",
                             "top",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '198px',
-                            '152px'
-                        ],
-                        [
-                            "eid1762",
-                            "display",
-                            0,
-                            0,
+                            53000,
+                            8000,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
+                            "${elch_walk}",
+                            '188px',
+                            '166px'
                         ],
                         [
-                            "eid1784",
-                            "display",
-                            58483,
-                            0,
+                            "eid2154",
+                            "top",
+                            14000,
+                            4000,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
+                            "${sexy_walk}",
+                            '174px',
+                            '186px'
                         ],
                         [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
+                            "eid2161",
+                            "top",
+                            18000,
+                            4000,
                             "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
+                            "${sexy_walk}",
+                            '186px',
+                            '201px'
                         ],
                         [
-                            "eid1915",
-                            "scaleX",
+                            "eid2165",
+                            "top",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '201px',
+                            '202px'
+                        ],
+                        [
+                            "eid2168",
+                            "top",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '196px'
+                        ],
+                        [
+                            "eid2352",
+                            "top",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '194px',
+                            '202px'
+                        ],
+                        [
+                            "eid2353",
+                            "top",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '202px',
+                            '236px'
+                        ],
+                        [
+                            "eid2367",
+                            "top",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '236px',
+                            '194px'
+                        ],
+                        [
+                            "eid1911",
+                            "scaleY",
                             128500,
                             0,
                             "easeInOutCubic",
-                            "${squid_head}",
-                            '0.245',
-                            '0.245'
+                            "${figur_head}",
+                            '0.189',
+                            '0.189'
                         ],
                         [
                             "eid1742",
@@ -26613,114 +26504,54 @@
                             '0.69918699186992'
                         ],
                         [
-                            "eid2205",
-                            "top",
-                            45000,
+                            "eid2247",
+                            "scaleY",
+                            51000,
+                            3000,
+                            "linear",
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
+                        ],
+                        [
+                            "eid2248",
+                            "scaleY",
+                            54000,
+                            4483,
+                            "linear",
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
                             0,
                             "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
                         ],
                         [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
+                            "eid1790",
+                            "scaleY",
+                            58483,
+                            0,
                             "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
-                        ],
-                        [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
-                        ],
-                        [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
-                            "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
-                        ],
-                        [
-                            "eid2153",
-                            "left",
-                            14000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
                         ],
                         [
                             "eid1764",
@@ -26803,64 +26634,164 @@
                             '288px'
                         ],
                         [
-                            "eid448",
-                            "top",
-                            0,
-                            0,
+                            "eid2300",
+                            "scaleY",
+                            73500,
+                            5500,
                             "linear",
-                            "${text03}",
-                            '36px',
-                            '36px'
+                            "${figur_walk}",
+                            '0.13333',
+                            '0.09469'
                         ],
                         [
-                            "eid1724",
+                            "eid2302",
+                            "scaleY",
+                            79000,
+                            6000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.09469',
+                            '0.05383'
+                        ],
+                        [
+                            "eid2432",
+                            "scaleY",
+                            123000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.54493',
+                            '0.42776'
+                        ],
+                        [
+                            "eid2433",
+                            "scaleY",
+                            126000,
+                            2500,
+                            "linear",
+                            "${figur_walk}",
+                            '0.42776',
+                            '0.27391'
+                        ],
+                        [
+                            "eid2441",
+                            "scaleY",
+                            142000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.27391',
+                            '0.17971'
+                        ],
+                        [
+                            "eid2445",
+                            "scaleY",
+                            146000,
+                            4000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.17971',
+                            '0.1051'
+                        ],
+                        [
+                            "eid2449",
+                            "scaleY",
+                            150000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.1051',
+                            '0.07128'
+                        ],
+                        [
+                            "eid2453",
+                            "scaleY",
+                            153000,
+                            3000,
+                            "linear",
+                            "${figur_walk}",
+                            '0.07128',
+                            '0.04271'
+                        ],
+                        [
+                            "eid2153",
                             "left",
-                            28000,
-                            0,
+                            14000,
+                            4000,
                             "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
                         ],
                         [
-                            "eid1835",
-                            "top",
+                            "eid2160",
+                            "left",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
+                        ],
+                        [
+                            "eid2164",
+                            "left",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
+                        ],
+                        [
+                            "eid1832",
+                            "scaleX",
                             88500,
                             0,
                             "linear",
                             "${wolf_head}",
-                            '327px',
-                            '327px'
-                        ],
-                        [
-                            "eid467",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
-                        ],
-                        [
-                            "eid1843",
-                            "scaleY",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '0.51428',
-                            '0.51428'
-                        ],
-                        [
-                            "eid1846",
-                            "left",
-                            88500,
-                            0,
-                            "linear",
-                            "${sexy_head}",
-                            '4px',
-                            '4px'
+                            '0.28393',
+                            '0.28393'
                         ],
                         [
                             "eid1768",
@@ -26933,64 +26864,124 @@
                             'none'
                         ],
                         [
-                            "eid1832",
-                            "scaleX",
+                            "eid1758",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1775",
+                            "display",
+                            60000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1776",
+                            "display",
+                            71000,
+                            0,
+                            "linear",
+                            "${FANTASIE02}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1846",
+                            "left",
+                            88500,
+                            0,
+                            "linear",
+                            "${sexy_head}",
+                            '4px',
+                            '4px'
+                        ],
+                        [
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
+                            0,
+                            "linear",
+                            "${sexy_walk}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid1835",
+                            "top",
                             88500,
                             0,
                             "linear",
                             "${wolf_head}",
-                            '0.28393',
-                            '0.28393'
+                            '327px',
+                            '327px'
                         ],
                         [
-                            "eid1790",
-                            "scaleY",
-                            58483,
+                            "eid1724",
+                            "left",
+                            28000,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
+                            "${frau_head}",
+                            '137px',
+                            '137px'
                         ],
                         [
-                            "eid2247",
-                            "scaleY",
-                            51000,
-                            3000,
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
                             "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
                         ],
                         [
-                            "eid2248",
-                            "scaleY",
-                            54000,
-                            4483,
-                            "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
-                        ],
-                        [
-                            "eid2257",
-                            "scaleY",
-                            72500,
+                            "eid2171",
+                            "left",
+                            41500,
                             4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
+                            "linear",
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
                         ],
                         [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
+                            "linear",
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
+                        ],
+                        [
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
                         ],
                         [
                             "eid1842",
@@ -27023,44 +27014,24 @@
                             '0px'
                         ],
                         [
-                            "eid2207",
+                            "eid1749",
                             "left",
-                            45000,
-                            11975,
+                            30000,
+                            0,
                             "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
+                            "${britzel}",
+                            '267px',
+                            '254px'
                         ],
                         [
-                            "eid2318",
+                            "eid1796",
                             "left",
-                            80000,
-                            5122,
+                            60000,
+                            0,
                             "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
-                            3500,
-                            "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
+                            "${britzel}",
+                            '254px',
+                            '231px'
                         ],
                         [
                             "eid1834",
@@ -27073,14 +27044,34 @@
                             '359px'
                         ],
                         [
-                            "eid1788",
-                            "top",
+                            "eid1762",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1784",
+                            "display",
                             58483,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
+                            "${dino_head}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1805",
+                            "display",
+                            72500,
+                            0,
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1723",
@@ -27093,24 +27084,34 @@
                             '196px'
                         ],
                         [
-                            "eid1867",
-                            "scaleY",
-                            90152,
-                            348,
+                            "eid1708",
+                            "display",
+                            30000,
+                            0,
                             "linear",
-                            "${FANTASIE03}",
-                            '0.144',
-                            '0.948'
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid1897",
-                            "scaleY",
-                            101500,
-                            1500,
-                            "easeOutQuart",
-                            "${FANTASIE03}",
-                            '0.948',
-                            '0.056'
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
+                            "linear",
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
                         ],
                             [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
                             [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],

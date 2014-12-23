@@ -66,7 +66,6 @@
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 16000, function(sym, e) {
          sym.stop();
-         // Show an Element.
          sym.$("pfeiloben2").show();
       
       });
@@ -124,53 +123,45 @@
          sym.$("text03").hide();
       
          sym.getSymbol("schluss").play();
-      
-      
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-      
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-      
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
+         sym.getSymbol("wolke01").stop();
+         sym.getSymbol("wolke02").stop();
+         sym.getSymbol("wolke03").stop();
+         sym.getSymbol("wolke04").stop();
+         sym.getSymbol("squid_walk").stop();
+         sym.getSymbol("frau_walk").stop();
+         sym.getSymbol("sexy_walk").stop();
+         sym.getSymbol("fettarsch_walk").stop();
+         sym.getSymbol("dino_walk").stop();
+         sym.getSymbol("figur_walk").stop();
+         sym.getSymbol("wolf_walk").stop();
+         sym.getSymbol("elch_walk").stop();
 
+         lastSymbol = sym;
+      }
+      
 
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
       restart = function(sym) {
       	sym.getComposition().getStage().stop(14000);
       
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-      
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-      
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-      
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-      
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-      
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
 
       	var pan = sym.getComposition().getStage().getSymbol('panorama');
       	pan.play(11400);
       
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         sym = lastSymbol;
 
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.hide();
-      
+         sym.getSymbol("schluss").stop(0);
+         sym.getSymbol("wolke01").play();
+         sym.getSymbol("wolke02").play();
+         sym.getSymbol("wolke03").play();
+         sym.getSymbol("wolke04").play();
+         sym.getSymbol("squid_walk").play();
+         sym.getSymbol("frau_walk").play();
+         sym.getSymbol("sexy_walk").play();
+         sym.getSymbol("fettarsch_walk").play();
+         sym.getSymbol("dino_walk").play();
+         sym.getSymbol("figur_walk").play();
+         sym.getSymbol("wolf_walk").play();
+         sym.getSymbol("elch_walk").play();
       }
 
    })("stage");
