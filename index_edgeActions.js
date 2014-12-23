@@ -123,8 +123,8 @@
       
          sym.$("text03").hide();
       
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
+         sym.getSymbol("schluss").play();
+      
       
          var mySymbolObject01 = sym.getSymbol("wolke01");
          mySymbolObject01.stop();
@@ -134,12 +134,15 @@
       
          var mySymbolObject03 = sym.getSymbol("wolke03");
          mySymbolObject03.stop();
-      
+
+
          var mySymbolObject04 = sym.getSymbol("wolke04");
          mySymbolObject04.stop();
-      
+
          var mySymbolObject05 = sym.getSymbol("squid_walk");
          mySymbolObject05.stop();
+      restart = function(sym) {
+      	sym.getComposition().getStage().stop(14000);
       
          var mySymbolObject06 = sym.getSymbol("frau_walk");
          mySymbolObject06.stop();
@@ -158,9 +161,15 @@
       
          var mySymbolObject11 = sym.getSymbol("wolf_walk");
          mySymbolObject11.stop();
+
+      	var pan = sym.getComposition().getStage().getSymbol('panorama');
+      	pan.play(11400);
       
          var mySymbolObject12 = sym.getSymbol("elch_walk");
          mySymbolObject12.stop();
+
+         var mySymbolObject = sym.getSymbol("schluss");
+         mySymbolObject.hide();
       
       }
 
@@ -1381,7 +1390,7 @@
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${zuruckanfang2}", "click", function(sym, e) {
-         sym
+         restart(sym);
 
       });
       //Edge binding end
