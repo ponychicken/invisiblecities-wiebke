@@ -12,76 +12,66 @@
 
    //Edge symbol: 'stage'
    (function(symbolName) {
-
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          sym.$("topview").animate({
             scrollTop: 0,
             scrollLeft: 768
          }, 0, "swing");
-
+      
          sym.$("platzhalter").hide();
-
+      
          sym.$("Rectangle").hide();
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
          sym.stop();
-
+      
          var mySymbolObject = sym.getSymbol("titel2");
          mySymbolObject.stop();
-
+      
          sym.$("titel2").hide();
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 10500, function(sym, e) {
          var mySymbolObject = sym.getSymbol("topview");
          mySymbolObject.stop();
          sym.$("topview").hide();
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${topview}", "click", function(sym, e) {
          sym.play();
-
+      
          var mySymbolObject = sym.getSymbol("topview");
          mySymbolObject.stop();
-
+      
       });
       //Edge binding end
-
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 14000, function(sym, e) {
          sym.stop();
-
+      
          // Show an Element.
          sym.$("pfeilunten2").show();
          // Hide an Element.
          sym.$("pfeiloben2").hide();
-
-
+      
       });
       //Edge binding end
-
-
-
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 16000, function(sym, e) {
          sym.stop();
          // Show an Element.
          sym.$("pfeiloben2").show();
-
-
-
+      
       });
       //Edge binding end
-
-
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8000, function(sym, e) {
          // Use this to target events and elements inside a symbol.
          // For example:
@@ -90,27 +80,94 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("panorama");
          mySymbolObject.play();
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${pfeilunten2}", "click", function(sym, e) {
          sym.play();
          // Hide an Element.
          sym.$("pfeilunten2").hide();
-
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${pfeiloben2}", "click", function(sym, e) {
          sym.playReverse();
          // Hide an Element.
          sym.$("pfeiloben2").hide();
-
-
+      
       });
       //Edge binding end
+      
+      function finish(sym) {
+      
+      sym.stop();
+      
+      sym.$("FANTASIE01").hide();
+      
+      sym.$("FANTASIE02").hide();
+      
+      sym.$("FANTASIE03").hide();
+      
+      sym.$("FANTASIE04").hide();
+      
+      sym.$("text02").hide();
+      
+      sym.$("text07").hide();
+      
+      sym.$("text06").hide();
+      
+      sym.$("text005").hide();
+      
+      sym.$("text01").hide();
+      
+      sym.$("text08").hide();
+      
+      sym.$("text004").hide();
+      
+      sym.$("text03").hide();
+      
+      var mySymbolObject = sym.getSymbol("schluss");
+      mySymbolObject.play();
+      
+      var mySymbolObject01 = sym.getSymbol("wolke01");
+      mySymbolObject01.stop();
+      
+      var mySymbolObject02 = sym.getSymbol("wolke02");
+      mySymbolObject02.stop();
+      
+      var mySymbolObject03 = sym.getSymbol("wolke03");
+      mySymbolObject03.stop();
+      
+      var mySymbolObject04 = sym.getSymbol("wolke04");
+      mySymbolObject04.stop();
+      
+      var mySymbolObject05 = sym.getSymbol("squid_walk");
+      mySymbolObject05.stop();
+      
+      var mySymbolObject06 = sym.getSymbol("frau_walk");
+      mySymbolObject06.stop();
+      
+      var mySymbolObject07 = sym.getSymbol("sexy_walk");
+      mySymbolObject07.stop();
+      
+      var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
+      mySymbolObject08.stop();
+      
+      var mySymbolObject09 = sym.getSymbol("dino_walk");
+      mySymbolObject09.stop();
+      
+      var mySymbolObject10 = sym.getSymbol("figur_walk");
+      mySymbolObject10.stop();
+      
+      var mySymbolObject11 = sym.getSymbol("wolf_walk");
+      mySymbolObject11.stop();
+      
+      var mySymbolObject12 = sym.getSymbol("elch_walk");
+      mySymbolObject12.stop();
+      
+      }
 
    })("stage");
    //Edge symbol end:'stage'
@@ -262,7 +319,6 @@
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -281,7 +337,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -306,9 +361,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
-
-
-
 
       });
       //Edge binding end
@@ -339,7 +391,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -396,7 +447,6 @@
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -428,7 +478,6 @@
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
-
       });
       //Edge binding end
 
@@ -440,7 +489,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
-
 
       });
       //Edge binding end
@@ -473,7 +521,6 @@
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -492,7 +539,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -549,7 +595,6 @@
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -559,1172 +604,113 @@
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
@@ -1825,12 +811,8 @@
    //Edge symbol: 'panorama'
    (function(symbolName) {
 
-
-
-
       Symbol.bindElementAction(compId, symbolName, "${streetview01}", "swipeleft", function(sym, e) {
          sym.play();
-
 
       });
       //Edge binding end
@@ -1840,7 +822,6 @@
          // sym.stop(500); or sym.stop("myLabel");
          sym.stop("hinten");
          sym.playReverse();
-
 
       });
       //Edge binding end
@@ -1886,7 +867,6 @@
          var mySymbolObject03 = sym.getSymbol("streetview01_3");
          mySymbolObject03.play();
 
-
       });
       //Edge binding end
 
@@ -1899,13 +879,11 @@
       Symbol.bindElementAction(compId, symbolName, "${streetview01_1}", "swipeleft", function(sym, e) {
          sym.play();
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${streetview01_2}", "swiperight", function(sym, e) {
          sym.playReverse();
-
 
       });
       //Edge binding end
@@ -1913,20 +891,17 @@
       Symbol.bindElementAction(compId, symbolName, "${streetview01_2}", "swipeleft", function(sym, e) {
          sym.play();
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${streetview01_3}", "swiperight", function(sym, e) {
          sym.playReverse();
 
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${streetview01_3}", "swipeleft", function(sym, e) {
          sym.play();
-
 
       });
       //Edge binding end
@@ -1941,14 +916,11 @@
          sym.stop("vorne");
          sym.play();
 
-
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${streetview01Copy3}", "swiperight", function(sym, e) {
          sym.playReverse();
-
 
       });
       //Edge binding end
@@ -2125,11 +1097,8 @@
    //Edge symbol: 'pfeilunten'
    (function(symbolName) {
 
-
-
       Symbol.bindElementAction(compId, symbolName, "${pfeilunten}", "mouseover", function(sym, e) {
          sym.play();
-
 
       });
       //Edge binding end
@@ -2142,11 +1111,8 @@
    //Edge symbol: 'pfeiloben'
    (function(symbolName) {
 
-
-
       Symbol.bindElementAction(compId, symbolName, "${pfeiloben}", "mouseover", function(sym, e) {
          sym.play();
-
 
       });
       //Edge binding end
@@ -2206,8 +1172,6 @@
 
    //Edge symbol: 'dino_walk'
    (function(symbolName) {
-
-
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
          // Play the timeline at a label or specific time. For example:
@@ -2403,8 +1367,6 @@
       });
       //Edge binding end
 
-
-
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          sym.stop();
 
@@ -2424,8 +1386,6 @@
 
       });
       //Edge binding end
-
-
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          sym.stop();
@@ -2576,7 +1536,6 @@
          var mySymbolObject = sym.getSymbol("zuruckanfang2");
          mySymbolObject.play();
 
-
       });
       //Edge binding end
 
@@ -2637,7 +1596,6 @@
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -2669,7 +1627,6 @@
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -2689,9 +1646,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
-
-
-
 
       });
       //Edge binding end
@@ -2732,7 +1686,6 @@
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -2762,7 +1715,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -2823,7 +1775,6 @@
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -2855,7 +1806,6 @@
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
-
       });
       //Edge binding end
 
@@ -2875,7 +1825,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
-
 
       });
       //Edge binding end
@@ -2916,7 +1865,6 @@
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -2947,7 +1895,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -2985,1172 +1932,113 @@
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
@@ -4200,7 +2088,6 @@
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -4232,7 +2119,6 @@
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -4252,9 +2138,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
-
-
-
 
       });
       //Edge binding end
@@ -4295,7 +2178,6 @@
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -4325,7 +2207,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -4386,7 +2267,6 @@
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -4418,7 +2298,6 @@
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
-
       });
       //Edge binding end
 
@@ -4438,7 +2317,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
-
 
       });
       //Edge binding end
@@ -4479,7 +2357,6 @@
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -4510,7 +2387,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -4548,1172 +2424,113 @@
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
@@ -5763,7 +2580,6 @@
          var mySymbolObject01 = sym.getSymbol("elch_head02");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -5795,7 +2611,6 @@
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -5815,9 +2630,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("frau_head");
          mySymbolObject.playReverse();
-
-
-
 
       });
       //Edge binding end
@@ -5858,7 +2670,6 @@
          var mySymbolObject01 = sym.getSymbol("fettarsch_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -5888,7 +2699,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          mySymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -5949,7 +2759,6 @@
          var mySymbolObject01 = sym.getSymbol("sexy_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -5981,7 +2790,6 @@
          var mySymbolObject01 = sym.getSymbol("FANTASIE03");
          mySymbolObject01.play()
 
-
       });
       //Edge binding end
 
@@ -6001,7 +2809,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject = sym.getSymbol("wolf_head");
          mySymbolObject.playReverse();
-
 
       });
       //Edge binding end
@@ -6042,7 +2849,6 @@
          var mySymbolObject01 = sym.getSymbol("figur_head");
          mySymbolObject01.play();
 
-
       });
       //Edge binding end
 
@@ -6073,7 +2879,6 @@
          // mySymbolObject.$("myElement").hide(); will hide "myElement" inside of Symbol2.
          var mySymbolObject01 = sym.getSymbol("britzel");
          maSymbolObject01.play();
-
 
       });
       //Edge binding end
@@ -6111,1172 +2916,113 @@
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_head02}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
-
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_head}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${squid_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${fettarsch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${dino_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${sexy_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${wolf_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${figur_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${frau_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${elch_walk}", "click", function(sym, e) {
-         sym.stop();
-
-         sym.$("FANTASIE01").hide();
-
-         sym.$("FANTASIE02").hide();
-
-         sym.$("FANTASIE03").hide();
-
-         sym.$("FANTASIE04").hide();
-
-
-         sym.$("text02").hide();
-
-         sym.$("text07").hide();
-
-         sym.$("text06").hide();
-
-         sym.$("text005").hide();
-
-         sym.$("text01").hide();
-
-         sym.$("text08").hide();
-
-         sym.$("text004").hide();
-
-         sym.$("text03").hide();
-
-
-
-
-         var mySymbolObject = sym.getSymbol("schluss");
-         mySymbolObject.play();
-
-         var mySymbolObject01 = sym.getSymbol("wolke01");
-         mySymbolObject01.stop();
-
-         var mySymbolObject02 = sym.getSymbol("wolke02");
-         mySymbolObject02.stop();
-
-         var mySymbolObject03 = sym.getSymbol("wolke03");
-         mySymbolObject03.stop();
-
-         var mySymbolObject04 = sym.getSymbol("wolke04");
-         mySymbolObject04.stop();
-
-         var mySymbolObject05 = sym.getSymbol("squid_walk");
-         mySymbolObject05.stop();
-
-         var mySymbolObject06 = sym.getSymbol("frau_walk");
-         mySymbolObject06.stop();
-
-         var mySymbolObject07 = sym.getSymbol("sexy_walk");
-         mySymbolObject07.stop();
-
-         var mySymbolObject08 = sym.getSymbol("fettarsch_walk");
-         mySymbolObject08.stop();
-
-         var mySymbolObject09 = sym.getSymbol("dino_walk");
-         mySymbolObject09.stop();
-
-         var mySymbolObject10 = sym.getSymbol("figur_walk");
-         mySymbolObject10.stop();
-
-         var mySymbolObject11 = sym.getSymbol("wolf_walk");
-         mySymbolObject11.stop();
-
-         var mySymbolObject12 = sym.getSymbol("elch_walk");
-         mySymbolObject12.stop();
+         finish(sym);
+         
 
       });
       //Edge binding end
