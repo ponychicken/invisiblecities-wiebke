@@ -204,20 +204,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    //=========================================================
    
-   //Edge symbol: 'transparency'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
-         sym.stop();
-
-      });
-      //Edge binding end
-
-   })("transparency");
-   //Edge symbol end:'transparency'
-
-   //=========================================================
-   
    //Edge symbol: 'streetview01'
    (function(symbolName) {   
    
@@ -1681,20 +1667,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    //=========================================================
    
-   //Edge symbol: 'wolke_durch'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 13250, function(sym, e) {
-         sym.stop();
-
-      });
-      //Edge binding end
-
-   })("wolke_durch");
-   //Edge symbol end:'wolke_durch'
-
-   //=========================================================
-   
    //Edge symbol: 'streetview01_1'
    (function(symbolName) {   
    
@@ -2006,14 +1978,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    //=========================================================
    
-   //Edge symbol: 'umhang'
-   (function(symbolName) {   
-   
-   })("umhang");
-   //Edge symbol end:'umhang'
-
-   //=========================================================
-   
    //Edge symbol: 'umhang01'
    (function(symbolName) {   
    
@@ -2243,14 +2207,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("fettarsch_walk");
    //Edge symbol end:'fettarsch_walk'
-
-   //=========================================================
-   
-   //Edge symbol: 'elch_head'
-   (function(symbolName) {   
-   
-   })("elch_head");
-   //Edge symbol end:'elch_head'
 
    //=========================================================
    
