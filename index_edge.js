@@ -127,16 +127,6 @@
                             '-564px'
                         ],
                         [
-                            "eid532",
-                            "display",
-                            14000,
-                            0,
-                            "linear",
-                            "${pfeiloben2}",
-                            'none',
-                            'block'
-                        ],
-                        [
                             "eid67",
                             "scaleY",
                             6000,
@@ -145,6 +135,16 @@
                             "${topview}",
                             '1',
                             '2.67643'
+                        ],
+                        [
+                            "eid158",
+                            "opacity",
+                            8000,
+                            2500,
+                            "linear",
+                            "${topview}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid394",
@@ -217,14 +217,14 @@
                             '134px'
                         ],
                         [
-                            "eid158",
-                            "opacity",
-                            8000,
-                            2500,
+                            "eid532",
+                            "display",
+                            14000,
+                            0,
                             "linear",
-                            "${topview}",
-                            '1',
-                            '0'
+                            "${pfeiloben2}",
+                            'none',
+                            'block'
                         ]
                     ]
                 }
@@ -588,13 +588,13 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [-131, 199, 600, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'frau_walk',
                             symbolName: 'frau_walk',
                             display: 'none',
-                            rect: [-131, 199, 600, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -617,31 +617,31 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [86, 149, 520, 800, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'dino_walk',
                             symbolName: 'dino_walk',
                             display: 'none',
-                            rect: [86, 149, 520, 800, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [-231, 294, 866, 550, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'wolf_walk',
                             symbolName: 'woolf_walk',
                             display: 'none',
-                            rect: [-231, 294, 866, 550, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [461, 207, 450, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'fettarsch_walk',
                             symbolName: 'fettarsch_walk',
                             display: 'none',
-                            rect: [461, 207, 450, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -654,76 +654,76 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [4, 244, 300, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'sexy_head',
                             symbolName: 'sexy_head',
                             display: 'none',
-                            rect: [4, 244, 300, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [137, 196, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'frau_head',
                             symbolName: 'frau_head',
                             display: 'none',
-                            rect: [137, 196, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [354, 342, 1000, 600, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'squid_head',
                             symbolName: 'squid_head',
                             display: 'none',
-                            rect: [354, 342, 1000, 600, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [488, 207, 500, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'dino_head',
                             symbolName: 'dino_head',
                             display: 'none',
-                            rect: [488, 207, 500, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [1, 237, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'fettarsch_head',
                             symbolName: 'fettarsch_head',
                             display: 'none',
-                            rect: [1, 237, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [11, 75, 500, 1000, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'figur_head',
                             symbolName: 'figur_head',
                             display: 'none',
-                            rect: [11, 75, 500, 1000, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [359, 327, 1000, 560, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'wolf_head',
                             symbolName: 'wolf_head',
                             display: 'none',
-                            rect: [359, 327, 1000, 560, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [637, 238, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'elch_head02',
                             symbolName: 'elch_head02',
                             display: 'none',
-                            rect: [637, 238, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -756,22 +756,22 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [226, 432, 700, 100, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'blitzblick',
                             symbolName: 'blitzblick',
                             display: 'none',
-                            rect: [226, 432, 700, 100, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [267, 200, 600, 600, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'britzel',
                             symbolName: 'britzel',
                             display: 'none',
-                            rect: [267, 200, 600, 600, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
@@ -910,44 +910,44 @@
                             '0.41215'
                         ],
                         [
-                            "eid2243",
+                            "eid2124",
                             "top",
-                            51000,
-                            3000,
+                            24500,
+                            3500,
                             "linear",
-                            "${dino_walk}",
-                            '149px',
-                            '164px'
+                            "${elch_walk}",
+                            '254px',
+                            '225px'
                         ],
                         [
-                            "eid2244",
+                            "eid2132",
                             "top",
-                            54000,
-                            4483,
+                            42000,
+                            4000,
                             "linear",
-                            "${dino_walk}",
-                            '164px',
-                            '160px'
+                            "${elch_walk}",
+                            '225px',
+                            '202px'
                         ],
                         [
-                            "eid2255",
+                            "eid2136",
                             "top",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '160px',
-                            '198px'
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '202px',
+                            '188px'
                         ],
                         [
-                            "eid2471",
+                            "eid2142",
                             "top",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '198px',
-                            '152px'
+                            53000,
+                            8000,
+                            "linear",
+                            "${elch_walk}",
+                            '188px',
+                            '166px'
                         ],
                         [
                             "eid1785",
@@ -1320,24 +1320,44 @@
                             'none'
                         ],
                         [
-                            "eid1801",
+                            "eid2247",
                             "scaleY",
-                            60100,
-                            400,
+                            51000,
+                            3000,
                             "linear",
-                            "${FANTASIE02}",
-                            '0.12',
-                            '1.18'
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
                         ],
                         [
-                            "eid2485",
+                            "eid2248",
                             "scaleY",
-                            70000,
-                            787,
+                            54000,
+                            4483,
                             "linear",
-                            "${FANTASIE02}",
-                            '1.18',
-                            '0.688'
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
                         ],
                         [
                             "eid1725",
@@ -1640,14 +1660,34 @@
                             'none'
                         ],
                         [
-                            "eid1786",
-                            "scaleY",
-                            58483,
+                            "eid884",
+                            "opacity",
+                            0,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '0.46429',
-                            '0.46429'
+                            "${FANTASIE02}",
+                            '0.69918699186992',
+                            '0.69918699186992'
+                        ],
+                        [
+                            "eid1799",
+                            "opacity",
+                            60000,
+                            500,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0',
+                            '0.7'
+                        ],
+                        [
+                            "eid1811",
+                            "opacity",
+                            69749,
+                            1038,
+                            "linear",
+                            "${FANTASIE02}",
+                            '0.699999988079071',
+                            '0'
                         ],
                         [
                             "eid2109",
@@ -1690,14 +1730,14 @@
                             '197px'
                         ],
                         [
-                            "eid1832",
-                            "scaleX",
-                            88500,
+                            "eid1719",
+                            "left",
+                            28000,
                             0,
                             "linear",
-                            "${wolf_head}",
-                            '0.28393',
-                            '0.28393'
+                            "${elch_head02}",
+                            '637px',
+                            '637px'
                         ],
                         [
                             "eid1949",
@@ -2730,24 +2770,14 @@
                             '0.76143'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1754",
@@ -2840,44 +2870,74 @@
                             '0.056'
                         ],
                         [
-                            "eid2307",
-                            "opacity",
-                            82500,
-                            2500,
+                            "eid1768",
+                            "display",
+                            0,
+                            0,
                             "linear",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid2425",
-                            "opacity",
+                            "eid2288",
+                            "display",
+                            73500,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2413",
+                            "display",
+                            85000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2420",
+                            "display",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            '0',
-                            '1'
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2419",
-                            "opacity",
+                            "eid2414",
+                            "display",
                             128500,
                             0,
-                            "linear",
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '1'
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2457",
-                            "opacity",
-                            154000,
-                            2000,
-                            "linear",
+                            "eid2434",
+                            "display",
+                            142000,
+                            0,
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2468",
+                            "display",
+                            156000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid2285",
@@ -3270,14 +3330,14 @@
                             'none'
                         ],
                         [
-                            "eid1787",
-                            "left",
+                            "eid1790",
+                            "scaleY",
                             58483,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '1px',
-                            '1px'
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
                         ],
                         [
                             "eid2035",
@@ -3320,14 +3380,14 @@
                             '0.19286'
                         ],
                         [
-                            "eid1835",
-                            "top",
-                            88500,
+                            "eid1791",
+                            "left",
+                            58483,
                             0,
                             "linear",
-                            "${wolf_head}",
-                            '327px',
-                            '327px'
+                            "${dino_head}",
+                            '488px',
+                            '488px'
                         ],
                         [
                             "eid1762",
@@ -3390,44 +3450,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
-                            "left",
-                            46000,
-                            4000,
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
                         ],
                         [
-                            "eid2389",
-                            "left",
-                            100000,
-                            12000,
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
                         ],
                         [
                             "eid2245",
@@ -3470,14 +3530,14 @@
                             '0.45894'
                         ],
                         [
-                            "eid1719",
-                            "left",
-                            28000,
+                            "eid1832",
+                            "scaleX",
+                            88500,
                             0,
                             "linear",
-                            "${elch_head02}",
-                            '637px',
-                            '637px'
+                            "${wolf_head}",
+                            '0.28393',
+                            '0.28393'
                         ],
                         [
                             "eid1708",
@@ -3510,16 +3570,6 @@
                             'none'
                         ],
                         [
-                            "eid1788",
-                            "top",
-                            58483,
-                            0,
-                            "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
-                        ],
-                        [
                             "eid1950",
                             "left",
                             128500,
@@ -3528,6 +3578,16 @@
                             "${squid_head}",
                             '354px',
                             '354px'
+                        ],
+                        [
+                            "eid1788",
+                            "top",
+                            58483,
+                            0,
+                            "linear",
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
                             "eid2528",
@@ -3730,14 +3790,14 @@
                             '330px'
                         ],
                         [
-                            "eid1790",
-                            "scaleY",
+                            "eid1787",
+                            "left",
                             58483,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
+                            "${fettarsch_head}",
+                            '1px',
+                            '1px'
                         ],
                         [
                             "eid452",
@@ -3940,24 +4000,84 @@
                             '0.69918699186992'
                         ],
                         [
-                            "eid1791",
-                            "left",
-                            58483,
+                            "eid1835",
+                            "top",
+                            88500,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '488px',
-                            '488px'
+                            "${wolf_head}",
+                            '327px',
+                            '327px'
                         ],
                         [
-                            "eid1724",
+                            "eid2153",
                             "left",
-                            28000,
-                            0,
+                            14000,
+                            4000,
                             "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
+                        ],
+                        [
+                            "eid2160",
+                            "left",
+                            18000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
+                        ],
+                        [
+                            "eid2164",
+                            "left",
+                            22000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
                         ],
                         [
                             "eid1764",
@@ -4120,74 +4240,14 @@
                             '0.04271'
                         ],
                         [
-                            "eid2153",
+                            "eid1724",
                             "left",
-                            14000,
-                            4000,
+                            28000,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
+                            "${frau_head}",
+                            '137px',
+                            '137px'
                         ],
                         [
                             "eid1916",
@@ -4200,14 +4260,24 @@
                             '0.245'
                         ],
                         [
-                            "eid467",
-                            "top",
-                            0,
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
                             0,
                             "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
+                            "${sexy_walk}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1758",
@@ -4250,74 +4320,44 @@
                             '4px'
                         ],
                         [
-                            "eid1768",
-                            "display",
-                            0,
-                            0,
+                            "eid2307",
+                            "opacity",
+                            82500,
+                            2500,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid2288",
-                            "display",
-                            73500,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2413",
-                            "display",
-                            85000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2420",
-                            "display",
+                            "eid2425",
+                            "opacity",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid2414",
-                            "display",
+                            "eid2419",
+                            "opacity",
                             128500,
                             0,
-                            "easeInOutQuart",
+                            "linear",
                             "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '1'
                         ],
                         [
-                            "eid2434",
-                            "display",
-                            142000,
-                            0,
-                            "easeInOutQuart",
+                            "eid2457",
+                            "opacity",
+                            154000,
+                            2000,
+                            "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2468",
-                            "display",
-                            156000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
                             "eid1728",
@@ -4350,84 +4390,64 @@
                             '502px'
                         ],
                         [
-                            "eid2247",
+                            "eid1801",
                             "scaleY",
-                            51000,
-                            3000,
+                            60100,
+                            400,
                             "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
+                            "${FANTASIE02}",
+                            '0.12',
+                            '1.18'
                         ],
                         [
-                            "eid2248",
+                            "eid2485",
                             "scaleY",
-                            54000,
-                            4483,
+                            70000,
+                            787,
                             "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
+                            "${FANTASIE02}",
+                            '1.18',
+                            '0.688'
                         ],
                         [
-                            "eid2257",
-                            "scaleY",
-                            72500,
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
+                            "linear",
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
+                        ],
+                        [
+                            "eid2171",
+                            "left",
+                            41500,
                             4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
-                        ],
-                        [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
-                        ],
-                        [
-                            "eid2205",
-                            "top",
-                            45000,
-                            0,
-                            "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
-                        ],
-                        [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
                             "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
                         ],
                         [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
                             "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
                         ],
                         [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
                             "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
                         ],
                         [
                             "eid1842",
@@ -4460,44 +4480,44 @@
                             '0px'
                         ],
                         [
-                            "eid2124",
+                            "eid2243",
                             "top",
-                            24500,
-                            3500,
+                            51000,
+                            3000,
                             "linear",
-                            "${elch_walk}",
-                            '254px',
-                            '225px'
+                            "${dino_walk}",
+                            '149px',
+                            '164px'
                         ],
                         [
-                            "eid2132",
+                            "eid2244",
                             "top",
-                            42000,
-                            4000,
+                            54000,
+                            4483,
                             "linear",
-                            "${elch_walk}",
-                            '225px',
-                            '202px'
+                            "${dino_walk}",
+                            '164px',
+                            '160px'
                         ],
                         [
-                            "eid2136",
+                            "eid2255",
                             "top",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '202px',
-                            '188px'
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '160px',
+                            '198px'
                         ],
                         [
-                            "eid2142",
+                            "eid2471",
                             "top",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '188px',
-                            '166px'
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '198px',
+                            '152px'
                         ],
                         [
                             "eid1834",
@@ -4510,34 +4530,14 @@
                             '359px'
                         ],
                         [
-                            "eid884",
-                            "opacity",
+                            "eid1786",
+                            "scaleY",
+                            58483,
                             0,
-                            0,
                             "linear",
-                            "${FANTASIE02}",
-                            '0.69918699186992',
-                            '0.69918699186992'
-                        ],
-                        [
-                            "eid1799",
-                            "opacity",
-                            60000,
-                            500,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0',
-                            '0.7'
-                        ],
-                        [
-                            "eid1811",
-                            "opacity",
-                            69749,
-                            1038,
-                            "linear",
-                            "${FANTASIE02}",
-                            '0.699999988079071',
-                            '0'
+                            "${fettarsch_head}",
+                            '0.46429',
+                            '0.46429'
                         ],
                         [
                             "eid1723",
@@ -5051,9 +5051,9 @@
                             id: 'streetview01Copy3',
                             overflow: 'hidden',
                             display: 'none',
-                            opacity: '0',
+                            symbolName: 'streetview01',
                             rect: ['4096', '0', '1024', '768', 'auto', 'auto'],
-                            symbolName: 'streetview01'
+                            opacity: '0'
                         },
                         {
                             type: 'rect',
@@ -5084,9 +5084,9 @@
                             id: 'streetview01',
                             overflow: 'hidden',
                             display: 'none',
-                            opacity: '0',
+                            symbolName: 'streetview01',
                             rect: ['0', '0', '1024', '768', 'auto', 'auto'],
-                            symbolName: 'streetview01'
+                            opacity: '0'
                         }
                     ],
                     style: {
@@ -5284,44 +5284,14 @@
                             '1'
                         ],
                         [
-                            "eid2534",
-                            "left",
-                            14000,
-                            2000,
+                            "eid323",
+                            "display",
+                            11500,
+                            0,
                             "linear",
-                            "${streetview01_1}",
-                            '1024px',
-                            '0px'
-                        ],
-                        [
-                            "eid2535",
-                            "left",
-                            16000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '0px',
-                            '-1024px'
-                        ],
-                        [
-                            "eid2536",
-                            "left",
-                            18000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '-1024px',
-                            '-2048px'
-                        ],
-                        [
-                            "eid2537",
-                            "left",
-                            20000,
-                            2000,
-                            "linear",
-                            "${streetview01_1}",
-                            '-2048px',
-                            '-3072px'
+                            "${streetview01}",
+                            'none',
+                            'block'
                         ],
                         [
                             "eid2548",
@@ -5364,14 +5334,44 @@
                             '-1024px'
                         ],
                         [
-                            "eid323",
-                            "display",
-                            11500,
-                            0,
+                            "eid2534",
+                            "left",
+                            14000,
+                            2000,
                             "linear",
-                            "${streetview01}",
-                            'none',
-                            'block'
+                            "${streetview01_1}",
+                            '1024px',
+                            '0px'
+                        ],
+                        [
+                            "eid2535",
+                            "left",
+                            16000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '0px',
+                            '-1024px'
+                        ],
+                        [
+                            "eid2536",
+                            "left",
+                            18000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '-1024px',
+                            '-2048px'
+                        ],
+                        [
+                            "eid2537",
+                            "left",
+                            20000,
+                            2000,
+                            "linear",
+                            "${streetview01_1}",
+                            '-2048px',
+                            '-3072px'
                         ],
                         [
                             "eid2533",
@@ -5502,16 +5502,6 @@
                             '0.96187'
                         ],
                         [
-                            "eid515",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${newfeet}",
-                            '358px',
-                            '358px'
-                        ],
-                        [
                             "eid511",
                             "scaleX",
                             0,
@@ -5530,6 +5520,16 @@
                             "${newfeet}",
                             '328px',
                             '328px'
+                        ],
+                        [
+                            "eid515",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${newfeet}",
+                            '358px',
+                            '358px'
                         ],
                         [
                             "eid513",
@@ -14674,10 +14674,10 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: ['262', '246', '500', '130', 'auto', 'auto'],
                             id: 'zuruckanfang2',
                             symbolName: 'zuruckanfang',
-                            rect: ['262', '246', '500', '130', 'auto', 'auto'],
+                            type: 'rect',
                             opacity: '0'
                         },
                         {
@@ -14872,13 +14872,13 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [-131, 199, 600, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'frau_walk',
                             symbolName: 'frau_walk',
                             display: 'none',
-                            rect: [-131, 199, 600, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -14901,31 +14901,31 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [86, 149, 520, 800, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'dino_walk',
                             symbolName: 'dino_walk',
                             display: 'none',
-                            rect: [86, 149, 520, 800, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [-231, 294, 866, 550, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'wolf_walk',
                             symbolName: 'woolf_walk',
                             display: 'none',
-                            rect: [-231, 294, 866, 550, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [461, 207, 450, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'fettarsch_walk',
                             symbolName: 'fettarsch_walk',
                             display: 'none',
-                            rect: [461, 207, 450, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -14938,76 +14938,76 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [4, 244, 300, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'sexy_head',
                             symbolName: 'sexy_head',
                             display: 'none',
-                            rect: [4, 244, 300, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [137, 196, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'frau_head',
                             symbolName: 'frau_head',
                             display: 'none',
-                            rect: [137, 196, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [354, 342, 1000, 600, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'squid_head',
                             symbolName: 'squid_head',
                             display: 'none',
-                            rect: [354, 342, 1000, 600, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [488, 207, 500, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'dino_head',
                             symbolName: 'dino_head',
                             display: 'none',
-                            rect: [488, 207, 500, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [1, 237, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'fettarsch_head',
                             symbolName: 'fettarsch_head',
                             display: 'none',
-                            rect: [1, 237, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [11, 75, 500, 1000, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'figur_head',
                             symbolName: 'figur_head',
                             display: 'none',
-                            rect: [11, 75, 500, 1000, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [359, 327, 1000, 560, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'wolf_head',
                             symbolName: 'wolf_head',
                             display: 'none',
-                            rect: [359, 327, 1000, 560, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [637, 238, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'elch_head02',
                             symbolName: 'elch_head02',
                             display: 'none',
-                            rect: [637, 238, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -15040,22 +15040,22 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [226, 432, 700, 100, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'blitzblick',
                             symbolName: 'blitzblick',
                             display: 'none',
-                            rect: [226, 432, 700, 100, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [267, 200, 600, 600, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'britzel',
                             symbolName: 'britzel',
                             display: 'none',
-                            rect: [267, 200, 600, 600, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
@@ -15244,44 +15244,44 @@
                             '0.41215'
                         ],
                         [
-                            "eid2207",
-                            "left",
-                            45000,
-                            11975,
-                            "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
-                        ],
-                        [
-                            "eid2318",
-                            "left",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
+                            "eid2124",
+                            "top",
+                            24500,
                             3500,
                             "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
+                            "${elch_walk}",
+                            '254px',
+                            '225px'
+                        ],
+                        [
+                            "eid2132",
+                            "top",
+                            42000,
+                            4000,
+                            "linear",
+                            "${elch_walk}",
+                            '225px',
+                            '202px'
+                        ],
+                        [
+                            "eid2136",
+                            "top",
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '202px',
+                            '188px'
+                        ],
+                        [
+                            "eid2142",
+                            "top",
+                            53000,
+                            8000,
+                            "linear",
+                            "${elch_walk}",
+                            '188px',
+                            '166px'
                         ],
                         [
                             "eid1785",
@@ -15674,44 +15674,24 @@
                             'none'
                         ],
                         [
-                            "eid2247",
+                            "eid1801",
                             "scaleY",
-                            51000,
-                            3000,
+                            60100,
+                            400,
                             "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
+                            "${FANTASIE02}",
+                            '0.12',
+                            '1.18'
                         ],
                         [
-                            "eid2248",
+                            "eid2485",
                             "scaleY",
-                            54000,
-                            4483,
+                            70000,
+                            787,
                             "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
-                        ],
-                        [
-                            "eid2257",
-                            "scaleY",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
-                        ],
-                        [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
+                            "${FANTASIE02}",
+                            '1.18',
+                            '0.688'
                         ],
                         [
                             "eid1916",
@@ -15724,14 +15704,24 @@
                             '0.245'
                         ],
                         [
-                            "eid1748",
-                            "scaleY",
+                            "eid1749",
+                            "left",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '0.76667',
-                            '0.79'
+                            '267px',
+                            '254px'
+                        ],
+                        [
+                            "eid1796",
+                            "left",
+                            60000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '254px',
+                            '231px'
                         ],
                         [
                             "eid1931",
@@ -16034,44 +16024,34 @@
                             '0'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
+                            "eid1708",
+                            "display",
+                            30000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
                         ],
                         [
                             "eid1719",
@@ -17184,14 +17164,24 @@
                             '0.76143'
                         ],
                         [
-                            "eid467",
-                            "top",
-                            0,
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
                             0,
                             "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
+                            "${sexy_walk}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1754",
@@ -17284,74 +17274,44 @@
                             '0.056'
                         ],
                         [
-                            "eid1768",
-                            "display",
-                            0,
-                            0,
+                            "eid2307",
+                            "opacity",
+                            82500,
+                            2500,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid2288",
-                            "display",
-                            73500,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2413",
-                            "display",
-                            85000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2420",
-                            "display",
+                            "eid2425",
+                            "opacity",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid2414",
-                            "display",
+                            "eid2419",
+                            "opacity",
                             128500,
                             0,
-                            "easeInOutQuart",
+                            "linear",
                             "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '1'
                         ],
                         [
-                            "eid2434",
-                            "display",
-                            142000,
-                            0,
-                            "easeInOutQuart",
+                            "eid2457",
+                            "opacity",
+                            154000,
+                            2000,
+                            "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2468",
-                            "display",
-                            156000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
                             "eid2285",
@@ -17744,14 +17704,14 @@
                             'none'
                         ],
                         [
-                            "eid1790",
-                            "scaleY",
+                            "eid1787",
+                            "left",
                             58483,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
+                            "${fettarsch_head}",
+                            '1px',
+                            '1px'
                         ],
                         [
                             "eid2035",
@@ -17904,44 +17864,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2205",
-                            "top",
-                            45000,
-                            0,
-                            "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
+                            "linear",
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
                         ],
                         [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
+                            "eid2171",
+                            "left",
+                            41500,
+                            4500,
                             "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
                         ],
                         [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
                             "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
                         ],
                         [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
                             "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
                         ],
                         [
                             "eid2245",
@@ -17984,34 +17944,44 @@
                             '0.45894'
                         ],
                         [
-                            "eid1708",
-                            "display",
-                            30000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1786",
@@ -18024,44 +17994,44 @@
                             '0.46429'
                         ],
                         [
-                            "eid1788",
+                            "eid1950",
+                            "left",
+                            128500,
+                            0,
+                            "easeInOutQuart",
+                            "${squid_head}",
+                            '354px',
+                            '354px'
+                        ],
+                        [
+                            "eid1728",
                             "top",
-                            58483,
+                            29500,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
                         ],
                         [
-                            "eid1762",
-                            "display",
-                            0,
+                            "eid1852",
+                            "top",
+                            89500,
                             0,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
                         ],
                         [
-                            "eid1784",
-                            "display",
-                            58483,
+                            "eid1923",
+                            "top",
+                            129500,
                             0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid2528",
@@ -18214,24 +18184,14 @@
                             '0.05'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid452",
@@ -18344,34 +18304,34 @@
                             '152px'
                         ],
                         [
-                            "eid1728",
-                            "top",
-                            29500,
+                            "eid1762",
+                            "display",
+                            0,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${dino_head}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
+                            "eid1784",
+                            "display",
+                            58483,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${dino_head}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid1923",
-                            "top",
-                            129500,
+                            "eid1805",
+                            "display",
+                            72500,
                             0,
-                            "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1915",
@@ -18394,54 +18354,114 @@
                             '0.69918699186992'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
+                        ],
+                        [
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
+                            "linear",
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
+                        ],
+                        [
+                            "eid2153",
                             "left",
-                            46000,
+                            14000,
                             4000,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
                         ],
                         [
-                            "eid2389",
+                            "eid2160",
                             "left",
-                            100000,
-                            12000,
+                            18000,
+                            4000,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
                         ],
                         [
-                            "eid1724",
+                            "eid2164",
                             "left",
-                            28000,
-                            0,
+                            22000,
+                            4000,
                             "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
                         ],
                         [
                             "eid1764",
@@ -18534,74 +18554,14 @@
                             '36px'
                         ],
                         [
-                            "eid2153",
+                            "eid1724",
                             "left",
-                            14000,
-                            4000,
+                            28000,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
+                            "${frau_head}",
+                            '137px',
+                            '137px'
                         ],
                         [
                             "eid1835",
@@ -18614,24 +18574,14 @@
                             '327px'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1843",
@@ -18654,44 +18604,74 @@
                             '4px'
                         ],
                         [
-                            "eid2307",
-                            "opacity",
-                            82500,
-                            2500,
+                            "eid1768",
+                            "display",
+                            0,
+                            0,
                             "linear",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid2425",
-                            "opacity",
+                            "eid2288",
+                            "display",
+                            73500,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2413",
+                            "display",
+                            85000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2420",
+                            "display",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            '0',
-                            '1'
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2419",
-                            "opacity",
+                            "eid2414",
+                            "display",
                             128500,
                             0,
-                            "linear",
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '1'
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2457",
-                            "opacity",
-                            154000,
-                            2000,
-                            "linear",
+                            "eid2434",
+                            "display",
+                            142000,
+                            0,
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2468",
+                            "display",
+                            156000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1832",
@@ -18704,34 +18684,54 @@
                             '0.28393'
                         ],
                         [
-                            "eid1787",
-                            "left",
+                            "eid1790",
+                            "scaleY",
                             58483,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '1px',
-                            '1px'
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
                         ],
                         [
-                            "eid1801",
+                            "eid2247",
                             "scaleY",
-                            60100,
-                            400,
+                            51000,
+                            3000,
                             "linear",
-                            "${FANTASIE02}",
-                            '0.12',
-                            '1.18'
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
                         ],
                         [
-                            "eid2485",
+                            "eid2248",
                             "scaleY",
-                            70000,
-                            787,
+                            54000,
+                            4483,
                             "linear",
-                            "${FANTASIE02}",
-                            '1.18',
-                            '0.688'
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
                         ],
                         [
                             "eid1842",
@@ -18764,44 +18764,44 @@
                             '0px'
                         ],
                         [
-                            "eid2124",
-                            "top",
-                            24500,
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
                             3500,
                             "linear",
-                            "${elch_walk}",
-                            '254px',
-                            '225px'
-                        ],
-                        [
-                            "eid2132",
-                            "top",
-                            42000,
-                            4000,
-                            "linear",
-                            "${elch_walk}",
-                            '225px',
-                            '202px'
-                        ],
-                        [
-                            "eid2136",
-                            "top",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '202px',
-                            '188px'
-                        ],
-                        [
-                            "eid2142",
-                            "top",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '188px',
-                            '166px'
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
                         ],
                         [
                             "eid1834",
@@ -18814,14 +18814,14 @@
                             '359px'
                         ],
                         [
-                            "eid1950",
-                            "left",
-                            128500,
+                            "eid1788",
+                            "top",
+                            58483,
                             0,
-                            "easeInOutQuart",
-                            "${squid_head}",
-                            '354px',
-                            '354px'
+                            "linear",
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
                             "eid1723",
@@ -19001,13 +19001,13 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.72381', '0.72381', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [-131, 199, 600, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.17714', '0.17714', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'frau_walk',
                             symbolName: 'frau_walk',
                             display: 'none',
-                            rect: [-131, 199, 600, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -19030,31 +19030,31 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.06852', '0.06852', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [86, 149, 520, 800, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12484', '0.12484', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'dino_walk',
                             symbolName: 'dino_walk',
                             display: 'none',
-                            rect: [86, 149, 520, 800, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [-231, 294, 866, 550, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12723', '0.12723', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'wolf_walk',
                             symbolName: 'woolf_walk',
                             display: 'none',
-                            rect: [-231, 294, 866, 550, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [461, 207, 450, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.08519', '0.08519', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'fettarsch_walk',
                             symbolName: 'fettarsch_walk',
                             display: 'none',
-                            rect: [461, 207, 450, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -19067,76 +19067,76 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.12612', '0.12612', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [4, 244, 300, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.51428', '0.51428', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'sexy_head',
                             symbolName: 'sexy_head',
                             display: 'none',
-                            rect: [4, 244, 300, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [137, 196, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.255', '0.255', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'frau_head',
                             symbolName: 'frau_head',
                             display: 'none',
-                            rect: [137, 196, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [354, 342, 1000, 600, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.245', '0.245', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'squid_head',
                             symbolName: 'squid_head',
                             display: 'none',
-                            rect: [354, 342, 1000, 600, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [488, 207, 500, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.27', '0.27', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'dino_head',
                             symbolName: 'dino_head',
                             display: 'none',
-                            rect: [488, 207, 500, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [1, 237, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.46429', '0.46429', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'fettarsch_head',
                             symbolName: 'fettarsch_head',
                             display: 'none',
-                            rect: [1, 237, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [11, 75, 500, 1000, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.189', '0.189', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'figur_head',
                             symbolName: 'figur_head',
                             display: 'none',
-                            rect: [11, 75, 500, 1000, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [359, 327, 1000, 560, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.28393', '0.28393', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'wolf_head',
                             symbolName: 'wolf_head',
                             display: 'none',
-                            rect: [359, 327, 1000, 560, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [637, 238, 400, 700, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.41215', '0.41215', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'elch_head02',
                             symbolName: 'elch_head02',
                             display: 'none',
-                            rect: [637, 238, 400, 700, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             type: 'rect',
@@ -19169,22 +19169,22 @@
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.144', '0.144', 1], ['50%', '50%']]
                         },
                         {
+                            rect: [226, 432, 700, 100, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.64571', '0.64571', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'blitzblick',
                             symbolName: 'blitzblick',
                             display: 'none',
-                            rect: [226, 432, 700, 100, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
+                            rect: [267, 200, 600, 600, 'auto', 'auto'],
                             transform: [[0, 0, 0], [0, 0, 0], [0, 0], ['0.76667', '0.76667', 1], ['50%', '50%']],
-                            type: 'rect',
                             overflow: 'hidden',
                             id: 'britzel',
                             symbolName: 'britzel',
                             display: 'none',
-                            rect: [267, 200, 600, 600, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
@@ -19373,44 +19373,44 @@
                             '0.41215'
                         ],
                         [
-                            "eid2207",
-                            "left",
-                            45000,
-                            11975,
-                            "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
-                        ],
-                        [
-                            "eid2318",
-                            "left",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
+                            "eid2124",
+                            "top",
+                            24500,
                             3500,
                             "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
+                            "${elch_walk}",
+                            '254px',
+                            '225px'
+                        ],
+                        [
+                            "eid2132",
+                            "top",
+                            42000,
+                            4000,
+                            "linear",
+                            "${elch_walk}",
+                            '225px',
+                            '202px'
+                        ],
+                        [
+                            "eid2136",
+                            "top",
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '202px',
+                            '188px'
+                        ],
+                        [
+                            "eid2142",
+                            "top",
+                            53000,
+                            8000,
+                            "linear",
+                            "${elch_walk}",
+                            '188px',
+                            '166px'
                         ],
                         [
                             "eid1785",
@@ -19803,44 +19803,24 @@
                             'none'
                         ],
                         [
-                            "eid2247",
+                            "eid1801",
                             "scaleY",
-                            51000,
-                            3000,
+                            60100,
+                            400,
                             "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
+                            "${FANTASIE02}",
+                            '0.12',
+                            '1.18'
                         ],
                         [
-                            "eid2248",
+                            "eid2485",
                             "scaleY",
-                            54000,
-                            4483,
+                            70000,
+                            787,
                             "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
-                        ],
-                        [
-                            "eid2257",
-                            "scaleY",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
-                        ],
-                        [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
+                            "${FANTASIE02}",
+                            '1.18',
+                            '0.688'
                         ],
                         [
                             "eid1916",
@@ -19853,14 +19833,24 @@
                             '0.245'
                         ],
                         [
-                            "eid1748",
-                            "scaleY",
+                            "eid1749",
+                            "left",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '0.76667',
-                            '0.79'
+                            '267px',
+                            '254px'
+                        ],
+                        [
+                            "eid1796",
+                            "left",
+                            60000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '254px',
+                            '231px'
                         ],
                         [
                             "eid1931",
@@ -20163,44 +20153,34 @@
                             '0'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
+                            "eid1708",
+                            "display",
+                            30000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
                         ],
                         [
                             "eid1719",
@@ -21313,14 +21293,24 @@
                             '0.76143'
                         ],
                         [
-                            "eid467",
-                            "top",
-                            0,
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
                             0,
                             "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
+                            "${sexy_walk}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1754",
@@ -21413,74 +21403,44 @@
                             '0.056'
                         ],
                         [
-                            "eid1768",
-                            "display",
-                            0,
-                            0,
+                            "eid2307",
+                            "opacity",
+                            82500,
+                            2500,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid2288",
-                            "display",
-                            73500,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2413",
-                            "display",
-                            85000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2420",
-                            "display",
+                            "eid2425",
+                            "opacity",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid2414",
-                            "display",
+                            "eid2419",
+                            "opacity",
                             128500,
                             0,
-                            "easeInOutQuart",
+                            "linear",
                             "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '1'
                         ],
                         [
-                            "eid2434",
-                            "display",
-                            142000,
-                            0,
-                            "easeInOutQuart",
+                            "eid2457",
+                            "opacity",
+                            154000,
+                            2000,
+                            "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2468",
-                            "display",
-                            156000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
                             "eid2285",
@@ -21873,14 +21833,14 @@
                             'none'
                         ],
                         [
-                            "eid1790",
-                            "scaleY",
+                            "eid1787",
+                            "left",
                             58483,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
+                            "${fettarsch_head}",
+                            '1px',
+                            '1px'
                         ],
                         [
                             "eid2035",
@@ -22033,44 +21993,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2205",
-                            "top",
-                            45000,
-                            0,
-                            "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
+                            "linear",
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
                         ],
                         [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
+                            "eid2171",
+                            "left",
+                            41500,
+                            4500,
                             "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
                         ],
                         [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
                             "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
                         ],
                         [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
                             "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
                         ],
                         [
                             "eid2245",
@@ -22113,34 +22073,44 @@
                             '0.45894'
                         ],
                         [
-                            "eid1708",
-                            "display",
-                            30000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1786",
@@ -22153,44 +22123,44 @@
                             '0.46429'
                         ],
                         [
-                            "eid1788",
+                            "eid1950",
+                            "left",
+                            128500,
+                            0,
+                            "easeInOutQuart",
+                            "${squid_head}",
+                            '354px',
+                            '354px'
+                        ],
+                        [
+                            "eid1728",
                             "top",
-                            58483,
+                            29500,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
                         ],
                         [
-                            "eid1762",
-                            "display",
-                            0,
+                            "eid1852",
+                            "top",
+                            89500,
                             0,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
                         ],
                         [
-                            "eid1784",
-                            "display",
-                            58483,
+                            "eid1923",
+                            "top",
+                            129500,
                             0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid2528",
@@ -22343,24 +22313,14 @@
                             '0.05'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid452",
@@ -22473,34 +22433,34 @@
                             '152px'
                         ],
                         [
-                            "eid1728",
-                            "top",
-                            29500,
+                            "eid1762",
+                            "display",
+                            0,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${dino_head}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
+                            "eid1784",
+                            "display",
+                            58483,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${dino_head}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid1923",
-                            "top",
-                            129500,
+                            "eid1805",
+                            "display",
+                            72500,
                             0,
-                            "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1915",
@@ -22523,54 +22483,114 @@
                             '0.69918699186992'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
+                        ],
+                        [
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
+                            "linear",
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
+                        ],
+                        [
+                            "eid2153",
                             "left",
-                            46000,
+                            14000,
                             4000,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
                         ],
                         [
-                            "eid2389",
+                            "eid2160",
                             "left",
-                            100000,
-                            12000,
+                            18000,
+                            4000,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
                         ],
                         [
-                            "eid1724",
+                            "eid2164",
                             "left",
-                            28000,
-                            0,
+                            22000,
+                            4000,
                             "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
                         ],
                         [
                             "eid1764",
@@ -22663,74 +22683,14 @@
                             '36px'
                         ],
                         [
-                            "eid2153",
+                            "eid1724",
                             "left",
-                            14000,
-                            4000,
+                            28000,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
+                            "${frau_head}",
+                            '137px',
+                            '137px'
                         ],
                         [
                             "eid1835",
@@ -22743,24 +22703,14 @@
                             '327px'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1843",
@@ -22783,44 +22733,74 @@
                             '4px'
                         ],
                         [
-                            "eid2307",
-                            "opacity",
-                            82500,
-                            2500,
+                            "eid1768",
+                            "display",
+                            0,
+                            0,
                             "linear",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid2425",
-                            "opacity",
+                            "eid2288",
+                            "display",
+                            73500,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2413",
+                            "display",
+                            85000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2420",
+                            "display",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            '0',
-                            '1'
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2419",
-                            "opacity",
+                            "eid2414",
+                            "display",
                             128500,
                             0,
-                            "linear",
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '1'
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2457",
-                            "opacity",
-                            154000,
-                            2000,
-                            "linear",
+                            "eid2434",
+                            "display",
+                            142000,
+                            0,
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2468",
+                            "display",
+                            156000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1832",
@@ -22833,34 +22813,54 @@
                             '0.28393'
                         ],
                         [
-                            "eid1787",
-                            "left",
+                            "eid1790",
+                            "scaleY",
                             58483,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '1px',
-                            '1px'
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
                         ],
                         [
-                            "eid1801",
+                            "eid2247",
                             "scaleY",
-                            60100,
-                            400,
+                            51000,
+                            3000,
                             "linear",
-                            "${FANTASIE02}",
-                            '0.12',
-                            '1.18'
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
                         ],
                         [
-                            "eid2485",
+                            "eid2248",
                             "scaleY",
-                            70000,
-                            787,
+                            54000,
+                            4483,
                             "linear",
-                            "${FANTASIE02}",
-                            '1.18',
-                            '0.688'
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
                         ],
                         [
                             "eid1842",
@@ -22893,44 +22893,44 @@
                             '0px'
                         ],
                         [
-                            "eid2124",
-                            "top",
-                            24500,
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
                             3500,
                             "linear",
-                            "${elch_walk}",
-                            '254px',
-                            '225px'
-                        ],
-                        [
-                            "eid2132",
-                            "top",
-                            42000,
-                            4000,
-                            "linear",
-                            "${elch_walk}",
-                            '225px',
-                            '202px'
-                        ],
-                        [
-                            "eid2136",
-                            "top",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '202px',
-                            '188px'
-                        ],
-                        [
-                            "eid2142",
-                            "top",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '188px',
-                            '166px'
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
                         ],
                         [
                             "eid1834",
@@ -22943,14 +22943,14 @@
                             '359px'
                         ],
                         [
-                            "eid1950",
-                            "left",
-                            128500,
+                            "eid1788",
+                            "top",
+                            58483,
                             0,
-                            "easeInOutQuart",
-                            "${squid_head}",
-                            '354px',
-                            '354px'
+                            "linear",
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
                             "eid1723",
@@ -23130,13 +23130,13 @@
                             transform: [[], [], [], ['0.72381', '0.72381']]
                         },
                         {
-                            transform: [[], [], [], ['0.17714', '0.17714']],
+                            type: 'rect',
                             id: 'frau_walk',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'frau_walk',
                             rect: ['-131', '199', '600', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.17714', '0.17714']]
                         },
                         {
                             type: 'rect',
@@ -23159,31 +23159,31 @@
                             transform: [[], [], [], ['0.06852', '0.06852']]
                         },
                         {
-                            transform: [[], [], [], ['0.12484', '0.12484']],
+                            type: 'rect',
                             id: 'dino_walk',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'dino_walk',
                             rect: ['86', '149', '520', '800', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.12484', '0.12484']]
                         },
                         {
-                            transform: [[], [], [], ['0.12723', '0.12723']],
+                            type: 'rect',
                             id: 'wolf_walk',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'woolf_walk',
                             rect: ['-231', '294', '866', '550', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.12723', '0.12723']]
                         },
                         {
-                            transform: [[], [], [], ['0.08519', '0.08519']],
+                            type: 'rect',
                             id: 'fettarsch_walk',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'fettarsch_walk',
                             rect: ['461', '207', '450', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.08519', '0.08519']]
                         },
                         {
                             type: 'rect',
@@ -23196,76 +23196,76 @@
                             transform: [[], [], [], ['0.12612', '0.12612']]
                         },
                         {
-                            transform: [[], [], [], ['0.51428', '0.51428']],
+                            type: 'rect',
                             id: 'sexy_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'sexy_head',
                             rect: ['4', '244', '300', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.51428', '0.51428']]
                         },
                         {
-                            transform: [[], [], [], ['0.255', '0.255']],
+                            type: 'rect',
                             id: 'frau_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'frau_head',
                             rect: ['137', '196', '400', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.255', '0.255']]
                         },
                         {
-                            transform: [[], [], [], ['0.245', '0.245']],
+                            type: 'rect',
                             id: 'squid_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'squid_head',
                             rect: ['354', '342', '1000', '600', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.245', '0.245']]
                         },
                         {
-                            transform: [[], [], [], ['0.27', '0.27']],
+                            type: 'rect',
                             id: 'dino_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'dino_head',
                             rect: ['488', '207', '500', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.27', '0.27']]
                         },
                         {
-                            transform: [[], [], [], ['0.46429', '0.46429']],
+                            type: 'rect',
                             id: 'fettarsch_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'fettarsch_head',
                             rect: ['1', '237', '400', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.46429', '0.46429']]
                         },
                         {
-                            transform: [[], [], [], ['0.189', '0.189']],
+                            type: 'rect',
                             id: 'figur_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'figur_head',
                             rect: ['11', '75', '500', '1000', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.189', '0.189']]
                         },
                         {
-                            transform: [[], [], [], ['0.28393', '0.28393']],
+                            type: 'rect',
                             id: 'wolf_head',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'wolf_head',
                             rect: ['359', '327', '1000', '560', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.28393', '0.28393']]
                         },
                         {
-                            transform: [[], [], [], ['0.41215', '0.41215']],
+                            type: 'rect',
                             id: 'elch_head02',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'elch_head02',
                             rect: ['637', '238', '400', '700', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.41215', '0.41215']]
                         },
                         {
                             type: 'rect',
@@ -23298,22 +23298,22 @@
                             transform: [[], [], [], ['0.144', '0.144']]
                         },
                         {
-                            transform: [[], [], [], ['0.64571', '0.64571']],
+                            type: 'rect',
                             id: 'blitzblick',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'blitzblick',
                             rect: ['226', '432', '700', '100', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.64571', '0.64571']]
                         },
                         {
-                            transform: [[], [], [], ['0.76667', '0.76667']],
+                            type: 'rect',
                             id: 'britzel',
                             overflow: 'hidden',
                             display: 'none',
                             symbolName: 'britzel',
                             rect: ['267', '200', '600', '600', 'auto', 'auto'],
-                            type: 'rect'
+                            transform: [[], [], [], ['0.76667', '0.76667']]
                         },
                         {
                             preload: 'auto',
@@ -23502,44 +23502,44 @@
                             '0.41215'
                         ],
                         [
-                            "eid2207",
-                            "left",
-                            45000,
-                            11975,
-                            "linear",
-                            "${wolf_walk}",
-                            '-231px',
-                            '401px'
-                        ],
-                        [
-                            "eid2318",
-                            "left",
-                            80000,
-                            5122,
-                            "linear",
-                            "${wolf_walk}",
-                            '-222px',
-                            '96px'
-                        ],
-                        [
-                            "eid2319",
-                            "left",
-                            85122,
-                            3378,
-                            "linear",
-                            "${wolf_walk}",
-                            '96px',
-                            '433px'
-                        ],
-                        [
-                            "eid2333",
-                            "left",
-                            104000,
+                            "eid2124",
+                            "top",
+                            24500,
                             3500,
                             "linear",
-                            "${wolf_walk}",
-                            '433px',
-                            '743px'
+                            "${elch_walk}",
+                            '254px',
+                            '225px'
+                        ],
+                        [
+                            "eid2132",
+                            "top",
+                            42000,
+                            4000,
+                            "linear",
+                            "${elch_walk}",
+                            '225px',
+                            '202px'
+                        ],
+                        [
+                            "eid2136",
+                            "top",
+                            46000,
+                            7000,
+                            "linear",
+                            "${elch_walk}",
+                            '202px',
+                            '188px'
+                        ],
+                        [
+                            "eid2142",
+                            "top",
+                            53000,
+                            8000,
+                            "linear",
+                            "${elch_walk}",
+                            '188px',
+                            '166px'
                         ],
                         [
                             "eid1785",
@@ -23932,44 +23932,24 @@
                             'none'
                         ],
                         [
-                            "eid2247",
+                            "eid1801",
                             "scaleY",
-                            51000,
-                            3000,
+                            60100,
+                            400,
                             "linear",
-                            "${dino_walk}",
-                            '0.12484',
-                            '0.16875'
+                            "${FANTASIE02}",
+                            '0.12',
+                            '1.18'
                         ],
                         [
-                            "eid2248",
+                            "eid2485",
                             "scaleY",
-                            54000,
-                            4483,
+                            70000,
+                            787,
                             "linear",
-                            "${dino_walk}",
-                            '0.16875',
-                            '0.23779'
-                        ],
-                        [
-                            "eid2257",
-                            "scaleY",
-                            72500,
-                            4500,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.23779',
-                            '0.47176'
-                        ],
-                        [
-                            "eid2473",
-                            "scaleY",
-                            148000,
-                            0,
-                            "easeInOutQuart",
-                            "${dino_walk}",
-                            '0.47176',
-                            '0.45894'
+                            "${FANTASIE02}",
+                            '1.18',
+                            '0.688'
                         ],
                         [
                             "eid1916",
@@ -23982,14 +23962,24 @@
                             '0.245'
                         ],
                         [
-                            "eid1748",
-                            "scaleY",
+                            "eid1749",
+                            "left",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '0.76667',
-                            '0.79'
+                            '267px',
+                            '254px'
+                        ],
+                        [
+                            "eid1796",
+                            "left",
+                            60000,
+                            0,
+                            "linear",
+                            "${britzel}",
+                            '254px',
+                            '231px'
                         ],
                         [
                             "eid1931",
@@ -24292,44 +24282,34 @@
                             '0'
                         ],
                         [
-                            "eid2109",
-                            "top",
-                            25500,
-                            2500,
+                            "eid1708",
+                            "display",
+                            30000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '199px',
-                            '206px'
+                            "${FANTASIE01}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2170",
-                            "top",
-                            41500,
-                            4500,
+                            "eid1774",
+                            "display",
+                            40000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '206px',
-                            '248px'
+                            "${FANTASIE01}",
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2174",
-                            "top",
-                            46000,
-                            4000,
+                            "eid1773",
+                            "display",
+                            42000,
+                            0,
                             "linear",
-                            "${frau_walk}",
-                            '248px',
-                            '344px'
-                        ],
-                        [
-                            "eid2390",
-                            "top",
-                            100000,
-                            12000,
-                            "linear",
-                            "${frau_walk}",
-                            '192px',
-                            '197px'
+                            "${FANTASIE01}",
+                            'none',
+                            'none'
                         ],
                         [
                             "eid1719",
@@ -25442,14 +25422,24 @@
                             '0.76143'
                         ],
                         [
-                            "eid467",
-                            "top",
-                            0,
+                            "eid2157",
+                            "opacity",
+                            14000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '0',
+                            '1'
+                        ],
+                        [
+                            "eid2363",
+                            "opacity",
+                            105000,
                             0,
                             "linear",
-                            "${text07}",
-                            '300px',
-                            '300px'
+                            "${sexy_walk}",
+                            '1',
+                            '1'
                         ],
                         [
                             "eid1754",
@@ -25542,74 +25532,44 @@
                             '0.056'
                         ],
                         [
-                            "eid1768",
-                            "display",
-                            0,
-                            0,
+                            "eid2307",
+                            "opacity",
+                            82500,
+                            2500,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
-                            "eid2288",
-                            "display",
-                            73500,
-                            0,
-                            "linear",
-                            "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2413",
-                            "display",
-                            85000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2420",
-                            "display",
+                            "eid2425",
+                            "opacity",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
+                            '0',
+                            '1'
                         ],
                         [
-                            "eid2414",
-                            "display",
+                            "eid2419",
+                            "opacity",
                             128500,
                             0,
-                            "easeInOutQuart",
+                            "linear",
                             "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '1'
                         ],
                         [
-                            "eid2434",
-                            "display",
-                            142000,
-                            0,
-                            "easeInOutQuart",
+                            "eid2457",
+                            "opacity",
+                            154000,
+                            2000,
+                            "linear",
                             "${figur_walk}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2468",
-                            "display",
-                            156000,
-                            0,
-                            "easeInOutQuart",
-                            "${figur_walk}",
-                            'block',
-                            'none'
+                            '1',
+                            '0'
                         ],
                         [
                             "eid2285",
@@ -26002,14 +25962,14 @@
                             'none'
                         ],
                         [
-                            "eid1790",
-                            "scaleY",
+                            "eid1787",
+                            "left",
                             58483,
                             0,
                             "linear",
-                            "${dino_head}",
-                            '0.27',
-                            '0.27'
+                            "${fettarsch_head}",
+                            '1px',
+                            '1px'
                         ],
                         [
                             "eid2035",
@@ -26162,44 +26122,44 @@
                             '0.6'
                         ],
                         [
-                            "eid2205",
-                            "top",
-                            45000,
-                            0,
-                            "easeInOutQuart",
-                            "${wolf_walk}",
-                            '294px',
-                            '294px'
+                            "eid2105",
+                            "left",
+                            25500,
+                            2500,
+                            "linear",
+                            "${frau_walk}",
+                            '-131px',
+                            '43px'
                         ],
                         [
-                            "eid2320",
-                            "top",
-                            80000,
-                            5122,
+                            "eid2171",
+                            "left",
+                            41500,
+                            4500,
                             "linear",
-                            "${wolf_walk}",
-                            '287px',
-                            '315px'
+                            "${frau_walk}",
+                            '43px',
+                            '263px'
                         ],
                         [
-                            "eid2321",
-                            "top",
-                            85122,
-                            3378,
+                            "eid2175",
+                            "left",
+                            46000,
+                            4000,
                             "linear",
-                            "${wolf_walk}",
-                            '315px',
-                            '325px'
+                            "${frau_walk}",
+                            '263px',
+                            '808px'
                         ],
                         [
-                            "eid2334",
-                            "top",
-                            104000,
-                            3500,
+                            "eid2389",
+                            "left",
+                            100000,
+                            12000,
                             "linear",
-                            "${wolf_walk}",
-                            '325px',
-                            '377px'
+                            "${frau_walk}",
+                            '46px',
+                            '381px'
                         ],
                         [
                             "eid2245",
@@ -26242,34 +26202,44 @@
                             '0.45894'
                         ],
                         [
-                            "eid1708",
-                            "display",
-                            30000,
-                            0,
+                            "eid2109",
+                            "top",
+                            25500,
+                            2500,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'block'
+                            "${frau_walk}",
+                            '199px',
+                            '206px'
                         ],
                         [
-                            "eid1774",
-                            "display",
-                            40000,
-                            0,
+                            "eid2170",
+                            "top",
+                            41500,
+                            4500,
                             "linear",
-                            "${FANTASIE01}",
-                            'block',
-                            'none'
+                            "${frau_walk}",
+                            '206px',
+                            '248px'
                         ],
                         [
-                            "eid1773",
-                            "display",
-                            42000,
-                            0,
+                            "eid2174",
+                            "top",
+                            46000,
+                            4000,
                             "linear",
-                            "${FANTASIE01}",
-                            'none',
-                            'none'
+                            "${frau_walk}",
+                            '248px',
+                            '344px'
+                        ],
+                        [
+                            "eid2390",
+                            "top",
+                            100000,
+                            12000,
+                            "linear",
+                            "${frau_walk}",
+                            '192px',
+                            '197px'
                         ],
                         [
                             "eid1786",
@@ -26282,44 +26252,44 @@
                             '0.46429'
                         ],
                         [
-                            "eid1788",
+                            "eid1950",
+                            "left",
+                            128500,
+                            0,
+                            "easeInOutQuart",
+                            "${squid_head}",
+                            '354px',
+                            '354px'
+                        ],
+                        [
+                            "eid1728",
                             "top",
-                            58483,
+                            29500,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '237px',
-                            '237px'
+                            "${blitzblick}",
+                            '432px',
+                            '432px'
                         ],
                         [
-                            "eid1762",
-                            "display",
-                            0,
+                            "eid1852",
+                            "top",
+                            89500,
                             0,
                             "linear",
-                            "${dino_head}",
-                            'none',
-                            'none'
+                            "${blitzblick}",
+                            '432px',
+                            '452px'
                         ],
                         [
-                            "eid1784",
-                            "display",
-                            58483,
+                            "eid1923",
+                            "top",
+                            129500,
                             0,
-                            "linear",
-                            "${dino_head}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1805",
-                            "display",
-                            72500,
-                            0,
-                            "linear",
-                            "${dino_head}",
-                            'block',
-                            'none'
+                            "easeInOutCubic",
+                            "${blitzblick}",
+                            '452px',
+                            '502px'
                         ],
                         [
                             "eid2528",
@@ -26472,24 +26442,14 @@
                             '0.05'
                         ],
                         [
-                            "eid1749",
-                            "left",
+                            "eid1748",
+                            "scaleY",
                             30000,
                             0,
                             "linear",
                             "${britzel}",
-                            '267px',
-                            '254px'
-                        ],
-                        [
-                            "eid1796",
-                            "left",
-                            60000,
-                            0,
-                            "linear",
-                            "${britzel}",
-                            '254px',
-                            '231px'
+                            '0.76667',
+                            '0.79'
                         ],
                         [
                             "eid452",
@@ -26602,34 +26562,34 @@
                             '152px'
                         ],
                         [
-                            "eid1728",
-                            "top",
-                            29500,
+                            "eid1762",
+                            "display",
+                            0,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '432px'
+                            "${dino_head}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid1852",
-                            "top",
-                            89500,
+                            "eid1784",
+                            "display",
+                            58483,
                             0,
                             "linear",
-                            "${blitzblick}",
-                            '432px',
-                            '452px'
+                            "${dino_head}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid1923",
-                            "top",
-                            129500,
+                            "eid1805",
+                            "display",
+                            72500,
                             0,
-                            "easeInOutCubic",
-                            "${blitzblick}",
-                            '452px',
-                            '502px'
+                            "linear",
+                            "${dino_head}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1915",
@@ -26652,54 +26612,114 @@
                             '0.69918699186992'
                         ],
                         [
-                            "eid2105",
-                            "left",
-                            25500,
-                            2500,
-                            "linear",
-                            "${frau_walk}",
-                            '-131px',
-                            '43px'
+                            "eid2205",
+                            "top",
+                            45000,
+                            0,
+                            "easeInOutQuart",
+                            "${wolf_walk}",
+                            '294px',
+                            '294px'
                         ],
                         [
-                            "eid2171",
-                            "left",
-                            41500,
-                            4500,
+                            "eid2320",
+                            "top",
+                            80000,
+                            5122,
                             "linear",
-                            "${frau_walk}",
-                            '43px',
-                            '263px'
+                            "${wolf_walk}",
+                            '287px',
+                            '315px'
                         ],
                         [
-                            "eid2175",
+                            "eid2321",
+                            "top",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '315px',
+                            '325px'
+                        ],
+                        [
+                            "eid2334",
+                            "top",
+                            104000,
+                            3500,
+                            "linear",
+                            "${wolf_walk}",
+                            '325px',
+                            '377px'
+                        ],
+                        [
+                            "eid2153",
                             "left",
-                            46000,
+                            14000,
                             4000,
                             "linear",
-                            "${frau_walk}",
-                            '263px',
-                            '808px'
+                            "${sexy_walk}",
+                            '360px',
+                            '333px'
                         ],
                         [
-                            "eid2389",
+                            "eid2160",
                             "left",
-                            100000,
-                            12000,
+                            18000,
+                            4000,
                             "linear",
-                            "${frau_walk}",
-                            '46px',
-                            '381px'
+                            "${sexy_walk}",
+                            '333px',
+                            '253px'
                         ],
                         [
-                            "eid1724",
+                            "eid2164",
                             "left",
-                            28000,
-                            0,
+                            22000,
+                            4000,
                             "linear",
-                            "${frau_head}",
-                            '137px',
-                            '137px'
+                            "${sexy_walk}",
+                            '253px',
+                            '34px'
+                        ],
+                        [
+                            "eid2169",
+                            "left",
+                            26000,
+                            2000,
+                            "linear",
+                            "${sexy_walk}",
+                            '34px',
+                            '-252px'
+                        ],
+                        [
+                            "eid2350",
+                            "left",
+                            75000,
+                            4000,
+                            "linear",
+                            "${sexy_walk}",
+                            '533px',
+                            '400px'
+                        ],
+                        [
+                            "eid2351",
+                            "left",
+                            79000,
+                            9500,
+                            "linear",
+                            "${sexy_walk}",
+                            '400px',
+                            '-7px'
+                        ],
+                        [
+                            "eid2366",
+                            "left",
+                            105000,
+                            2500,
+                            "linear",
+                            "${sexy_walk}",
+                            '-7px',
+                            '-254px'
                         ],
                         [
                             "eid1764",
@@ -26792,74 +26812,14 @@
                             '36px'
                         ],
                         [
-                            "eid2153",
+                            "eid1724",
                             "left",
-                            14000,
-                            4000,
+                            28000,
+                            0,
                             "linear",
-                            "${sexy_walk}",
-                            '360px',
-                            '333px'
-                        ],
-                        [
-                            "eid2160",
-                            "left",
-                            18000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '333px',
-                            '253px'
-                        ],
-                        [
-                            "eid2164",
-                            "left",
-                            22000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '253px',
-                            '34px'
-                        ],
-                        [
-                            "eid2169",
-                            "left",
-                            26000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '34px',
-                            '-252px'
-                        ],
-                        [
-                            "eid2350",
-                            "left",
-                            75000,
-                            4000,
-                            "linear",
-                            "${sexy_walk}",
-                            '533px',
-                            '400px'
-                        ],
-                        [
-                            "eid2351",
-                            "left",
-                            79000,
-                            9500,
-                            "linear",
-                            "${sexy_walk}",
-                            '400px',
-                            '-7px'
-                        ],
-                        [
-                            "eid2366",
-                            "left",
-                            105000,
-                            2500,
-                            "linear",
-                            "${sexy_walk}",
-                            '-7px',
-                            '-254px'
+                            "${frau_head}",
+                            '137px',
+                            '137px'
                         ],
                         [
                             "eid1835",
@@ -26872,24 +26832,14 @@
                             '327px'
                         ],
                         [
-                            "eid2157",
-                            "opacity",
-                            14000,
-                            2000,
-                            "linear",
-                            "${sexy_walk}",
-                            '0',
-                            '1'
-                        ],
-                        [
-                            "eid2363",
-                            "opacity",
-                            105000,
+                            "eid467",
+                            "top",
+                            0,
                             0,
                             "linear",
-                            "${sexy_walk}",
-                            '1',
-                            '1'
+                            "${text07}",
+                            '300px',
+                            '300px'
                         ],
                         [
                             "eid1843",
@@ -26912,44 +26862,74 @@
                             '4px'
                         ],
                         [
-                            "eid2307",
-                            "opacity",
-                            82500,
-                            2500,
+                            "eid1768",
+                            "display",
+                            0,
+                            0,
                             "linear",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid2425",
-                            "opacity",
+                            "eid2288",
+                            "display",
+                            73500,
+                            0,
+                            "linear",
+                            "${figur_walk}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2413",
+                            "display",
+                            85000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2420",
+                            "display",
                             123000,
                             0,
                             "linear",
                             "${figur_walk}",
-                            '0',
-                            '1'
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2419",
-                            "opacity",
+                            "eid2414",
+                            "display",
                             128500,
                             0,
-                            "linear",
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '1'
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid2457",
-                            "opacity",
-                            154000,
-                            2000,
-                            "linear",
+                            "eid2434",
+                            "display",
+                            142000,
+                            0,
+                            "easeInOutQuart",
                             "${figur_walk}",
-                            '1',
-                            '0'
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2468",
+                            "display",
+                            156000,
+                            0,
+                            "easeInOutQuart",
+                            "${figur_walk}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1832",
@@ -26962,34 +26942,54 @@
                             '0.28393'
                         ],
                         [
-                            "eid1787",
-                            "left",
+                            "eid1790",
+                            "scaleY",
                             58483,
                             0,
                             "linear",
-                            "${fettarsch_head}",
-                            '1px',
-                            '1px'
+                            "${dino_head}",
+                            '0.27',
+                            '0.27'
                         ],
                         [
-                            "eid1801",
+                            "eid2247",
                             "scaleY",
-                            60100,
-                            400,
+                            51000,
+                            3000,
                             "linear",
-                            "${FANTASIE02}",
-                            '0.12',
-                            '1.18'
+                            "${dino_walk}",
+                            '0.12484',
+                            '0.16875'
                         ],
                         [
-                            "eid2485",
+                            "eid2248",
                             "scaleY",
-                            70000,
-                            787,
+                            54000,
+                            4483,
                             "linear",
-                            "${FANTASIE02}",
-                            '1.18',
-                            '0.688'
+                            "${dino_walk}",
+                            '0.16875',
+                            '0.23779'
+                        ],
+                        [
+                            "eid2257",
+                            "scaleY",
+                            72500,
+                            4500,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.23779',
+                            '0.47176'
+                        ],
+                        [
+                            "eid2473",
+                            "scaleY",
+                            148000,
+                            0,
+                            "easeInOutQuart",
+                            "${dino_walk}",
+                            '0.47176',
+                            '0.45894'
                         ],
                         [
                             "eid1842",
@@ -27022,44 +27022,44 @@
                             '0px'
                         ],
                         [
-                            "eid2124",
-                            "top",
-                            24500,
+                            "eid2207",
+                            "left",
+                            45000,
+                            11975,
+                            "linear",
+                            "${wolf_walk}",
+                            '-231px',
+                            '401px'
+                        ],
+                        [
+                            "eid2318",
+                            "left",
+                            80000,
+                            5122,
+                            "linear",
+                            "${wolf_walk}",
+                            '-222px',
+                            '96px'
+                        ],
+                        [
+                            "eid2319",
+                            "left",
+                            85122,
+                            3378,
+                            "linear",
+                            "${wolf_walk}",
+                            '96px',
+                            '433px'
+                        ],
+                        [
+                            "eid2333",
+                            "left",
+                            104000,
                             3500,
                             "linear",
-                            "${elch_walk}",
-                            '254px',
-                            '225px'
-                        ],
-                        [
-                            "eid2132",
-                            "top",
-                            42000,
-                            4000,
-                            "linear",
-                            "${elch_walk}",
-                            '225px',
-                            '202px'
-                        ],
-                        [
-                            "eid2136",
-                            "top",
-                            46000,
-                            7000,
-                            "linear",
-                            "${elch_walk}",
-                            '202px',
-                            '188px'
-                        ],
-                        [
-                            "eid2142",
-                            "top",
-                            53000,
-                            8000,
-                            "linear",
-                            "${elch_walk}",
-                            '188px',
-                            '166px'
+                            "${wolf_walk}",
+                            '433px',
+                            '743px'
                         ],
                         [
                             "eid1834",
@@ -27072,14 +27072,14 @@
                             '359px'
                         ],
                         [
-                            "eid1950",
-                            "left",
-                            128500,
+                            "eid1788",
+                            "top",
+                            58483,
                             0,
-                            "easeInOutQuart",
-                            "${squid_head}",
-                            '354px',
-                            '354px'
+                            "linear",
+                            "${fettarsch_head}",
+                            '237px',
+                            '237px'
                         ],
                         [
                             "eid1723",
