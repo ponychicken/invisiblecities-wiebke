@@ -914,7 +914,7 @@
 			"timelineTreeOpened":"false",
 			"animationEnabled":"true",
 			"locked":"true"},
-		"element_${_86064__harpoyume__short-electricity}":{
+		"element_${_short-electricity}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa",
@@ -1295,7 +1295,7 @@
 			"timelineColor":"0xeedf79",
 			"animationEnabled":"false",
 			"invisible":"true"},
-		"element_${104952__glaneur-de-sons__vent-wind-1}":{
+		"element_${wind}":{
 			"timelineColor2":"0xd8b467",
 			"animationEnabled":"true",
 			"timelineColor3":"0x81714f",
@@ -1325,7 +1325,7 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
-		"element_${_104952__glaneur-de-sons__vent-wind-1}":{
+		"element_${_wind}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
@@ -1619,7 +1619,7 @@
 			"timelineColor3":"0x81714f",
 			"animationEnabled":"true",
 			"timelineColor":"0xffd46d"},
-		"element_${_86064__harpoyume__short-electricity}":{
+		"element_${_short-electricity}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"true",
@@ -1770,7 +1770,6 @@
 			"timelineColor":"0x00a096"}},
 	"FANTASIE04-Default Timeline_mark_ms":"-1",
 	"FANTASIE02-Default Timeline_mark_ms":"-1",
-	"mediagroup_media/104952__glaneur-de-sons__vent-wind-1.mp3":"104952__glaneur-de-sons__vent-wind-1",
 	"symbol_britzel":{
 		"element_${britzel_sprite}":{
 			"timelineColor2":"0xcbbd71",
@@ -1840,7 +1839,7 @@
 			"timelineColor3":"0x7b7652",
 			"animationEnabled":"true",
 			"timelineColor":"0xeedf79"},
-		"element_${_86064__harpoyume__short-electricity}":{
+		"element_${_short-electricity}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
 			"animationEnabled":"true",
@@ -2050,7 +2049,7 @@
 			"timelineColor":"0xffd46d"}},
 	"text05-Default Timeline_playhead_ms":"0",
 	"FANTASIE01-Default Timeline_mark_ms":"-1",
-	"mediagroup_media/86064__harpoyume__short-electricity.wav":"86064__harpoyume__short-electricity",
+	"mediagroup_media/short-electricity.mp3":"short-electricity",
 	"streetview01_2-Default Timeline_playhead_ms":"0",
 	"expanded:images/sexy_sprite.png":"nil",
 	"pfeiloben-Default Timeline_playhead_ms":"0",
@@ -2120,7 +2119,7 @@
 			"timelineColor3":"0x5b6c4d",
 			"animationEnabled":"true",
 			"timelineColor":"0x91c767"},
-		"element_${_86064__harpoyume__short-electricity}":{
+		"element_${_short-electricity}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
@@ -2366,7 +2365,7 @@
 	"expanded:images/textwolke08-1.png":"nil",
 	"expanded:images/gb012.png":"nil",
 	"wolf_head-Default Timeline_playhead_ms":"0",
-	"mediagroup_media/104952__glaneur-de-sons__vent-wind-1.wav":"104952__glaneur-de-sons__vent-wind-1",
+	"mediagroup_media/wind.mp3":"wind",
 	"expanded:images/s2hintergrund.png":"nil",
 	"expanded:images/woolf_head_sprite.png":"nil",
 	"symbol_wolke04":{

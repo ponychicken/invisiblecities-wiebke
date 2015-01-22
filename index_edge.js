@@ -72,14 +72,14 @@
                             rect: ['319', '111', '375', '173', 'auto', 'auto']
                         },
                         {
-                            id: '_104952__glaneur-de-sons__vent-wind-1',
+                            id: '_wind',
                             volume: '0.000000',
                             type: 'audio',
                             tag: 'audio',
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
                             autoplay: 'autoplay',
                             loop: 'loop',
-                            source: [aud+"104952__glaneur-de-sons__vent-wind-1.wav"],
+                            source: [aud+"wind.mp3"],
                             preload: 'auto'
                         }
                     ],
@@ -102,7 +102,7 @@
                             0,
                             3000,
                             "linear",
-                            "${_104952__glaneur-de-sons__vent-wind-1}",
+                            "${_wind}",
                             '0.000000',
                             '1'
                         ],
@@ -775,9 +775,9 @@
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
-                            source: ['media/86064__harpoyume__short-electricity.wav'],
+                            source: ['media/short-electricity.mp3'],
                             volume: '0.6',
-                            id: '_86064__harpoyume__short-electricity',
+                            id: '_short-electricity',
                             type: 'audio',
                             tag: 'audio'
                         },
@@ -3445,7 +3445,7 @@
                             0,
                             0,
                             "linear",
-                            "${_86064__harpoyume__short-electricity}",
+                            "${_short-electricity}",
                             '0.6',
                             '0.6'
                         ],
@@ -4569,10 +4569,10 @@
                             '0.948',
                             '0.056'
                         ],
-                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
+                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ]
                     ]
                 }
             },
@@ -15059,9 +15059,9 @@
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
-                            source: ['media/86064__harpoyume__short-electricity.wav'],
+                            source: ['media/short-electricity.mp3'],
                             volume: '0.6',
-                            id: '_86064__harpoyume__short-electricity',
+                            id: '_short-electricity',
                             type: 'audio',
                             tag: 'audio'
                         },
@@ -17859,7 +17859,7 @@
                             0,
                             0,
                             "linear",
-                            "${_86064__harpoyume__short-electricity}",
+                            "${_short-electricity}",
                             '0.6',
                             '0.6'
                         ],
@@ -18853,10 +18853,10 @@
                             '0.948',
                             '0.056'
                         ],
-                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
+                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ]
                     ]
                 }
             },
@@ -19188,9 +19188,9 @@
                         },
                         {
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
-                            source: ['media/86064__harpoyume__short-electricity.wav'],
+                            source: ['media/short-electricity.mp3'],
                             volume: '0.6',
-                            id: '_86064__harpoyume__short-electricity',
+                            id: '_short-electricity',
                             type: 'audio',
                             tag: 'audio'
                         },
@@ -21988,7 +21988,7 @@
                             0,
                             0,
                             "linear",
-                            "${_86064__harpoyume__short-electricity}",
+                            "${_short-electricity}",
                             '0.6',
                             '0.6'
                         ],
@@ -22982,10 +22982,10 @@
                             '0.948',
                             '0.056'
                         ],
-                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
+                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ]
                     ]
                 }
             },
@@ -23318,9 +23318,9 @@
                         {
                             preload: 'auto',
                             type: 'audio',
-                            source: ['media/86064__harpoyume__short-electricity.wav'],
+                            source: ['media/short-electricity.mp3'],
                             volume: '0.6',
-                            id: '_86064__harpoyume__short-electricity',
+                            id: '_short-electricity',
                             rect: ['0', '0', '320px', '45px', 'auto', 'auto'],
                             tag: 'audio'
                         },
@@ -26117,7 +26117,7 @@
                             0,
                             0,
                             "linear",
-                            "${_86064__harpoyume__short-electricity}",
+                            "${_short-electricity}",
                             '0.6',
                             '0.6'
                         ],
@@ -27111,10 +27111,10 @@
                             '0.948',
                             '0.056'
                         ],
-                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ],
-                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_86064__harpoyume__short-electricity}', [] ] ]
+                            [ "eid2488", "trigger", 29500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2489", "trigger", 59500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2490", "trigger", 89500, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ],
+                            [ "eid2491", "trigger", 129505, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_short-electricity}', [] ] ]
                     ]
                 }
             }
